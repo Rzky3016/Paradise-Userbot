@@ -1,8 +1,12 @@
+from platform import uname
+from userbot.events import register
+from userbot import ALIVE_NAME, CMD_HELP
+import asyncio
 Skip to content
 ferikunn
 /
-King-Userbot
-forked from apisuserbot/King-Userbot
+King - Userbot
+forked from apisuserbot / King - Userbot
 Code
 Pull requests
 Actions
@@ -11,11 +15,13 @@ Wiki
 Security
 Insights
 Settings
-King-Userbot/userbot/modules/help.py
+King - Userbot / userbot / modules / help.py
+
+
 @apisuserbot
 apisuserbot Update help.py
- 1 contributor
-43 lines (38 sloc)  1.61 KB
+1 contributor
+43 lines(38 sloc)  1.61 KB
 # Copyright (C) 2019 The Raphielscape Company LLC.
 #
 # Licensed under the Raphielscape Public License, Version 1.d (the "License");
@@ -23,10 +29,6 @@ apisuserbot Update help.py
 #
 """ Userbot help command """
 
-import asyncio
-from userbot import ALIVE_NAME, CMD_HELP
-from userbot.events import register
-from platform import uname
 
 modules = CMD_HELP
 
