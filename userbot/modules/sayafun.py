@@ -50,7 +50,7 @@ async def _(event):
 # Ported For King-Userbot By PacarFerdilla/Apis
 
 CMD_HELP.update({
-    "kingfun": "\
+    "sayafun": "\
 `.xogame`\
 \nUsage: Mainkan game XO bersama temanmu.\
 \n\n`.mod <nama app>`\
