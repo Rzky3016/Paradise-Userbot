@@ -73,7 +73,7 @@ async def kang(args):
         else:
             return await args.edit("`File Tidak Didukung King!`")
     else:
-        return await args.edit("`Maaf King, Saya Gagal Mengambil Sticker Ini!`")
+        return await args.edit("`Maaf Tuan, Saya Gagal Mengambil Sticker Ini!`")
 
     if photo:
         splat = args.text.split()
@@ -177,7 +177,7 @@ async def kang(args):
                         return await args.edit(
                             "`Sticker ditambahkan ke pack yang berbeda !"
                             "\nIni pack yang baru saja Lord buat!"
-                            f"\nTekan [𝙏𝙪𝙠𝙖𝙣𝙜 𝙉𝙮𝙤𝙡𝙤𝙣𝙜](t.me/addstickers/{packname}) Untuk Melihat Sticker Colongan Lu",
+                            f"\nTekan [Colongan](t.me/addstickers/{packname}) Untuk Melihat Sticker Colongan Lu",
                             parse_mode="md",
                         )
                 if is_anim:
