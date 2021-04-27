@@ -42,6 +42,7 @@ async def koc(e):
         await e.edit("Intinya Jawa Cakep Cakep")
 
 
+
 @register(outgoing=True, pattern="^.sunda")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
@@ -68,19 +69,20 @@ async def koc(e):
         await e.edit("Offf Sunda baperan aowkwkwwk")
 
 
+
 @register(outgoing=True, pattern='^.betawi(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`\nHuu Ada Betawi`")
-    sleep(2)
+    await asyncio.sleep(1)
     await typew.edit("`\nLari Lari Cuk`")
-    sleep(2)
+    await asyncio.sleep(1)
     await typew.edit("`\nBetawi ngejarrrr`")
-    sleep(2)
+    await asyncio.sleep(1)
     await typew.edit("`\nLariii ada dikejar Betawi`")
-    sleep(2)
+    await asyncio.sleep(1)
     await typew.edit("`\nAoskswkwkwkwmwk Asuuuuu`")
-    sleep(2)
+    await asyncio.sleep(1)
     await typew.edit("`\nOff Betawi Baperan 🏃🏃🏃🏃🏃🏃🏃🏃`")
 
 
