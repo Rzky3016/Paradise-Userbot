@@ -24,7 +24,7 @@ async def koc(e):
  ➠ PEMAKAIN DYNO:
      ••  12h  48m  |  [1%] ╚═══════════════════╗ 
  ➠ SISA WAKTU  BULAN INI:
-     ••  864h  28m  |  [86%]
+     ••  869644h   |  [86%]
 ╚═══════════════════╝")
 
 
