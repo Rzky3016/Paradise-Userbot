@@ -21,7 +21,7 @@ from userbot.events import register
 async def who(event):
 
     await event.edit(
-        "`Sedang mencari informasi penggunaan, mohon tunggu sebentar...🔍`")
+        "`Mengambil Informasi Pengguna Ini...`")
 
     if not os.path.isdir(TEMP_DOWNLOAD_DIRECTORY):
         os.makedirs(TEMP_DOWNLOAD_DIRECTORY)
@@ -127,19 +127,19 @@ async def fetch_info(replied_user, event):
         "Tidak Menggunakan Username")
     user_bio = "Tidak Punya Bio" if not user_bio else user_bio
 
-    caption = "<b>🤖 Informasi Pengguna:</b>\n\n"
-    caption += f"⚡️Nama Depan⚡️: {first_name}\n"
-    caption += f"⚡️Nama Belakang⚡️: {last_name}\n"
-    caption += f"⚡️Username⚡️: {username}\n"
-    caption += f"⚡️Data Centre ID⚡️: {dc_id}\n"
-    caption += f"⚡️Total foto profile⚡️: {replied_user_profile_photos_count}\n"
-    caption += f"⚡️Apakah bot⚡️: {is_bot}\n"
-    caption += f"⚡️Dibatasi⚡️: {restricted}\n"
-    caption += f"⚡️Verifikasi telegram⚡️: {verified}\n"
-    caption += f"⚡️ID pengguna⚡️: <code>{user_id}</code>\n\n"
-    caption += f"⚡️Bio pengguna⚡️: \n<code>{user_bio}</code>\n\n"
-    caption += f"⚡️Obrolan umum pengguna⚡️: {common_chat}\n"
-    caption += f"⚡️Link profile pengguna⚡️: "
+    caption = "<b>INFORMASI PENGGUNA:</b>\n\n"
+    caption += f"Nama Depan: {first_name}\n"
+    caption += f"Nama Belakang: {last_name}\n"
+    caption += f"Username: {username}\n"
+    caption += f"Data Centre ID: {dc_id}\n"
+    caption += f"Total Foto Profil: {replied_user_profile_photos_count}\n"
+    caption += f"Apakah Bot: {is_bot}\n"
+    caption += f"Dibatasi: {restricted}\n"
+    caption += f"Diverifikasi Oleh Telegram: {verified}\n"
+    caption += f"ID: <code>{user_id}</code>\n\n"
+    caption += f"Bio: \n<code>{user_bio}</code>\n\n"
+    caption += f"Obrolan Umum Dengan Pengguna Ini: {common_chat}\n"
+    caption += f"Link Permanen Ke Profil: "
     caption += f"<a href=\"tg://user?id={user_id}\">{first_name}</a>"
 
     return photo, caption
@@ -147,6 +147,6 @@ async def fetch_info(replied_user, event):
 
 CMD_HELP.update({
     "whois":
-    ">⚡️CMD⚡️`.whois <username> Atau Balas Ke Pesan Pengguna Ketik .whois`"
+    ">`.whois <username> Atau Balas Ke Pesan Pengguna Ketik .whois`"
     "\nUsage: Mendapatkan Informasi Pengguna."
 })
