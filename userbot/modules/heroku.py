@@ -108,7 +108,7 @@ async def set_var(var):
                 "**Mengganti Config Vars**:\n"
                 f"`{variable}` = `{value}`"
             )
-        await var.edit("`Sedang Di Proses King, Mohon Menunggu Dalam Beberapa Detik`")
+        await var.edit("`Sedang Di Proses Tuan, Mohon Menunggu Dalam Beberapa Detik`")
     else:
         if BOTLOG:
             await var.client.send_message(
@@ -130,7 +130,7 @@ async def dyno_usage(dyno):
     """
         Get your account Dyno Usage
     """
-    await dyno.edit("𝙈𝙚𝙣𝙜𝙚𝙘𝙚𝙠 𝙠𝙪𝙤𝙩𝙖...⚡")
+    await dyno.edit("Loading, Sabar Kontoll...⚡")
     await asyncio.sleep(1)
     useragent = (
         'Mozilla/5.0 (Linux; Android 10; SM-G975F) '
@@ -182,17 +182,17 @@ async def dyno_usage(dyno):
 
             await dyno.edit(
                 "╭┈─╼━━━━━━━━━━━━━━━╾─┈╮ \n"
-                "│      ⇱ ⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ ⇲ \n"
+                "│      ⇱ ⚡Saya-Userbot⚡ ⇲ \n"
                 "╭┈─╼━━━━━━━━━━━━━━━╾─┈╮ \n"
-                "│📱◈ 𝐏𝐞𝐧𝐠𝐠𝐮𝐧𝐚𝐚𝐧 𝐊𝐮𝐨𝐭𝐚 𝐀𝐧𝐝𝐚 : \n"
+                "│📱◈ Penggunaan Kouta Anda : \n"
                 f"│⏳◈ {AppHours} Jam - {AppMinutes} Menit. \n"
-                f"│⚡◈ 𝐏𝐞𝐫𝐬𝐞𝐧𝐭𝐚𝐬𝐞 : {AppPercentage}% \n"
+                f"│⚡◈ Persentase : {AppPercentage}% \n"
                 "╰┈───────────────────┈╮ \n"
-                "│📱◈ 𝐒𝐢𝐬𝐚 𝐊𝐮𝐨𝐭𝐚 𝐁𝐮𝐥𝐚𝐧 𝐈𝐧𝐢 : \n"
+                "│📱◈ Sisa Kouta Bulan ini : \n"
                 f"│⏳◈ {hours} Jam - {minutes} Menit. \n"
-                f"│⚡◈ 𝐏𝐞𝐫𝐬𝐞𝐧𝐭𝐚𝐬𝐞 : {percentage}% Lagi. \n"
+                f"│⚡◈ Persentase : {percentage}% Lagi. \n"
                 "╰┈───────────────────┈╯ \n"
-                f"👑 𝗞𝗶𝗻𝗴  : {ALIVE_NAME} \n"
+                f"👑 Tuan  : {ALIVE_NAME} \n"
             )
             await asyncio.sleep(20)
             await event.delete()
@@ -220,14 +220,14 @@ async def _(dyno):
     return os.remove("logs.txt")
 
 
-CMD_HELP.update({"heroku": "⚡𝘾𝙈𝘿⚡: `.kuota`"
+CMD_HELP.update({"heroku": "⚡list⚡: `.kuota`"
                  "\n↳ : Check Quota Dyno Heroku"
-                 "\n\n⚡𝘾𝙈𝘿⚡: `.set var <NEW VAR> <VALUE>`"
+                 "\n\n⚡list⚡: `.set var <NEW VAR> <VALUE>`"
                  "\n↳ : Tambahkan Variabel Baru Atau Memperbarui Variabel"
                  "\nSetelah Menyetel Variabel Tersebut, King-Userbot Akan Di Restart."
-                 "\n\n⚡𝘾𝙈𝘿⚡: `.get var atau .get var <VAR>`"
+                 "\n\n⚡list⚡: `.get var atau .get var <VAR>`"
                  "\n↳ : Dapatkan Variabel Yang Ada, !!PERINGATAN!! Gunakanlah Di Grup Privasi Anda."
                  "\nIni Mengembalikan Semua Informasi Pribadi Anda, Harap berhati-hati."
-                 "\n\n⚡𝘾𝙈𝘿⚡: `.del var <VAR>`"
+                 "\n\n⚡list⚡: `.del var <VAR>`"
                  "\n↳ : Menghapus Variabel Yang Ada"
                  "\nSetelah Menghapus Variabel, Bot Akan Di Restart."})
