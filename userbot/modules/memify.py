@@ -30,7 +30,7 @@ async def mim(event):
         return
     else:
         await event.edit(
-            "```𝙈𝙚𝙣𝙜𝙪𝙗𝙖𝙝 𝙢𝙚𝙙𝙞𝙖 𝙞𝙣𝙞 𝙝𝙖𝙝𝙖𝙝𝙖 𝙨𝙖𝙖𝙩𝙣𝙮𝙖 𝙢𝙚𝙣𝙜𝙪𝙗𝙖𝙝...⚡️ ```"
+            "```Mengubah Gambar Ini Mwahaha Saatnya Menulis ツ ```"
         )
         await asyncio.sleep(5)
         text = event.pattern_match.group(1)
@@ -186,7 +186,7 @@ async def mim(event):
         return
     else:
         await event.edit(
-            "```Sedang menambahkan teks ke stickers...⚡️```"
+            "```Mengubah Gambar Ini Mwahaha Saatnya Menulis ツ ```"
         )
         await asyncio.sleep(5)
         text = event.pattern_match.group(1)
@@ -214,7 +214,7 @@ async def draw_meme_text(image_path, text):
     os.remove(image_path)
     i_width, i_height = img.size
     m_font = ImageFont.truetype(
-        "userbot/utils/styles/FontKing.ttf", int((95 / 730) * i_width)
+        "userbot/utils/styles/FontLord.ttf", int((95 / 730) * i_width)
     )
     if ";" in text:
         upper_text, lower_text = text.split(";")
@@ -319,8 +319,8 @@ async def draw_meme_text(image_path, text):
 
 CMD_HELP.update({
     "memify":
-        "⚡CMD⚡`.mmf Teks Atas ; Teks Bawah`\
-        \nPenjelasan: Balas Ke Sticker/Gambar/Gif.\n"
-        "⚡CMD⚡`.mmf2 Teks Atas ; Teks Bawah`\
-        \nPenjelasan: Balas Ke Sticker/Gambar/Gif."
+        "`.mmf Teks Atas ; Teks Bawah`\
+        \nUsage: Balas Ke Sticker/Gambar/Gif.\n"
+        "`.mmf2 Teks Atas ; Teks Bawah`\
+        \nUsage: Balas Ke Sticker/Gambar/Gif."
 })
