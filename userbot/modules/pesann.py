@@ -28,12 +28,12 @@ async def fastpurger(purg):
                 await purg.client.delete_messages(chat, msgs)
                 msgs = []
     else:
-        return await purg.edit("`Mohon Balas Ke Pesan King `")
+        return await purg.edit("`Mohon Balas Ke Pesan Goblokkkk `")
 
     if msgs:
         await purg.client.delete_messages(chat, msgs)
     done = await purg.client.send_message(
-        purg.chat_id, f"`Berhasil Menghapus Pesan King`\
+        purg.chat_id, f"`Berhasil Menghapus Pesan :)`\
         \nJumlah Pesan Yang Dihapus {str(count)} Pesan")
     """
     if BOTLOG:
@@ -72,7 +72,7 @@ async def purgeme(delme):
     await smsg.delete()
 
 
-@register(outgoing=True, pattern=r"^\.del$")
+@register(outgoing=True, pattern=r"del")
 async def delete_it(delme):
     msg_src = await delme.get_reply_message()
     if delme.reply_to_msg_id:
@@ -82,7 +82,7 @@ async def delete_it(delme):
             """
             if BOTLOG:
                 await delme.client.send_message(
-                    BOTLOG_CHATID, "`King Berhasil Menghapus Pesan`")
+                    BOTLOG_CHATID, "`Saya Berhasil Menghapus Pesan`")
             """
         except rpcbaseerrors.BadRequestError:
             await delme.edit("`Tidak Bisa Menghapus Pesan`")
@@ -129,15 +129,15 @@ async def selfdestruct(destroy):
     """
 
 
-CMD_HELP.update({"purge": ">⚡list⚡`.purge`"
+CMD_HELP.update({"purge": ">⚡CMD⚡`.purge`"
                  "\nUsage: Membersihkan semua pesan mulai dari pesan yang dibalas.",
-                 "purgeme": ">⚡list⚡`.purgeme <angka>`"
+                 "purgeme": ">⚡CMD⚡`.purgeme <angka>`"
                  "\nUsage: Menghapus jumlah pesan anda, yang mau anda hapus.",
-                 "del": ">⚡list⚡`.del`"
+                 "del": ">⚡CMD⚡`del`"
                  "\nUsage: Menghapus pesan, balas ke pesan.",
-                 "edit": ">⚡list⚡`.edit <pesan baru>`"
+                 "edit": ">⚡CMD⚡`.edit <pesan baru>`"
                  "\nUsage: Ganti pesan terakhir Anda dengan <pesan baru>.",
-                 "sd": ">⚡list⚡`.sd <x> <pesan>`"
+                 "sd": ">⚡CMD⚡`.sd <x> <pesan>`"
                  "\nUsage: Membuat pesan yang hancur sendiri dalam x detik."
                  "\nJaga agar detik di bawah 100 karena bot Anda akan tidur.",
                  })
