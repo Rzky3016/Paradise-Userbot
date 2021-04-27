@@ -1,6 +1,5 @@
 # Feri Gans
 
-from time import sleep
 from userbot import CMD_HELP
 from userbot.events import register
 import asyncio
@@ -42,7 +41,6 @@ async def koc(e):
         await e.edit("Intinya Jawa Cakep Cakep")
 
 
-
 @register(outgoing=True, pattern="^.sunda")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
@@ -67,7 +65,6 @@ async def koc(e):
         await e.edit("dasar sunda")
         await asyncio.sleep(1)
         await e.edit("Offf Sunda baperan aowkwkwwk")
-
 
 
 @register(outgoing=True, pattern='^.betawi(?: |$)(.*)')
