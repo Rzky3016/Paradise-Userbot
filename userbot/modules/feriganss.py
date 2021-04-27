@@ -19,14 +19,10 @@ async def koc(e):
         await asyncio.sleep(1)
         await e.edit("⚡")
         await asyncio.sleep(3)
-        await e.edit("DYNO USAGE: 
-╔═══════════════════╗ 
- ➠ PEMAKAIN DYNO:
-     ••  12h  48m  |  [1%] ╚═══════════════════╗ 
- ➠ SISA WAKTU  BULAN INI:
-     ••  869644h   |  [86%]
-╚═══════════════════╝")
-
+        await e.edit("DYNO USAGE: ╔═══════════════════╗
+                     ➠ PEMAKAIN DYNO:                      ••  12h  48m  |  [1 % ] ╚═══════════════════╗
+                     ➠ SISA WAKTU  BULAN INI:                      ••  869644h   |  [86 %]
+                     ╚═══════════════════╝")
 
 
 @register(outgoing=True, pattern="^.jawa$")
