@@ -5,6 +5,30 @@ from userbot.events import register
 import asyncio
 
 
+@register(outgoing=True, pattern="^.usange$")
+async def koc(e):
+    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
+        await e.edit("Menghubungkan Dynoku")
+        await asyncio.sleep(1)
+        await e.edit("⌛")
+        await e.edit("⌛⌛")
+        await e.edit("⌛⌛⌛")
+        await e.edit("⌛⌛⌛⌛")
+        await e.edit("⌛⌛⌛⌛⌛")
+        await e.edit("Tersambung")
+        await asyncio.sleep(1)
+        await e.edit("⚡")
+        await asyncio.sleep(3)
+        await e.edit("DYNO USAGE: 
+╔═══════════════════╗ 
+ ➠ PEMAKAIN DYNO:
+     ••  12h  48m  |  [1%] ╚═══════════════════╗ 
+ ➠ SISA WAKTU  BULAN INI:
+     ••  864h  28m  |  [86%]
+╚═══════════════════╝")
+
+
+
 @register(outgoing=True, pattern="^.jawa$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
