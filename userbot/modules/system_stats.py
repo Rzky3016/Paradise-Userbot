@@ -272,7 +272,7 @@ async def amireallyalive(alive):
         f"🐍 **Python**   \n   ↳ `Versi {python_version()}` \n"
         f"👾 **Versi Bot**\n   ↳ `{BOT_VER}` \n"
         f"📂 **Modul**    \n   ↳ `{len(modules)}` \n\n"
-        f"♚ **Repo King:** [King-Userbot](https://github.com/apisuserbot/King-Userbot)\n🛠️ **Grup Support: **[Tekan](t.me/KingUserbotSupport)\n👨‍💻 **Mastah:** [Apis](t.me/PacarFerdilla)\n"
+        f"♚ **Repo King:** [Saya-Userbot](https://github.com/ferikunn/Saya-Userbot)\n🛠️ **Grup Support: **[Tekan](t.me/hanyaferibot)\n👨‍💻 **Mastah:** [Feri](t.me/xflicks)\n"
         f"══════════════════════")
     if ALIVE_LOGO:
         try:
@@ -377,7 +377,7 @@ async def redis(alive):
     await asyncio.sleep(3)
     output = (
         f"**ㅤㅤ  ╭─━━═━═━═━═━━─╮** \n"
-        f"**       ⊏┊⚡Saya-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ ⊨🛠️ ** \n"
+        f"**       ⊏┊⚡Saya-Userbot⚡ ⊨🛠️ ** \n"
         f"**ㅤㅤ  ╰─━━═━═━═━═━━─╯** \n"
         f"╭╼════════════════════╾╮ \n"
         f"│    ⇱  𝐒𝐞𝐥𝐚𝐦𝐚𝐭 𝐃𝐚𝐭𝐚𝐧𝐠 𝐃𝐢 𝐀𝐥𝐢𝐯𝐞 ⇲ \n"
@@ -393,8 +393,8 @@ async def redis(alive):
         f"├◈ **Jangan lupa untuk mendukung kami** \n"
         f"│    **userbot, cara menekan di bawah ini.** \n"
         f"╰╼════════════════════╾╯ \n"
-        f"| [𝗥𝗲𝗽𝗼](https://github.com/apisuserbot/King-Userbot) | [𝗞𝗶𝗻𝗴-𝗧𝗲𝗮𝗺](t.me/KingUserbotSupport) | "
-        f"[𝗠𝗮𝘀𝘁𝗮𝗵](t.me/PacarFerdilla) | ")
+        f"| [Repo](https://github.com/ferikunn/Saya-Userbot) | [Group-Help](t.me/hanyaferibot) | "
+        f"[Pemilik](t.me/xflicks) | ")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
