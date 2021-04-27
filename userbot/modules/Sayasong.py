@@ -129,5 +129,5 @@ Artis - {}
 # Yunus Ganteng
 # Tapi Gantengan Apis
 
-CMD_HELP.update({"song": "**Modules:** __Song__\n\n⚡𝘾𝙈𝘿⚡: `.song <judul>`"
+CMD_HELP.update({"song": "**Modules:** __Song__\n\n⚡CMD⚡: `.song <judul>`"
                  "\n**Penjelasan:** Mendownload Lagu"})
