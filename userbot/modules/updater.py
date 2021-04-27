@@ -53,7 +53,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if HEROKU_APP_NAME is None:
             await event.edit(
                 '`[HEROKU]: Harap Siapkan Variabel` **HEROKU_APP_NAME** `'
-                ' untuk dapat deploy perubahan terbaru dari King Userbot.`'
+                ' untuk dapat deploy perubahan terbaru dari Saya Userbot.`'
             )
             repo.__del__()
             return
@@ -63,7 +63,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
                 break
         if heroku_app is None:
             await event.edit(
-                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy King Userbot dyno.`'
+                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy Saya Userbot dyno.`'
             )
             return repo.__del__()
         await event.edit('`[HEROKU]:'
@@ -91,7 +91,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             await asyncio.sleep(5)
             return await event.delete()
         else:
-            await event.edit("`⚡Saya-Userbot⚡ Berhasil Di Deploy!\n" "Restarting, Mohon Menunggu King.....⚡`")
+            await event.edit("`⚡Saya-Userbot⚡ Berhasil Di Deploy!\n" "Restarting, Mohon Menunggu Kontollll.....⚡`")
             await asyncio.sleep(15)
             await event.delete()
 
@@ -234,9 +234,9 @@ async def upstream(event):
 CMD_HELP.update({
     'update':
     ".update"
-    "\n⚡𝘾𝙈𝘿⚡: Untuk Melihat Pembaruan Terbaru ⚡Saya-Userbot⚡."
+    "\n⚡list⚡: Untuk Melihat Pembaruan Terbaru ⚡Saya-Userbot⚡."
     "\n\n.update now"
-    "\n⚡𝘾𝙈𝘿⚡: Memperbarui ⚡Saya-Userbot⚡."
+    "\n⚡list⚡: Memperbarui ⚡Saya-Userbot⚡."
     "\n\n.update deploy"
-    "\n⚡𝘾𝙈𝘿⚡: Memperbarui ⚡Saya-Userbot⚡ Dengan Cara Deploy Ulang."
+    "\n⚡list⚡: Memperbarui ⚡Saya-Userbot⚡ Dengan Cara Deploy Ulang."
 })
