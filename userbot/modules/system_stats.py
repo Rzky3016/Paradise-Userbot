@@ -221,7 +221,7 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:king|kingon)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:saya|sayaon)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
@@ -229,7 +229,7 @@ async def amireallyalive(alive):
         f"**⚡Saya-Userbot⚡** \n"
         f"\n__**{KING_TEKS_KUSTOM}**__\n"
         f"**══════════════════════**\n"
-        f"**👑 King** \n"
+        f"**👑 Majikan** \n"
         f" ↳ : `{DEFAULTUSER}` \n"
         f"**👤 Username** \n"
         f" ↳ : `@{user.username}` \n"
@@ -266,13 +266,13 @@ async def amireallyalive(alive):
     output = (
         f"══════════════════════\n"
         f"     ** ⚡Saya-Userbot⚡ ** \n\n"
-        f"👑 **King**     \n   ↳ `{DEFAULTUSER}` \n"
+        f"👑 **Majikan**  \n   ↳ `{DEFAULTUSER}` \n"
         f"👤 **Username** \n   ↳ `@{user.username}` \n"
         f"⚙️ **Telethon** \n   ↳ `Versi {version.__version__}` \n"
         f"🐍 **Python**   \n   ↳ `Versi {python_version()}` \n"
         f"👾 **Versi Bot**\n   ↳ `{BOT_VER}` \n"
         f"📂 **Modul**    \n   ↳ `{len(modules)}` \n\n"
-        f"♚ **Repo King:** [Saya-Userbot](https://github.com/ferikunn/Saya-Userbot)\n🛠️ **Grup Support: **[Tekan](t.me/hanyaferibot)\n👨‍💻 **Mastah:** [Feri](t.me/xflicks)\n"
+        f"♚ **Repo King:** [Saya-Userbot](https://github.com/ferikunn/Saya-Userbot)\n🛠️ **Grup Support: **[Tekan](t.me/hanyabotferi)\n👨‍💻 **Mastah:** [Feri](t.me/xflicks)\n"
         f"══════════════════════")
     if ALIVE_LOGO:
         try:
@@ -307,7 +307,7 @@ async def amireallyalive(alive):
         f"╟◈👤 Contributor : [Feri](t.me/xflicks) \n"
         f"╰╼═══════════════════╾╯\n"
         f"**Terimakasih Telah Menggunakan Project Userbot Kami** 🙏 \n"
-        f"═════════⚡𝙏𝙀𝘼𝙈⚡═════════════")
+        f"═════════⚡SAYA⚡═════════════")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -382,7 +382,7 @@ async def redis(alive):
         f"╭╼════════════════════╾╮ \n"
         f"│    ⇱  𝐒𝐞𝐥𝐚𝐦𝐚𝐭 𝐃𝐚𝐭𝐚𝐧𝐠 𝐃𝐢 𝐀𝐥𝐢𝐯𝐞 ⇲ \n"
         f"┟╼════════════════════╾┤ \n"
-        f"╟◈ 👑  `King     :`{DEFAULTUSER} \n"
+        f"╟◈ 👑  `Tuan    :`{DEFAULTUSER} \n"
         f"╟◈ 👤 `Username :`@{user.username} \n"
         f"╟◈ ⚙️  `Telethon :`v. {version.__version__} \n"
         f"╟◈ 🐍  `Python   :`v. {python_version()} \n"
@@ -393,7 +393,7 @@ async def redis(alive):
         f"├◈ **Jangan lupa untuk mendukung kami** \n"
         f"│    **userbot, cara menekan di bawah ini.** \n"
         f"╰╼════════════════════╾╯ \n"
-        f"| [Repo](https://github.com/ferikunn/Saya-Userbot) | [Group-Help](t.me/hanyaferibot) | "
+        f"| [Repo](https://github.com/ferikunn/Saya-Userbot) | [Group-Help](t.me/hanyabotferi) | "
         f"[Pemilik](t.me/xflicks) | ")
     if ALIVE_LOGO:
         try:
@@ -437,18 +437,18 @@ async def amireallyalivereset(ureset):
 
 CMD_HELP.update({
     "sistem":
-    "⚡𝘾𝙈𝘿⚡: `.sysd`"
+    "⚡CMD⚡: `.sysd`"
     "\n↳ : Menampilkan informasi sistem menggunakan neofetch."
-    "\n\n⚡𝘾𝙈𝘿⚡: `.db`"
+    "\n\n⚡CMD⚡: `.db`"
     "\n↳ : Menampilkan Databse Info."
-    "\n\n⚡𝘾𝙈𝘿⚡: `.spc`"
+    "\n\n⚡CMD⚡: `.spc`"
     "\n↳ : Tampilkan spesifikasi sistem."
 })
-CMD_HELP.update({"alive": "⚡𝘾𝙈𝘿⚡: `.alive` atau `.on` dan `.team`"
+CMD_HELP.update({"alive": "⚡CMD⚡: `.alive` atau `.on` dan `.team`"
                  "\n↳ : Untuk melihat apakah bot Anda berfungsi atau tidak dan team untuk mengetahui creator."
-                 "\n\n⚡𝘾𝙈𝘿⚡: `.aliveu` <text>"
+                 "\n\n⚡CMD⚡: `.aliveu` <text>"
                  "\n↳ : Mengubah 'pengguna' hidup-hidup ke teks yang Anda inginkan."
-                 "\n\n⚡𝘾𝙈𝘿⚡: `.restalive`"
+                 "\n\n⚡CMD⚡: `.restalive`"
                  "\n↳ : Mereset Pengguna."})
 CMD_HELP.update(
     {
