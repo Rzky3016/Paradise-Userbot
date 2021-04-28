@@ -127,7 +127,7 @@ async def repo_is_here(wannasee):
         "│👨‍💻 **Mastah :** [Feri](t.me/xflicks)\n"
         "╰━━━━━━━━━━━━━━━╯\n"
         "  Tutorial    : [Tutorial Deploy](https://telegra.ph/Deploy-04-06)"
-        "  Deploy King : [Tekan Disini](https://heroku.com/deploy?template=https://github.com/ferikunn/Saya-Userbot)"
+        "  Deploy      : [Tekan Disini](https://heroku.com/deploy?template=https://github.com/ferikunn/Saya-Userbot)"
     )
 
 
