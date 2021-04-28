@@ -7,7 +7,7 @@
 <p align="center">&nbsp;</p>
 
 ### Repo King Userbot
-Repo Yang Dibuat [Apis](https://t.me/PacarFerdilla) Dari Berbagai Repo Userbot Github 
+Repo Yang Dibuat [Feri](https://t.me/xflicks) Dari Berbagai Repo Userbot Github 
 
 ## Cara Deploy 👷
 
@@ -25,13 +25,13 @@ Repo Yang Dibuat [Apis](https://t.me/PacarFerdilla) Dari Berbagai Repo Userbot G
 
 ## Group Support 🛠
 
-   <a href="https://t.me/USERBOT_GROUP"><img src="https://img.shields.io/badge/Group%20Support%3F-yes-green?&style=flat-square?&logo=telegram" width=220px></a></p>
+   <a href="https://t.me/masukajaudhh"><img src="https://img.shields.io/badge/Group%20Support%3F-yes-green?&style=flat-square?&logo=telegram" width=220px></a></p>
 
 
-## <p align="center">DEPLOY KING-USERBOT</p>
+## <p align="center">DEPLOY SAYA-USERBOT</p>
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/apisuserbot/King-Userbot/tree/King-Userbot"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ferikunn/Saya-Userbot/tree/Saya-Userbot"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 <br>
 </p>
@@ -55,11 +55,5 @@ Repo Yang Dibuat [Apis](https://t.me/PacarFerdilla) Dari Berbagai Repo Userbot G
 *   [TeamUserge](https://github.com/UsergeTeam/Userge) - Userge
 *   Dan Lainnya
 
-## Team King-Userbot
-  Kami mempunyai team yang clone dari ultroid mohon di bantu project baru kami 
-
-*   [TeamKing-Userbot](https://github.com/DoellBarr/TeamKing-Userbot) - TeamKing-Userbot
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ferikunn/Saya-Userbot)
 
 
