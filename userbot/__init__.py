@@ -180,7 +180,7 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/1bf2eacc0f1aaca83eaa5.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/61e388f9e862eee4a486a.jpg"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -447,7 +447,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"𝙀𝙧𝙤𝙧 404 𝙉𝙤𝙩 𝙁𝙤𝙪𝙣𝙙 Saya Userbot Anda Sendiri, Jangan Menggunakan Milik Tuan {ALIVE_NAME}"
+                reply_pop_up_alert = f"Eror 404 not found Saya Userbot Anda Sendiri, Jangan Menggunakan Milik Tuan {ALIVE_NAME}"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -465,7 +465,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"𝙀𝙧𝙤𝙧 404 𝙉𝙤𝙩 𝙁𝙤𝙪𝙣𝙙 Saya Userbot Anda Sendiri, Jangan Menggunakan Milik Tuan {ALIVE_NAME}"
+                reply_pop_up_alert = f"Eror 404 not found Saya Userbot Anda Sendiri, Jangan Menggunakan Milik Tuan {ALIVE_NAME}"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -496,7 +496,7 @@ with bot:
                     )
                 )
             else:
-                reply_pop_up_alert = f"𝙀𝙧𝙤𝙧 404 𝙉𝙤𝙩 𝙁𝙤𝙪𝙣𝙙 Saya Userbot Anda Sendiri, Jangan Menggunakan Milik Tuan {ALIVE_NAME}"
+                reply_pop_up_alert = f"Eror 404 not found Saya Userbot Anda Sendiri, Jangan Menggunakan Milik Tuan {ALIVE_NAME}"
 
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
