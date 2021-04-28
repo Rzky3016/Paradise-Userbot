@@ -227,7 +227,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**⚡Saya-Userbot⚡** \n"
-        f"\n__**{KING_TEKS_KUSTOM}**__\n"
+        f"\n__**{SAYA_TEKS_KUSTOM}**__\n"
         f"**══════════════════════**\n"
         f"**👑 Majikan** \n"
         f" ↳ : `{DEFAULTUSER}` \n"
@@ -272,7 +272,7 @@ async def amireallyalive(alive):
         f"🐍 **Python**   \n   ↳ `Versi {python_version()}` \n"
         f"👾 **Versi Bot**\n   ↳ `{BOT_VER}` \n"
         f"📂 **Modul**    \n   ↳ `{len(modules)}` \n\n"
-        f"♚ **Repo King:** [Saya-Userbot](https://github.com/ferikunn/Saya-Userbot)\n🛠️ **Grup Support: **[Tekan](t.me/hanyabotferi)\n👨‍💻 **Mastah:** [Feri](t.me/xflicks)\n"
+        f"♚ **Repo Saya:** [Saya-Userbot](https://github.com/ferikunn/Saya-Userbot)\n🛠️ **Grup Support: **[Tekan](t.me/hanyabotferi)\n👨‍💻 **Mastah:** [Feri](t.me/xflicks)\n"
         f"══════════════════════")
     if ALIVE_LOGO:
         try:
@@ -453,7 +453,7 @@ CMD_HELP.update({"alive": "⚡CMD⚡: `.alive` atau `.on` dan `.team`"
 CMD_HELP.update(
     {
         "botversion":
-        "⚡𝘾𝙈𝘿⚡: `.botver`"
+        "⚡CMD⚡: `.botver`"
         "\n↳ : Menampilkan versi userbot."
         "\n\n⚡𝘾𝙈𝘿⚡: `.pip` <module(s)>"
         "\n↳ : Melakukan pencarian modul pip(s)."
