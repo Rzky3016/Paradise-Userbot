@@ -6,8 +6,9 @@
 <h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
 <p align="center">&nbsp;</p>
 
-### Repo King Userbot
+### Repo Saya Userbot
 Repo Yang Dibuat [Feri](https://t.me/xflicks) Dari Berbagai Repo Userbot Github 
+String_Session [Tekan](https://replit.com/@ferikunn/String-Sesson-Saya)
 
 ## Cara Deploy 👷
 
