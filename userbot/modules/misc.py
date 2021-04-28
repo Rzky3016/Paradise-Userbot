@@ -59,29 +59,29 @@ async def sleepybot(time):
             f"You put the bot to sleep for {str_counter}.",
         )
     sleep(counter)
-    await time.edit("`⚡️𝗢𝗙𝗙⚡️.`")
+    await time.edit("`⚡️CMD⚡️.`")
 
 
 @register(outgoing=True, pattern="^.shutdown$")
 async def killdabot(event):
     """ For .shutdown command, shut the bot down."""
-    await event.edit("`Mematikan King-Userbot....`")
+    await event.edit("`Mematikan Saya-Userbot....`")
     await asyncio.sleep(7)
     await event.delete()
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#SHUTDOWN \n"
-                                        "`King-Userbot Telah Dimatikan`")
+                                        "`Saya-Userbot Telah Dimatikan`")
     await bot.disconnect()
 
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("`Restarting King-Userbot...`")
+    await event.edit("`Restarting Saya-Userbot...`")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#RESTARTBOT \n"
-                                        "`King-Userbot Telah Di Restart`")
+                                        "`Saya-Userbot Telah Di Restart`")
     await bot.disconnect()
     # Spin a new instance of bot
     execl(sys.executable, sys.executable, *sys.argv)
@@ -93,7 +93,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Beberapa Repo Dan File:\n"
-        "\n[⚡️𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡️ Repo](https://github.com/ferikunn/Saya-Userbot/blob/Saya-Userbot/README.md)"
+        "\n[⚡️SAYA-USERBOT⚡️ Repo](https://github.com/ferikunn/Saya-Userbot/blob/Saya-Userbot/README.md)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Setup Guide - Google Drive](https://telegra.ph/How-To-Setup-GDrive-11-02)"
         "\n[Setup Guide - LastFM Module](https://telegra.ph/How-to-set-up-LastFM-module-for-Paperplane-userbot-11-02)"
@@ -124,7 +124,7 @@ async def repo_is_here(wannasee):
         "                  Repo\n"
         "     [⚡Repo-Userbot⚡](https://github.com/ferikunn/Saya-Userbot)\n"
         "╭─━━━━━━━━━━━━━─╯\n"
-        "│👨‍💻 **Mastah :** [Ferj](t.me/xflicks)\n"
+        "│👨‍💻 **Mastah :** [Feri](t.me/xflicks)\n"
         "╰━━━━━━━━━━━━━━━╯\n"
         "  Tutorial    : [Tutorial Deploy](https://telegra.ph/Deploy-04-06)"
         "  Deploy King : [Tekan Disini](https://heroku.com/deploy?template=https://github.com/ferikunn/Saya-Userbot)"
@@ -166,7 +166,7 @@ async def okgoogle(img):
         photo = io.BytesIO()
         await bot.download_media(message, photo)
     else:
-        await img.edit("`Harap Balas Di Gambar King`")
+        await img.edit("`Harap Balas Di Gambar Goblokk`")
         return
 
     if photo:
