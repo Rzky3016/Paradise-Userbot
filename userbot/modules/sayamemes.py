@@ -2979,7 +2979,7 @@ async def _(event):
 
 
 CMD_HELP.update({
-    "kingmemes":
+    "sayamemes":
     "⚡CMD⚡`.eye`\
 \nUsage: Lihat Sendiri.\
 \n\n⚡CMD⚡`.earth`\
@@ -2992,9 +2992,9 @@ CMD_HELP.update({
 \nUsage: dapatkan sucks🤣\
 \n\n⚡CMD⚡`.snake`\
 \nUsage: Lihat Sendiri\
-\n\n⚡𝘾𝙈𝘿⚡`.call`\
+\n\n⚡CMD⚡`.call`\
 \nUsage: Memanggil Owner Telegram \
-\n\n⚡𝘾𝙈𝘿⚡`.belo` Atau ⚡𝘾𝙈𝘿⚡`.hp` Atau ⚡𝘾𝙈𝘿⚡`.suits`\
+\n\n⚡CMD⚡`.belo` Atau ⚡CMD⚡`.hp` Atau ⚡CMD⚡`.suits`\
 \nUsage: Macam Macam Perintah Menarik\
 \n\n⚡𝘾𝙈𝘿⚡`.admeme`\
 \nUsage: mememememe\
