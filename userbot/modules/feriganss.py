@@ -82,12 +82,35 @@ async def typewriter(typew):
     await asyncio.sleep(1)
     await typew.edit("`\nOff Betawi Baperan 🏃🏃🏃🏃🏃🏃🏃🏃`")
 
+@register(outgoing=True, pattern="^.jakarta$")
+async def koc(e):
+    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
+        await e.edit("Jakarta keras")
+        await asyncio.sleep(1)
+        await e.edit("Tidak sombong")
+        await asyncio.sleep(1)
+        await e.edit("Banyak Tingkah")
+        await asyncio.sleep(1)
+        await e.edit("Aslinya Sopan")
+        await asyncio.sleep(1)
+        await e.edit("Lu jangan ngusik Ajg")
+        await asyncio.sleep(1)
+        await e.edit("Lu Sopan Kami Sopan")
+        await asyncio.sleep(1)
+        await e.edit("Dan")
+        await asyncio.sleep(1)
+        await e.edit("Duarrrr Kontol")
+        await asyncio.sleep(1)
+        await e.edit("⚡")
+        await asyncio.sleep(3)
+        await e.edit("Jakarta Nih Bos")
+
 
 # Feri Imut
 # Feri Gans
 # FB
 CMD_HELP.update({
-    "buli":
-    "`.sunda` ; `.betawi` ; `.jawa` \
-    \nPenjelasan: liat sendiri"
+    "gjm":
+    "`.sunda` ; `.betawi` ; `.jawa` ; `jakarta`\
+    \nPenjelasan: liat sendiri Tololll"
 })
