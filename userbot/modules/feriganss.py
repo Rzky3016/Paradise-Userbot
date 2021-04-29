@@ -82,6 +82,7 @@ async def typewriter(typew):
     await asyncio.sleep(1)
     await typew.edit("`\nOff Betawi Baperan 🏃🏃🏃🏃🏃🏃🏃🏃`")
 
+
 @register(outgoing=True, pattern="^.jakarta$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
