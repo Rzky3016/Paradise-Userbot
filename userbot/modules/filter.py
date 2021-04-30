@@ -60,7 +60,7 @@ async def add_new_filter(new_handler):
         if BOTLOG_CHATID:
             await new_handler.client.send_message(
                 BOTLOG_CHATID, f"#FILTER\nID OBROLAN: {new_handler.chat_id}\nTRIGGER: {keyword}"
-                "\n\n`Pesan Berikut Disimpan Sebagai Data Balasan Filter Untuk Obrolan, Mohon Jangan Menghapusnya King`"
+                "\n\n`Pesan Berikut Disimpan Sebagai Data Balasan Filter Untuk Obrolan, Mohon Jangan Menghapusnya Tuan`"
             )
             msg_o = await new_handler.client.forward_messages(
                 entity=BOTLOG_CHATID,
