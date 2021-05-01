@@ -2,6 +2,7 @@
 # Recode by @mrismanaziz
 
 import time
+from userbot import CMD_HELP, bot
 from datetime import datetime
 from platform import uname
 from time import sleep
@@ -142,4 +143,20 @@ async def typewriter(typew):
     )
 
 
-# FERI GANTENG
+CMD_HELP.update({
+    "tembelan":
+    "⚡list⚡`.tembelan` ;⚡list⚡ `.dino`\
+    \nPenjelasan: ntahlah gabut doang.\
+    \n\n⚡list⚡`.a`\
+    \nPenjelasan: cek sendiru kntl\
+    \n\n⚡list⚡`.ass`\
+    \nPenjelasan: Cek sendiri kntl.\
+    \n\n⚡list⚡`.usange`\
+    \nPenjelasan: cekk aja sendiri.\
+    \n\n⚡list⚡`.k`\
+    \nPenjelasan: Cek sendiri Kntll.\
+    \n\n⚡list⚡`.j`\
+    \nPenjelasan: Cek sendiri kntll.\
+    \n\n⚡list⚡`.ahping`\
+    \nPenjelasan: buat ping ah ah."
+})
