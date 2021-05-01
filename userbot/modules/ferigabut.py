@@ -2,7 +2,7 @@
 # Recode by @mrismanaziz
 
 import time
-from userbot import CMD_HELP, bot
+from userbot import CMD_HELP
 from datetime import datetime
 from platform import uname
 from time import sleep
