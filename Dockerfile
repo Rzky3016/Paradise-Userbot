@@ -4,7 +4,7 @@ FROM koala21/kampangbot:buster
 #
 # LORD
 #
-RUN git clone -b Saya-Userbot https://github.com/ferikunn/Saya-Userbot /root/userbot
+RUN git clone -b SAYA-USERBOT https://github.com/ferikunn/Saya-Userbot /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
