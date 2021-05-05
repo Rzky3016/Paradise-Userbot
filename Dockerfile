@@ -1,8 +1,8 @@
-# LORD USERBOT
+# Feri Ganteng
 FROM koala21/kampangbot:buster
 
 #
-# LORD
+# Feri
 #
 RUN git clone -b Saya-Userbot https://github.com/ferikunn/Saya-Userbot /root/userbot
 RUN mkdir /root/userbot/.bin
