@@ -1,6 +1,6 @@
 {
-  "name": "Saya-Userbot",
-  "description": "[Saya-Userbot] USERBOT TELEGRAM.",
+  "name": "Linux-Userbot",
+  "description": "[Linux-Userbot] USERBOT TELEGRAM.",
   "logo": "https://telegra.ph/file/61e388f9e862eee4a486a.jpg",
   "keywords": [
     "telegram",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ferikunn/Saya-Userbot",
+  "repository": "https://github.com/ferikunn/Linux-Userbot",
   "telegram": "https://t.me/xflicks",
   "success_url": "https://t.me/xflicks",
   "stack": "container",
@@ -151,14 +151,14 @@
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
-      "value": "SAYA-USERBOT",
+      "value": "LINUX-USERBOT",
       "required": false
     },
     "ALIVE_NAME": {
       "description": "Nama untuk menunjukan pesan .alive",
       "required": false
     },
-    "KING_TEKS_KUSTOM": {
+    "LINUX_TEKS_KUSTOM": {
       "description": "Kustom Pesan Alive Mu Untuk Perintah .king (Isi Terserah)",
       "required": false
     },
