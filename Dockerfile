@@ -1,5 +1,5 @@
 # Feri Ganteng
-FROM 085730288657/ferikunn:Buster
+FROM koala21/kampangbot:buster
 
 #
 # Feri
