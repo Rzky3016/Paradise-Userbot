@@ -125,9 +125,7 @@ Artis - {}
     )
     os.remove(f"{rip_data['id']}.mp3")
 
-# For King - Userbot
-# Yunus Ganteng
-# Tapi Gantengan Apis
+# Feri Asu
 
-CMD_HELP.update({"song": "**Modules:** __Song__\n\n⚡CMD⚡: `.song <judul>`"
+CMD_HELP.update({"song": "**Modules:** __Song__\n\n🐧CMD🐧: `.song <judul>`"
                  "\n**Penjelasan:** Mendownload Lagu"})
