@@ -332,57 +332,56 @@ async def amireallyalive(alive):
 async def redis(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("__X...Userbot....X__")
+    await alive.edit("__🐧...Userbot....🐧__")
     await alive.edit("__...Main..Program...__")
     await alive.edit("__Sistem Akan Menyala...__")
-    await alive.edit("__....⚡Userbot⚡....__")
+    await alive.edit("__....🐧Userbot🐧....__")
     await alive.edit("__Connecting...Alive.....__")
     await alive.edit("__.....Program.....__")
-    await alive.edit("__......⚡Alive⚡........__")
+    await alive.edit("__......🐧Alive🐧........__")
     await alive.edit("__Connecting to server..__")
     await alive.edit("__Connecting to server...__")
-    await alive.edit("⚡Saya-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡")
-    await alive.edit("⚡Saya-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡              👑")
-    await alive.edit("⚡Saya-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡             👑")
-    await alive.edit("⚡Saya-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡            👑")
-    await alive.edit("⚡Saya-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡           👑")
-    await alive.edit("⚡Saya-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡          👑")
-    await alive.edit("⚡Saya-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡         👑")
-    await alive.edit("⚡Saya-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡        👑")
-    await alive.edit("⚡Saya-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡       👑")
-    await alive.edit("⚡Saya-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡      👑")
-    await alive.edit("⚡Saya-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡     👑")
-    await alive.edit("⚡Saya-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡    👑")
-    await alive.edit("⚡Saya-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡   👑")
-    await alive.edit("⚡Saya-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡  👑")
-    await alive.edit("⚡Saya-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ 👑")
-    await alive.edit("⚡Saya-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡👑")
-    await alive.edit("⚡Saya-𝙐𝙎𝙀𝙍𝘽𝙊𝙏👑")
-    await alive.edit("⚡Saya-𝙐𝙎𝙀𝙍𝘽𝙊👑⚡")
-    await alive.edit("⚡Saya-𝙐𝙎𝙀𝙍𝘽👑𝙏⚡")
-    await alive.edit("⚡Saya-𝙐𝙎𝙀𝙍👑𝙊𝙏⚡")
-    await alive.edit("⚡Saya-𝙐𝙎𝙀👑𝘽𝙊𝙏⚡")
-    await alive.edit("⚡Saya-𝙐𝙎👑𝙍𝘽𝙊𝙏⚡")
-    await alive.edit("⚡Saya-𝙐👑𝙀𝙍𝘽𝙊𝙏⚡")
-    await alive.edit("⚡Saya-👑𝙎𝙀𝙍𝘽𝙊𝙏⚡")
-    await alive.edit("⚡Say👑𝙎𝙀𝙍𝘽𝙊𝙏⚡")
-    await alive.edit("⚡Sa👑-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡")
-    await alive.edit("⚡S👑a-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡")
-    await alive.edit("⚡S👑ya-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡")
-    await alive.edit("⚡👑aya-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡")
-    await alive.edit("👑Saya-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡")
+    await alive.edit("🐧Linux-Userbot🐧")
+    await alive.edit("🐧Linux-Userbot🐧              🚗")
+    await alive.edit("🐧Linux-Userbot🐧             🚗")
+    await alive.edit("🐧Linux-Userbot🐧            🚗")
+    await alive.edit("🐧Linux-Userbot🐧           🚗")
+    await alive.edit("🐧Linux-Userbot🐧          🚗")
+    await alive.edit("🐧Linux-Userbot🐧         🚗")
+    await alive.edit("🐧Linux-Userbot🐧        🚗")
+    await alive.edit("🐧Linux-Userbot🐧       🚗")
+    await alive.edit("🐧Linux-Userbot🐧      🚗")
+    await alive.edit("🐧Linux-Userbot🐧     🚗")
+    await alive.edit("🐧Linux-Userbot🐧    🚗")
+    await alive.edit("🐧Linux-Userbot🐧   🚗")
+    await alive.edit("🐧Linux-Userbot🐧  🚗")
+    await alive.edit("🐧Linux-Userbot🐧 🚗")
+    await alive.edit("🐧Linux-Userbot🐧🚗")
+    await alive.edit("🐧Linux-Userbo🐧🚗")
+    await alive.edit("🐧Linux-Userb🚗t🐧")
+    await alive.edit("🐧Linux-User🚗ot🐧")
+    await alive.edit("🐧Linux-Use🚗bot🐧")
+    await alive.edit("🐧Linux-Us🚗rbot🐧")
+    await alive.edit("🐧Linux-U🚗erbot🐧")
+    await alive.edit("🐧Linux-🚗serbot🐧")
+    await alive.edit("🐧Linux🚗Userbot🐧")
+    await alive.edit("🐧Linu🚗-Userbot🐧")
+    await alive.edit("🐧Lin🚗x-Userbot🐧")
+    await alive.edit("🐧Li🚗ux-Userbot🐧")
+    await alive.edit("🐧L🚗nux-Userbot🐧")
+    await alive.edit("🐧🚗Linux-Userbot🐧")
     await alive.edit("⚡")
     await asyncio.sleep(3)
-    await alive.edit("Duarrrr Kontolll")
+    await alive.edit("Loadnjinggg")
     await asyncio.sleep(3)
     output = (
         f"**ㅤㅤ  ╭─━━═━═━═━═━━─╮** \n"
-        f"**       ⊏┊⚡Saya-Userbot⚡ ⊨🛠️ ** \n"
+        f"**       ⊏┊🐧Linux-Userbot🐧 ⊨🛠️ ** \n"
         f"**ㅤㅤ  ╰─━━═━═━═━═━━─╯** \n"
         f"╭╼════════════════════╾╮ \n"
         f"│    ⇱  𝐒𝐞𝐥𝐚𝐦𝐚𝐭 𝐃𝐚𝐭𝐚𝐧𝐠 𝐃𝐢 𝐀𝐥𝐢𝐯𝐞 ⇲ \n"
         f"┟╼════════════════════╾┤ \n"
-        f"╟◈ 👑  `Tuan    :`{DEFAULTUSER} \n"
+        f"╟◈ 🐧  `Tuan    :`{DEFAULTUSER} \n"
         f"╟◈ 👤 `Username :`@{user.username} \n"
         f"╟◈ ⚙️  `Telethon :`v. {version.__version__} \n"
         f"╟◈ 🐍  `Python   :`v. {python_version()} \n"
@@ -393,7 +392,7 @@ async def redis(alive):
         f"├◈ **Jangan lupa untuk mendukung kami** \n"
         f"│    **userbot, cara menekan di bawah ini.** \n"
         f"╰╼════════════════════╾╯ \n"
-        f"| [Repo](https://github.com/ferikunn/Saya-Userbot) | [Group-Help](t.me/hanyabotferi) | "
+        f"| [Repo](https://github.com/ferikunn/Linux-Userbot) | [Group-Help](t.me/hanyabotferi) | "
         f"[Pemilik](t.me/xflicks) | ")
     if ALIVE_LOGO:
         try:
@@ -437,24 +436,24 @@ async def amireallyalivereset(ureset):
 
 CMD_HELP.update({
     "sistem":
-    "⚡CMD⚡: `.sysd`"
+    "🐧CMD🐧: `.sysd`"
     "\n↳ : Menampilkan informasi sistem menggunakan neofetch."
-    "\n\n⚡CMD⚡: `.db`"
+    "\n\n🐧CMD🐧: `.db`"
     "\n↳ : Menampilkan Databse Info."
-    "\n\n⚡CMD⚡: `.spc`"
+    "\n\n🐧CMD🐧: `.spc`"
     "\n↳ : Tampilkan spesifikasi sistem."
 })
-CMD_HELP.update({"alive": "⚡CMD⚡: `.alive` atau `.on` dan `.team`"
+CMD_HELP.update({"alive": "🐧CMD🐧: `.alive` atau `.on` dan `.team`"
                  "\n↳ : Untuk melihat apakah bot Anda berfungsi atau tidak dan team untuk mengetahui creator."
-                 "\n\n⚡CMD⚡: `.aliveu` <text>"
+                 "\n\n🐧CMD🐧: `.aliveu` <text>"
                  "\n↳ : Mengubah 'pengguna' hidup-hidup ke teks yang Anda inginkan."
-                 "\n\n⚡CMD⚡: `.restalive`"
+                 "\n\n🐧CMD🐧: `.restalive`"
                  "\n↳ : Mereset Pengguna."})
 CMD_HELP.update(
     {
         "botversion":
-        "⚡CMD⚡: `.botver`"
+        "🐧CMD🐧: `.botver`"
         "\n↳ : Menampilkan versi userbot."
-        "\n\n⚡𝘾𝙈𝘿⚡: `.pip` <module(s)>"
+        "\n\n🐧CMD🐧: `.pip` <module(s)>"
         "\n↳ : Melakukan pencarian modul pip(s)."
     })
