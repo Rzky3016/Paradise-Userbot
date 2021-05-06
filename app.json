@@ -51,7 +51,8 @@
     },
     "QUOTES_API_TOKEN": {
       "description": "Dapatkan Token Dari http://antiddos.systems",
-      "required": false
+      "value": "33273f18-4a0d-4a76-8d78-a16faa002375",
+      "required": true
     },
     "GENIUS_ACCESS_TOKEN": {
       "description": "Client Access Token from https://genius.com/api-clients.",
@@ -94,15 +95,18 @@
     },
     "YOUTUBE_API_KEY": {
       "description": "YouTube Data API Key for .yt command. Get from https://console.cloud.google.com",
-      "required": false
+      "value": "AIzaSyAUR8sXyLqfmG_LQm1jz3jp97mN-cqtGzo",
+      "required": true
     },
     "OCR_SPACE_API_KEY": {
       "description": "OCR API Key for .ocr command. Get from https://ocr.space/ocrapi",
-      "required": false
+      "value": "4a3571124d88957",
+      "required": true
     },
     "REM_BG_API_KEY": {
       "description": "API Key for .rbg command. Get from https://www.remove.bg/api",
-      "required": false
+      "value": "dxsh728mZMDmj4ijSZCNPZig",
+      "required": true
     },
     "ANTI_SPAMBOT": {
       "description": "Kicks spambots from groups after they join. [Requires admin powers in groups to kick.]",
@@ -159,7 +163,7 @@
       "required": false
     },
     "LINUX_TEKS_KUSTOM": {
-      "description": "Kustom Pesan Alive Mu Untuk Perintah .king (Isi Terserah)",
+      "description": "Kustom Pesan Alive Mu Untuk Perintah .linux (Isi Terserah)",
       "required": false
     },
     "S_PACK_NAME": {
