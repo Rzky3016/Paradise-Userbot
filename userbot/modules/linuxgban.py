@@ -116,7 +116,7 @@ async def gben(userbot):
                 f"`Anda Tidak Bisa Melakukan Global Banned Ke Mastah Feri, Dia Adalah Pembuat Saya 😈`"
             )
         try:
-            pass
+            from userbot.modules.sql_helper.gmute_sql import gmute
         except BaseException:
             pass
         try:
@@ -213,7 +213,7 @@ async def gunben(userbot):
 
 CMD_HELP.update({
     "globalban": "\
-⚡list⚡: `.gban`\
+🐧CMD🐧: `.gban`\
 \n↳ : Melakukan Banned Secara Global Ke Semua Grup Dimana Anda Sebagai Admin.\
-\n\n⚡list⚡: `.ungban`\
+\n\n🐧CMD🐧: `.ungban`\
 \n↳ : Membatalkan Banned Secara Global."})
