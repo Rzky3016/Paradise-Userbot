@@ -13,7 +13,7 @@ async def usit(e):
     await e.edit(
         f"**Hai King {DEFAULTUSER} Kalau Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `.help` Atau Bisa Minta Bantuan Ke:\n"
         "\n[Mastah](t.me/xflicks)"
-        "\n[Repo](https://github.com/ferikunn/Saya-Userbot)"
+        "\n[Repo](https://github.com/ferikunn/Linux-Userbot)"
         "\n[Instagram Mastah](Instagram.com/ferikunn)")
 
 
@@ -21,13 +21,13 @@ async def usit(e):
 async def var(m):
     await m.edit(
         f"**Disini Daftar Vars Dari {DEFAULTUSER}:**\n"
-        "\n[DAFTAR VARS](https://raw.githubusercontent.com/ferikunn/Saya-Userbot/Saya-Userbot/varshelper.txt)")
+        "\n[DAFTAR VARS](https://raw.githubusercontent.com/ferikunn/Linux-Userbot/Linux-Userbot/varshelper.txt)")
 
 
 CMD_HELP.update({
-    "sayahelper":
-    "⚡list⚡`.sayahelp`\
+    "linuxhelper":
+    "🐧CMD🐧`.linuxhelp`\
 \nPenjelasan: Bantuan Untuk saya-Userbot.\
-\n⚡list⚡`.sayavar`\
+\n🐧CMD🐧`.sayavar`\
 \nPenjelasan: Untuk Melihat Beberapa Daftar Vars."
 })
