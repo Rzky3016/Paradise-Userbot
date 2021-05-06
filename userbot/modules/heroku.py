@@ -116,7 +116,7 @@ async def set_var(var):
                 "**Menambahkan Config Vars**:\n"
                 f"`{variable}` **=** `{value}`"
             )
-        await var.edit("`King Menambahkan Config Vars...`")
+        await var.edit("`Linux Menambahkan Config Vars...`")
     heroku_var[variable] = value
 
 
@@ -182,7 +182,7 @@ async def dyno_usage(dyno):
 
             await dyno.edit(
                 "╭┈─╼━━━━━━━━━━━━━━━╾─┈╮ \n"
-                "│      ⇱ ⚡Saya-Userbot⚡ ⇲ \n"
+                "│      ⇱ 🐧Linux-Userbot🐧 ⇲ \n"
                 "╭┈─╼━━━━━━━━━━━━━━━╾─┈╮ \n"
                 "│📱◈ Penggunaan Kouta Anda : \n"
                 f"│⏳◈ {AppHours} Jam - {AppMinutes} Menit. \n"
@@ -192,7 +192,7 @@ async def dyno_usage(dyno):
                 f"│⏳◈ {hours} Jam - {minutes} Menit. \n"
                 f"│⚡◈ Persentase : {percentage}% Lagi. \n"
                 "╰┈───────────────────┈╯ \n"
-                f"👑 Tuan  : {ALIVE_NAME} \n"
+                f"🐧 Tuan  : {ALIVE_NAME} \n"
             )
             await asyncio.sleep(20)
             await event.delete()
@@ -208,7 +208,7 @@ async def _(dyno):
         return await dyno.reply(
             "`Please make sure your Heroku API Key, Your App name are configured correctly in the heroku var.`"
         )
-    await dyno.edit("`Sedang Mengambil Logs Anda King`")
+    await dyno.edit("`Sedang Mengambil Logs Anda Tuan`")
     with open("logs.txt", "w") as log:
         log.write(app.get_log())
     fd = codecs.open("logs.txt", "r", encoding="utf-8")
@@ -216,18 +216,18 @@ async def _(dyno):
     key = (requests.post("https://nekobin.com/api/documents",
                          json={"content": data}) .json() .get("result") .get("key"))
     url = f"https://nekobin.com/raw/{key}"
-    await dyno.edit(f"`Ini Logs Heroku Anda King :`\n\nPaste Ke: [Nekobin]({url})")
+    await dyno.edit(f"`Ini Logs Heroku Anda Tuan :`\n\nPaste Ke: [Nekobin]({url})")
     return os.remove("logs.txt")
 
 
-CMD_HELP.update({"heroku": "⚡list⚡: `.kuota`"
+CMD_HELP.update({"heroku": "🐧CMD🐧: `.kuota`"
                  "\n↳ : Check Quota Dyno Heroku"
-                 "\n\n⚡list⚡: `.set var <NEW VAR> <VALUE>`"
+                 "\n\n🐧CMD🐧: `.set var <NEW VAR> <VALUE>`"
                  "\n↳ : Tambahkan Variabel Baru Atau Memperbarui Variabel"
                  "\nSetelah Menyetel Variabel Tersebut, King-Userbot Akan Di Restart."
-                 "\n\n⚡list⚡: `.get var atau .get var <VAR>`"
+                 "\n\n🐧CMD🐧: `.get var atau .get var <VAR>`"
                  "\n↳ : Dapatkan Variabel Yang Ada, !!PERINGATAN!! Gunakanlah Di Grup Privasi Anda."
                  "\nIni Mengembalikan Semua Informasi Pribadi Anda, Harap berhati-hati."
-                 "\n\n⚡list⚡: `.del var <VAR>`"
+                 "\n\n🐧CMD🐧: `.del var <VAR>`"
                  "\n↳ : Menghapus Variabel Yang Ada"
                  "\nSetelah Menghapus Variabel, Bot Akan Di Restart."})
