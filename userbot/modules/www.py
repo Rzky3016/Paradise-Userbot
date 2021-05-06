@@ -64,13 +64,13 @@ async def pingme(pong):
                     f"\n  ☞ `{ALIVE_NAME}` \n" % (duration))
 
 
-@register(outgoing=True, pattern="^.sping$")
+@register(outgoing=True, pattern="^.lping$")
 async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("⚡")
-    await pong.edit("__**...💠SAYA💠...**__")
+    await pong.edit("🐧")
+    await pong.edit("__**...🐧Linux🐧...**__")
     await pong.edit("__**.....USERBOT.....**__")
     await pong.edit("__**......MOHON MENUNGGU......**__")
     await pong.edit("**0% ▒▒▒▒▒▒▒▒▒▒**")
@@ -81,7 +81,7 @@ async def pingme(pong):
     await pong.edit("**100% ██████████**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**╰━❖  saya ping ❖━╯**\n"
+    await pong.edit(f"**╰━❖ Linux Ping ❖━╯**\n"
                     f"☞ __ping:__ "
                     f"`%sms` \n"
                     f"☞ __i'm online:__ "
@@ -93,11 +93,11 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("`.....⚡Saya⚡.....`")
-    await pong.edit("`⚡️`")
+    await pong.edit("`.....🐧Linux🐧.....`")
+    await pong.edit("`🐧`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"•⎚• ⎆ __King__ **Pong!**\n"
+    await pong.edit(f"•⎚• ⎆ __Linux__ **Pong!**\n"
                     f"☞  __Ping:__ "
                     f"`%sms` \n"
                     f"☞  __Sisa Waktu:__ "
@@ -111,10 +111,12 @@ async def pingme(pong):
     start = datetime.now()
     await pong.edit("**Memulai Test Sinyal**")
     await pong.edit("**..Mohon menunggu..**")
-    await pong.edit("**...................**")
+    await pong.edit("**🐧.........**")
+    await pong.edit("**..🐧.......**")
+    await pong.edit("**.. .🐧......**")
     await pong.edit("**DUARRR!**")
     await pong.edit("**................**")
-    await pong.edit("⚡️")
+    await pong.edit("❤")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"卍════〠 **TEST PING** 〠════卍\n"
@@ -139,7 +141,7 @@ async def pingme(pong):
     await pong.edit("**100% ██████████**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"- S A Y A -\n"
+    await pong.edit(f"- Linux -\n"
                     f"**☞ sinyal  :** "
                     f"`%sms` \n"
                     f"**☞ i'm online  :** "
@@ -152,7 +154,7 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("`.....☞KING Userbot☜.....`")
+    await pong.edit("`.....☞Linux Userbot☜.....`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"┏━━| **Saya PONG** |━━卍\n"
@@ -186,7 +188,7 @@ async def speedtst(spd):
                    f"`{result['ping']}` \n"
                    "⚙️ **ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   "⚙️ **BOT:** `⚡Saya Userbot⚡`")
+                   "⚙️ **BOT:** `🐧Linux Userbot🐧`")
 
 
 def speed_convert(size):
@@ -220,17 +222,17 @@ async def pingme(pong):
     await pong.edit("`Pong🏎...........`")
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await pong.edit("⎚⎆ __King__ **Test Ping!**\n`%sms`" % (duration))
+    await pong.edit("⎚⎆ __Linux__ **Test Ping!**\n`%sms`" % (duration))
 
 CMD_HELP.update(
-    {"ping": "⚡𝘾𝙈𝘿⚡`.ping` ; ⚡𝘾𝙈𝘿⚡`.sping` ; ⚡𝘾𝙈𝘿⚡`.xping` ; ⚡𝘾𝙈𝘿⚡`.fping`\
+    {"ping": "🐧CMD🐧`.ping` ; 🐧CMD🐧`.lping` ; 🐧CMD🐧`.xping` ; 🐧🐧`.fping`\
     \nPenjelasan: Untuk menunjukkan ping bot.\
-    \n\n⚡𝘾𝙈𝘿⚡`.speed`\
+    \n\n🐧CMD🐧`.speed`\
     \nPenjelasan: Untuk menunjukkan kecepatan.\
-    \n\n⚡𝘾𝙈𝘿⚡`.pong`\
+    \n\n🐧CMD🐧`.pong`\
     \nPenjelasan: sama kaya perintah ping."
      })
 CMD_HELP.update(
     {"sinyal": "**Modules:** `Sinyal`\
-    \n\n**⚡𝘾𝙈𝘿⚡: `.sinyal`\
+    \n\n**🐧CMD🐧: `.sinyal`\
     \n  •**Penjelasan :** __Untuk melihat sinyal bot__"})
