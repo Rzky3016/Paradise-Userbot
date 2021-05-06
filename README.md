@@ -1,5 +1,5 @@
-# Saya Userbot
-![Saya-Userbot Logo](https://telegra.ph/file/61e388f9e862eee4a486a.jpg)
+# Linux Userbot
+![Linux-Userbot Logo](https://telegra.ph/file/61e388f9e862eee4a486a.jpg)
 
 
 
@@ -32,7 +32,7 @@ String_Session [Tekan](https://replit.com/@ferikunn/String-Sesson-Saya)
 ## <p align="center">DEPLOY SAYA-USERBOT</p>
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ferikunn/Saya-Userbot/tree/Saya-Userbot"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ferikunn/Linux-Userbot/tree/Linux-Userbot"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 <br>
 </p>
