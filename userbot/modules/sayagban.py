@@ -116,7 +116,7 @@ async def gben(userbot):
                 f"`Anda Tidak Bisa Melakukan Global Banned Ke Mastah Feri, Dia Adalah Pembuat Saya 😈`"
             )
         try:
-            from userbot.modules.sql_helper.gmute_sql import gmute
+            from userbot.modules.sql_helper.gban_sql import gban
         except BaseException:
             pass
         try:
