@@ -114,8 +114,8 @@ async def save_welcome(event):
         if BOTLOG_CHATID:
             await event.client.send_message(
                 BOTLOG_CHATID, f"#WELCOME \nID GRUP: {event.chat_id}"
-                "\n⚡️SAYA⚡️ Memasang Pesan Perintah Welcome Digrup, Ini Adalah Catatan Pesan Welcome "
-                "Mohon Jangan Dihapus ⚡️SAYA⚡️!"
+                "\n🐧Linux🐧 Memasang Pesan Perintah Welcome Digrup, Ini Adalah Catatan Pesan Welcome "
+                "Mohon Jangan Dihapus 🐧Linux🐧!"
             )
             msg_o = await event.client.forward_messages(
                 entity=BOTLOG_CHATID,
