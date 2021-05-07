@@ -27,27 +27,27 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 DEF_UNAPPROVED_MSG = (
     "┏▼━━━━━━━━━━━━━━━━━━━▼┓\n"
-    "    APA LU ANJING?\n"
+    "    MAU APA KAMU KAWAN?\n"
     f"  MAU GANGGUIN BAGINDA `{DEFAULTUSER}` ?\n"
     "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n"
 
-    f"Gua Babu Nya `{DEFAULTUSER}`\n"
+    f"AKU ADALAH BOTNYA TUAN `{DEFAULTUSER}`\n"
     "╾─────────────────────╼\n\n"
 
     "┏▼━━━━━━━━━━━━━━━━━━━▼┓\n"
-    " Baca Kontol\n"
-    " Gausah Spam Ya Anjeng\n"
-    " Lu Bandel?\n"
-    " Gua Sentil Biji Peler Lu\n"
-    " Tungguin Aja Ya Ngentot Sampai Baginda\n"
-    f" `{DEFAULTUSER}` Ngebaca Pesan Elu\n"
+    " Kirim pesan\n"
+    " Tapi Jangan Spam Ya\n"
+    " Kalau Bandel?\n"
+    " Nanti Otomatis Saya Blockir ya\n"
+    " Tungguin Aja Ya  Sampai Baginda\n"
+    f" `{DEFAULTUSER}` Ngebaca Pesanmu\n"
     "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n"
 
     "╾─────────────────────╼\n"
-    "   😡😡KONTOLLLLL 😡😡\n"
+    "  🐧🐧 Harap Sabar 🐧🐧\n"
     "─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇\n"
     f"- Babu Nya `{DEFAULTUSER}`\n"
-    "- Jangan spam Ya anjing, Sabar!!")
+    "- Jangan spam Ya Kawan, Sabar!!")
 # =================================================================
 
 
