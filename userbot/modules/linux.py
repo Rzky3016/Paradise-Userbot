@@ -44,15 +44,11 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 CMD_HELP.update({
-    "saya":
-    "⚡CMD⚡`.saya`\
+    "Linux":
+    "🐧CMD🐧`.Linux`\
     \nUsage: alive bot.\
-    \n\n⚡CMD⚡`.sadboy`\
+    \n\n🐧CMD🐧`.sadboy`\
     \nUsage: hiks\
-    \n\n⚡CMD⚡`.punten` ; ⚡CMD⚡`.pantau`\
-    \nUsage: coba aja.\
-    \n\n⚡CMD⚡`kosong`\
-    \nUsage: tunggu update selanjutnya.\
-    \n\n⚡CMD⚡`kosong`\
-    \nUsage: tunggu update selanjutnya."
+    \n\n🐧CMD🐧`.punten` ; 🐧CMD🐧`.pantau`\
+    \nUsage: coba aja."
 })
