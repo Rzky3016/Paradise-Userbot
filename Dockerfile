@@ -1,5 +1,5 @@
 # Feri Ganteng
-FROM biansepang/weebproject:buster
+FROM ferikunn/linuxbot:buster
 #
 # Feri
 #
