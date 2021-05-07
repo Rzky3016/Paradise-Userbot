@@ -42,5 +42,5 @@ async def _(event):
 # Apis Gans
 CMD_HELP.update(
     {
-        "tiktok": "**Modules:** __Tik Tok__\n\n⚡list⚡: `.tiktok <Link Tiktok>`"
+        "tiktok": "**Modules:** __Tik Tok__\n\n🐧CMD🐧: `.tiktok <Link Tiktok>`"
         "\n**Penjelasan:** Download Video Tiktok Tanpa Watermark"})
