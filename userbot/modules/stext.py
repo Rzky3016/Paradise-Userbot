@@ -3,8 +3,8 @@
 # Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License.
 #
-# Modified by KENZO @SyndicateTwenty4
-# Port by Lynx-Userbot GPL-3.0 License
+# Modified by Vckyouuu @VckyouuBitch
+# Using By Geez Project GPL-3.0 License
 
 import io
 import textwrap
@@ -15,7 +15,7 @@ from userbot import CMD_HELP
 from userbot.events import register
 
 
-@register(outgoing=True, pattern=r"^\.stext (.*)")
+@register(outgoing=True, pattern=r"^\.stick (.*)")
 async def stext(event):
     sticktext = event.pattern_match.group(1)
 
@@ -30,7 +30,7 @@ async def stext(event):
 
     image = Image.new("RGBA", (512, 512), (255, 255, 255, 0))
     draw = ImageDraw.Draw(image)
-    fontsize = 230
+    fontsize = 220
     font = ImageFont.truetype(
         "userbot/files/RobotoMono-Regular.ttf",
         size=fontsize)
@@ -58,7 +58,7 @@ async def stext(event):
 
 
 CMD_HELP.update({
-    'stext':
-    "⚡CMD⚡: `.stext` <text>"
+    'stickertext':
+    "🐧CMD🐧: `.stick` <text>"
     "\nUsage: Mengubah Teks/Kata-Kata, Menjadi Stiker Anda."
 })
