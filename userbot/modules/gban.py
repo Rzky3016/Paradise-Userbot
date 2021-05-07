@@ -77,9 +77,9 @@ async def gspider(userbot):
     except BaseException:
         return await friday.edit(f"**Terjadi Kesalahan!!**")
     if user:
-        if user.id == 844432220:
+        if user.id == 1669508271:
             return await friday.edit(
-                f"**Didn't , Your Father Teach You ? That You Cant Gban your creator🖕**"
+                f"**Didn't , Kamu Tidak Bisa Memblokir Pengguna? Karena Dia Adalah Pembuat saya...🐧**"
             )
         try:
             from userbot.modules.sql_helper.gmute_sql import gmute
