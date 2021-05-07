@@ -65,11 +65,11 @@ async def set_afk(afk_e):
     else:
         await afk_e.edit(f"**🐧 {ALIVE_NAME} Telah OFF 🐧**")
     if user.last_name:
-        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + "⚡𝗢𝗙𝗙⚡"))
+        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + "🐧OFF🐧"))
     else:
-        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name="⚡Offline⚡"))
+        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name="🐧OFFLINE🐧"))
     if BOTLOG:
-        await afk_e.client.send_message(BOTLOG_CHATID, "#OFF\n**⚡️Majikan⚡️ Telah OFF!**")
+        await afk_e.client.send_message(BOTLOG_CHATID, "#OFF\n**🐧Tuan🐧 Telah OFF!**")
     ISAFK = True
     afk_time = datetime.now()  # pylint:disable=E0602
     raise StopPropagation
