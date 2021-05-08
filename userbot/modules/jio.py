@@ -6,10 +6,10 @@ import asyncio
 
 from uniborg.util import admin_cmd
 
-from telebot import CMD_HELP
+from userbot import CMD_HELP
 
 
-@telebot.on(admin_cmd(pattern=r"jio"))
+@register(outgoing=True, pattern="^.jio(?: |$)(.*)", disable_errors=True)
 async def _(event):
 
     if event.fwd_from:
