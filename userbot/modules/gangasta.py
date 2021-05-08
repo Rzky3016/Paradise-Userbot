@@ -1,10 +1,10 @@
 import asyncio
 
-from telebot import CMD_HELP
-from telebot.utils import admin_cmd
+from userbot import CMD_HELP
+from userbot.utils import admin_cmd
 
 
-@telebot.on(admin_cmd(pattern="gangasta ?(.*)"))
+@register(outgoing=True, pattern=r"^\.gangasta(?: |$)(.*)")
 async def _(event):
     if not event.text[0].isalpha() and event.text[0] not in (
             "/", "#", "@", "!"):
