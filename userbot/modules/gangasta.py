@@ -1,7 +1,6 @@
 import asyncio
 
 from userbot import CMD_HELP
-from userbot.utils import admin_cmd
 
 
 @register(outgoing=True, pattern=r"^\.gangasta(?: |$)(.*)")
