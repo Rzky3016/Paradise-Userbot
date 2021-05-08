@@ -23,7 +23,7 @@ async def _(event):
         return
     xx = await event.edit("`Memproses Tiny....`")
     ik = await bot.download_media(reply)
-    im1 = Image.open("SayaUserbot/sayauserbot.png")
+    im1 = Image.open("LinuxUserbot/linuxuserbot.png")
     if ik.endswith(".tgs"):
         await event.client.download_media(reply, "ult.tgs")
         os.system("lottie_convert.py ult.tgs json.json")
@@ -91,5 +91,5 @@ async def _(event):
 # Saya - Userbot
 
 CMD_HELP.update({
-    "tiny": "⚡CMD⚡: `.tiny`\
+    "tiny": "🐧CMD🐧: `.tiny`\
     \n↳ : Untuk Memperkecil Sticker."})
