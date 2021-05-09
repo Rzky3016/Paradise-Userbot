@@ -162,8 +162,8 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**⚜-**⚡Saya-Userbot⚡ Versi:** \n "
-            f"heads/saya-Userbot-0-x634i7u1"
+            "**⚜-**🐧Linux-Userbot🐧 Versi:** \n "
+            f"heads/Linux-Userbot-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
         )
@@ -221,15 +221,15 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:saya|sayaon)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:linux|linuxon)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**⚡Saya-Userbot⚡** \n"
-        f"\n__**{SAYA_TEKS_KUSTOM}**__\n"
+        f"**🐧Linux-Userbot🐧** \n"
+        f"\n__**{LINUX_TEKS_KUSTOM}**__\n"
         f"**══════════════════════**\n"
-        f"**👑 Majikan** \n"
+        f"**🐧Linux** \n"
         f" ↳ : `{DEFAULTUSER}` \n"
         f"**👤 Username** \n"
         f" ↳ : `@{user.username}` \n"
@@ -265,14 +265,14 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"══════════════════════\n"
-        f"     ** ⚡Saya-Userbot⚡ ** \n\n"
-        f"👑 **Majikan**  \n   ↳ `{DEFAULTUSER}` \n"
+        f"     ** 🐧Linux-Userbot🐧 ** \n\n"
+        f"🐧 **Majikan**  \n   ↳ `{DEFAULTUSER}` \n"
         f"👤 **Username** \n   ↳ `@{user.username}` \n"
         f"⚙️ **Telethon** \n   ↳ `Versi {version.__version__}` \n"
         f"🐍 **Python**   \n   ↳ `Versi {python_version()}` \n"
         f"👾 **Versi Bot**\n   ↳ `{BOT_VER}` \n"
         f"📂 **Modul**    \n   ↳ `{len(modules)}` \n\n"
-        f"♚ **Repo Saya:** [Saya-Userbot](https://github.com/ferikunn/Saya-Userbot)\n🛠️ **Grup Support: **[Tekan](t.me/hanyabotferi)\n👨‍💻 **Mastah:** [Feri](t.me/xflicks)\n"
+        f"♚ **Repo Saya:** [Linux-Userbot](https://github.com/ferikunn/Linux-Userbot)\n🛠️ **Group Support: **[Tekan](t.me/masukajaudhh)\n👨‍💻 **Mastah:** [Feri](t.me/xflicks)\n"
         f"══════════════════════")
     if ALIVE_LOGO:
         try:
@@ -298,16 +298,16 @@ async def amireallyalive(alive):
 async def amireallyalive(alive):
     await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("..⚡Team-Saya⚡..")
+    await alive.edit("..🐧Team-Linux🐧..")
     output = (
-        f"════════⚡Team-Saya⚡═════════\n"
+        f"════════🐧Team-Linux🐧═════════\n"
         f"**Nama Creator Kami**\n"
         f"╟◈🛠️ Developer : [Feri](t.me/xflicks) \n"
         f"╟◈🛠️ Developer : [Feri](t.me/xflicks) \n"
         f"╟◈👤 Contributor : [Feri](t.me/xflicks) \n"
         f"╰╼═══════════════════╾╯\n"
         f"**Terimakasih Telah Menggunakan Project Userbot Kami** 🙏 \n"
-        f"═════════⚡SAYA⚡═════════════")
+        f"═════════🐧Linux🐧═════════════")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -392,7 +392,7 @@ async def redis(alive):
         f"├◈ **Jangan lupa untuk mendukung kami** \n"
         f"│    **userbot, cara menekan di bawah ini.** \n"
         f"╰╼════════════════════╾╯ \n"
-        f"| [Repo](https://github.com/ferikunn/Linux-Userbot) | [Group-Help](t.me/hanyabotferi) | "
+        f"| [Repo](https://github.com/ferikunn/Linux-Userbot) | [Group-Help](t.me/masukajaudhh) | "
         f"[Pemilik](t.me/xflicks) | ")
     if ALIVE_LOGO:
         try:
