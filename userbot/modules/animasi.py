@@ -46,4 +46,3 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("*Cuma Sendiri nih Senggol Dong*")
 # Feri Ganteng
-    
