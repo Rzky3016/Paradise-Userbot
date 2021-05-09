@@ -29,7 +29,8 @@ if Config.PRIVATE_GROUP_ID != 0:
         if event.fwd_from:
             return
         chat = await event.get_chat()
-        if event.text.startswith((".block", ".disapprove", ".a", ".da", ".approve")):
+        if event.text.startswith(
+                (".block", ".disapprove", ".a", ".da", ".approve")):
             return
         if (
             event.is_private
@@ -246,18 +247,16 @@ if Config.PRIVATE_GROUP_ID != 0:
                         my_mention=my_mention,
                         totalwarns=totalwarns,
                         warns=warns,
-                    )
-                    + "\n\n"
-                    + "**Send** `/start` ** so that my master can decide why you're here.**"
-                )
+                    ) +
+                    "\n\n" +
+                    "**Send** `/start` ** so that my master can decide why you're here.**")
             else:
 
                 USER_BOT_NO_WARN = (
                     f"`Hi `{mention}`, I haven't approved you yet to personal message me, Don't spam my inbox."
                     f"Just say the reason and wait until you get approved.\
                                     \n\nyou have {warns}/{totalwarns} warns`\
-                                    \n\n**Send** `/start` **so that my master can decide why you're here.**"
-                )
+                                    \n\n**Send** `/start` **so that my master can decide why you're here.**")
         else:
             if Config.CUSTOM_PMPERMIT_TEXT:
                 USER_BOT_NO_WARN = Config.CUSTOM_PMPERMIT_TEXT.format(
@@ -279,8 +278,7 @@ if Config.PRIVATE_GROUP_ID != 0:
                 USER_BOT_NO_WARN = (
                     f"`Hi `{mention}`, I haven't approved you yet to personal message me, Don't spam my inbox."
                     f"Just say the reason and wait until you get approved.\
-                                    \n\nyou have {warns}/{totalwarns} warns`"
-                )
+                                    \n\nyou have {warns}/{totalwarns} warns`")
         if PMPERMIT_PIC:
             r = await event.reply(USER_BOT_NO_WARN, file=PMPERMIT_PIC)
         else:
