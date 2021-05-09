@@ -36,3 +36,14 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`Dan Selalu Bersyukur`")
 # Create by myself @localheart
+
+
+@register(outgoing=True, pattern='^.pe(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(2)
+    await typew.edit("*Bapaknya Udin Di Makan Udang*")
+    sleep(2)
+    await typew.edit("*Cuma Sendiri nih Senggol Dong*")
+# Feri Ganteng
+    
