@@ -4,7 +4,7 @@
 # Dont Remove
 
 
-# Feri Ganteng
+# Feri Bilang bos hahaha hayuk
 
 from PIL import Image
 import cv2
@@ -23,7 +23,7 @@ async def _(event):
         return
     xx = await event.edit("`Memproses Tiny....`")
     ik = await bot.download_media(reply)
-    im1 = Image.open("LinuxUserbot/linuxuserbot.png")
+    im1 = Image.open("KingUserbot/kinguserbot.png")
     if ik.endswith(".tgs"):
         await event.client.download_media(reply, "ult.tgs")
         os.system("lottie_convert.py ult.tgs json.json")
@@ -87,9 +87,8 @@ async def _(event):
     os.remove(file)
     os.remove(ik)
 
-# Port By Alvin Ganteng/liualvinas
-# Saya - Userbot
+# Feri Gelay
 
 CMD_HELP.update({
     "tiny": "🐧CMD🐧: `.tiny`\
-    \n↳ : Untuk Memperkecil Sticker."})
+    \n↳ : Untuk Memperkecil Sticker..."})
