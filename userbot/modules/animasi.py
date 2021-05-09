@@ -1,5 +1,8 @@
 from time import sleep
+from userbot import CMD_HELP, bot
 from userbot.events import register
+from telethon import events
+import asyncio
 
 
 @register(outgoing=True, pattern='^p(?: |$)(.*)')
@@ -42,7 +45,19 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(2)
-    await typew.edit("*Bapaknya Udin Di Makan Udang*")
+    await typew.edit("`Bapaknya Udin Di Makan Udang`")
     sleep(2)
-    await typew.edit("*Cuma Sendiri nih Senggol Dong*")
-# Feri Ganteng
+    await typew.edit("`Cuma Sendiri nih Senggol Dong`")
+
+
+CMD_HELP.update({
+    "animasi3":
+    "🐧CMD🐧`.pe`\
+\nPenjelasan: Cek lah asw.\
+\n\n🐧CMD🐧`.ilyu`\
+\nPenjelasan: Cek lah asw.\
+\n\n🐧CMD🐧`p`\
+\nPenjelasan: Cek lah asw.\
+\n\n🐧CMD🐧`.semangat`\
+\nPenjelasan: Cek lah asw."
+})
