@@ -69,7 +69,8 @@ async def _(event):
                         if response.text != "/start":
                             if pmpermit_sql.is_approved(chat_id):
                                 return
-                            set_key(PMMESSAGE_CACHE, event.chat_id, response.id)
+                            set_key(
+                                PMMESSAGE_CACHE, event.chat_id, response.id)
                             test4 = await event.client.send_message(chat, TWO)
                             set_key(PMMESSAGE_CACHE, event.chat_id, test4.id)
                             await asyncio.sleep(3)
@@ -106,7 +107,8 @@ async def _(event):
                         if response.text != "/start":
                             if pmpermit_sql.is_approved(chat_id):
                                 return
-                            set_key(PMMESSAGE_CACHE, event.chat_id, response.id)
+                            set_key(
+                                PMMESSAGE_CACHE, event.chat_id, response.id)
                             test9 = await event.client.send_message(chat, TWO)
                             set_key(PMMESSAGE_CACHE, event.chat_id, test9.id)
                             await asyncio.sleep(3)
@@ -128,7 +130,8 @@ async def _(event):
                         if response.text != "/start":
                             if pmpermit_sql.is_approved(chat_id):
                                 return
-                            set_key(PMMESSAGE_CACHE, event.chat_id, response.id)
+                            set_key(
+                                PMMESSAGE_CACHE, event.chat_id, response.id)
                             await event.client.send_message(chat, TWO)
                             await asyncio.sleep(3)
                             await event.client(functions.contacts.BlockRequest(chat_id))
@@ -152,7 +155,8 @@ async def _(event):
                         if response.text != "/start":
                             if pmpermit_sql.is_approved(chat_id):
                                 return
-                            set_key(PMMESSAGE_CACHE, event.chat_id, response.id)
+                            set_key(
+                                PMMESSAGE_CACHE, event.chat_id, response.id)
                             test14 = await event.client.send_message(chat, TWO)
                             set_key(PMMESSAGE_CACHE, event.chat_id, test14.id)
                             await asyncio.sleep(3)
