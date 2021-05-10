@@ -436,14 +436,14 @@ async def typewriter(typew):
 
 CMD_HELP.update({
     "gabut":
-    "⚡list⚡`.gabut` ;⚡list⚡ `.dino`\
+    "🐧CMD🐧`.gabut` ;🐧CMD🐧 `.dino`\
     \nPenjelasan: ntahlah gabut doang.\
-    \n\n⚡list⚡`.gombal`\
+    \n\n🐧CMD🐧`.gombal`\
     \nPenjelasan: buat bercanda\
-    \n\n⚡list⚡`.cinta`\
+    \n\n🐧CMD🐧`.cinta`\
     \nPenjelasan: mengirim cintamu ke seseorang.\
-    \n\n⚡list⚡`.sayang`\
+    \n\n🐧CMD🐧`.sayang`\
     \nPenjelasan: untuk jadi buaya.\
-    \n\n⚡list⚡`.terkadang`\
+    \n\n🐧CMD🐧`.terkadang`\
     \nPenjelasan: Auk dah iseng doang."
 })
