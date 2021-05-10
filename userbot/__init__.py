@@ -3,7 +3,7 @@
 # Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License.
 # inline credit @keselekpermen69
-# Pengguna King-Userbot
+# Pengguna Linux-Userbot
 """ Userbot initialization. """
 
 import os
@@ -167,7 +167,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "King-Userbot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "Linux-Userbot")
 
 # Bot version
 BOT_VER = os.environ.get("BOT_VER", "4.0")
@@ -412,7 +412,7 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Saya✗Userbot ",
+                    "Bantuan Linux✗Userbot ",
                     text="Daftar Modul",
                     buttons=[],
                     link_preview=True)
