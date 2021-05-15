@@ -14,7 +14,7 @@ async def _(event):
         return
     reply_message = await event.get_reply_message()
     if not reply_message.media:
-        await event.edit("sir, This is not a image ")
+        await event.edit("Tuan, Ini bukan gambar ")
         return
     chat = "@buildstickerbot"
     await event.edit("Membuat Sticker..")
@@ -43,11 +43,11 @@ async def _(event):
     if event.fwd_from:
         return
     if not event.reply_to_msg_id:
-        await event.edit("`Mohon Balas Ke Sticker King`")
+        await event.edit("`Mohon Balas Ke Sticker Tuan`")
         return
     reply_message = await event.get_reply_message()
     if not reply_message.media:
-        await event.edit("`Mohon Balas Ke Sticker King`")
+        await event.edit("`Mohon Balas Ke Sticker Tuan`")
         return
     chat = "@stickers_to_image_bot"
     await event.edit("`Mengubah Menjadi Gambar....`")
@@ -63,7 +63,7 @@ async def _(event):
             await event.reply("Buka Blokir @stickers_to_image_bot Lalu Coba Lagi")
             return
         if response.text.startswith("I understand only stickers"):
-            await event.edit("`Maaf King, Saya Tidak Bisa Mengubah Ini Menjadi Gambar, Periksa Kembali Apakah Itu Sticker Animasi?`")
+            await event.edit("`Maaf Tuan, Saya Tidak Bisa Mengubah Ini Menjadi Gambar, Periksa Kembali Apakah Itu Sticker Animasi?`")
         else:
             response = conv.wait_event(
                 events.NewMessage(
@@ -92,7 +92,7 @@ async def sticker_to_png(sticker):
 
     img = await sticker.get_reply_message()
     if not img.document:
-        await sticker.edit("`Maaf King, Ini Bukan Sticker`")
+        await sticker.edit("`Maaf Tuan, Ini Bukan Sticker`")
         return False
 
     await sticker.edit("`Berhasil Mengambil Sticker!`")
@@ -107,9 +107,9 @@ async def sticker_to_png(sticker):
     return
 
 
-CMD_HELP.update({"stickers2": ">⚡️𝘾𝙈𝘿⚡️`.itos`"
+CMD_HELP.update({"stickers2": ">🐧CMD🐧`.itos`"
                  "\nUsage: Balas ke sticker atau gambar .itos untuk mengambil sticker bukan ke pack "
-                 "\n\n>⚡️𝘾𝙈𝘿⚡️`.get`"
+                 "\n\n>🐧CMD🐧`.get`"
                  "\nUsage: Balas ke sticker untuk mendapatkan file 'PNG' sticker."
-                 "\n\n>⚡️𝘾𝙈𝘿⚡️`.stoi`"
+                 "\n\n>🐧CMD🐧`.stoi`"
                  "\nUsage: Balas Ke sticker untuk mendapatkan file 'PNG' sticker."})
