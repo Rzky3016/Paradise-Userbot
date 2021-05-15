@@ -2,14 +2,14 @@
 # Keredit Motor Eh Maksudnya Kredit Kampang Bot (c) Koala Bgke @ManusiaRakitann
 # Karna Aku Gabut Aku Pasang Keredit Lagi # Keredit
 # Yak Pasang Credit Banyak Banyak Biar Makin Keren
-# Copyright (C) 2021 Apis / @PacarFerdilla By King Userbot
+# Copyright (C) 2021 Apis / @xflicks By Linux Userbot
 # All rights reserved.
 # Keredit
 # Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License.
 # King Userbot - From King To King
 # Yang Gbs Basa Enggres bisa Terjemahkan di atas
-# Ngefork Doang Gak Bintang Anjg
+# Ngefork Doang Gak Bisa Anjg
 # Kalo Clone Ini Jangan dihapus ya anjg nanti Apis Ngamuk, Ok Mksh Sma Sma
 
 from telethon import events
@@ -26,7 +26,7 @@ async def insta(event):
     if event.fwd_from:
         return
     if not event.reply_to_msg_id:
-        await event.edit("`King, Mohon Balas Ke Link Instagram`")
+        await event.edit("`Linux, Mohon Balas Ke Link Instagram`")
         return
     reply_message = await event.get_reply_message()
     if not reply_message.text:
@@ -57,15 +57,14 @@ async def insta(event):
             await event.client.send_file(
                 event.chat_id,
                 response.message.media,
-                caption=f"**Download By @USEEBOT_GROUP**",
+                caption=f"**Download By @masukajaudhh**",
             )
             await event.client.send_read_acknowledge(conv.chat_id)
             await bot(functions.messages.DeleteHistoryRequest(peer=chat, max_id=0))
             await event.delete()
 
 
-# By King - Userbot
-# Apis Gansssssss Mksh Sma Sma
-# Apis Gans
-CMD_HELP.update({"instagram": "**Modules:** __Instagram__\n\n⚡CMD⚡: `.ig`"
+# Linux - Userbot
+# Feri
+CMD_HELP.update({"instagram": "**Modules:** __Instagram__\n\n🐧CMD🐧: `.ig`"
                  "\n**Penjelasan:** Download Media di Postingan Instagram, Balas ke link instagram ketik `.ig`"})
