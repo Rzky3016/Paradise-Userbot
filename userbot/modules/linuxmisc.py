@@ -1028,43 +1028,43 @@ async def _(event):
 
 CMD_HELP.update({
     "misc":
-    "⚡𝘾𝙈𝘿⚡`.calc`\
+    "🐧CMD🐧`.calc`\
 \nPenjelasan: .calc <term1><operator><term2>\nUntuk eg .calc 02*02 Atau 99*99 (Angka Nol Penting) (Minimal Dua Suku Dan Dua Digit).\
-\n\n⚡𝘾𝙈𝘿⚡`.remove`\
+\n\n🐧CMD🐧`.remove`\
 \nPenjelasan: gunakan di grup .remove d atau y atau m atau w atau o atau q atau r.\n(d=AkunTerhapus y=userstatsempty m=userstatsmonth w=userstatsweek o=userstatsoffline q=userstatsonline r=userstatsrecently).\
-\n\n⚡𝘾𝙈𝘿⚡`.xcd`\
+\n\n🐧CMD🐧`.xcd`\
 \nPenjelasan: Ketik xcd <query>.ps:Aku Sangat Bosan:v\
-\n\n⚡𝘾𝙈𝘿⚡`.rnupload` filename.extenstion\
+\n\n🐧CMD🐧`.rnupload` filename.extenstion\
 \nPenjelasan: Balas Ke Sticker Dan Ketik .rnupload xyz.jpg\
-\n\n⚡𝘾𝙈𝘿⚡`.res`\
+\n\n🐧CMD🐧`.res`\
 \nPenjelasan: Ketik Username Akun,Channel,Group Atau Bot Bersama .res Dan Check Batasan\
-\n\n⚡𝘾𝙈𝘿⚡`.watch` <movie/tv>\
+\n\n🐧CMD🐧`.watch` <movie/tv>\
 \nPenjelasan: Mengetahui Detail Tentang Film.\
-\n\n⚡𝘾𝙈𝘿⚡`.weeb` <text>\
+\n\n🐧CMD🐧`.weeb` <text>\
 \nPenjelasan: Teks Weebify\
-\n\n(⚡𝘾𝙈𝘿⚡`.bold <Teks>`,⚡CMD⚡`.cur <Teks>`,⚡CMD⚡`.curbold <Teks>`,⚡CMD⚡`.medi <Teks>`,⚡CMD⚡`.medibold <Teks>`,⚡CMD⚡`.doublestruck <Teks>`)\
+\n\n(🐧CMD🐧`.bold <Teks>`,🐧CMD🐧`.cur <Teks>`,🐧CMD🐧`.curbold <Teks>`,🐧CMD🐧`.medi <Teks>`,🐧CMD🐧`.medibold <Teks>`,🐧🐧`.doublestruck <Teks>`)\
 \nPenjelasan: Buat Teks <Bold,Cursive,Cursivebold,Medival,Medivalbold,Gayishbold>"})
-# SAYA USERBOT
-CMD_HELP.update({"app": "**Modules:** __App__\n\n⚡CMD⚡: `.app <nama app>`"
+# LINUX USERBOT
+CMD_HELP.update({"app": "**Modules:** __App__\n\n🐧🐧: `.app <nama app>`"
                  "\n**Penjelasan:** Dapatkan Detail Informasi Applikasi"})
-# SAYA USERBOT
-CMD_HELP.update({"undelete": "**Modules:** __Undelete__\n\n⚡CMD⚡: `.undlt`"
+# LINUX USERBOT
+CMD_HELP.update({"undelete": "**Modules:** __Undelete__\n\n🐧CMD🐧: `.undlt`"
                  "\n**Penjelasan:** Urungkan Pesan Yang Dihapus Tapi Anda Harus Menjadi Admin"})
-# SAYA USERBOT
-CMD_HELP.update({"grab": "**Modules:** __Grab__\n\n⚡CMD⚡: `.grab <jumlah>`"
+# LINUX USERBOT
+CMD_HELP.update({"grab": "**Modules:** __Grab__\n\n🐧CMD🐧: `.grab <jumlah>`"
                  "\n**Penjelasan:** Mengambil Profil, Bisa Balas Ke Pesan Pengguna Lain Untuk Mengambil Profilnya\n\n**WARN:** JANGAN MENYALAH GUNAKAN PERINTAH INI"})
-# SAYA USERBOT
+# LINUX USERBOT
 CMD_HELP.update(
     {
-        "clone": "**Modules:** __Clone__\n\n⚡CMD⚡: `.clone <username/balas pesan>`"
+        "clone": "**Modules:** __Clone__\n\n🐧CMD🐧: `.clone <username/balas pesan>`"
         "\n**Penjelasan:** Clone Akun Seseorang, Tapi Username Tidak di Clone"
         "\n\n**Perintah:** `.rclone`"
         "\n**Penjelasan:** Mengembalikan Akun Anda Seperti Semula"})
-# Saya USERBOT
-CMD_HELP.update({"glitch": "**Modules:** __Glitch__\n\n⚡𝘾𝙈𝘿⚡: `.glitch <level>`"
+# Linux USERBOT
+CMD_HELP.update({"glitch": "**Modules:** __Glitch__\n\n🐧CMD🐧: `.glitch <level>`"
                  "\n**Penjelasan:** Balas Ke Media, Memberikan Efek Glicth Ke Media, Level 1 - 8"
                  "\n\n**Perintah:** `.glitchs <level>`"
                  "\n**Penjelasan:** Balas Ke Media, Memberikan Efek Glitch Ke Media, Level 1 - 8\n\n**NOTE:** Jika Tidak Memberikan Level Maka Otomatis Default Memilih Level 2"})
-# Saya USERBOT # Feri ganteng
-CMD_HELP.update({"randomprofil": "**Modules:** __Random Profil__\n\n⚡CMD⚡: `.randompp`"
+# Linux USERBOT # Feri ganteng
+CMD_HELP.update({"randomprofil": "**Modules:** __Random Profil__\n\n🐧CMD🐧: `.randompp`"
                  "\n**Penjelasan:** Mengganti Foto Profil Anda Secara Otomatis, Untuk Menghentikan Perintah Ini Gunakan Perintah `.restart`"})
