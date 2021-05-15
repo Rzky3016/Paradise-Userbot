@@ -10,7 +10,7 @@ from userbot import bot, TEMP_DOWNLOAD_DIRECTORY, CMD_HELP
 
 @register(outgoing=True, pattern=r"^.hz(:? |$)(.*)?")
 async def _(hazmat):
-    await hazmat.edit("`Majikan Ingin Mengaktifkan Perintah Hazmat...⚡`")
+    await hazmat.edit("`Majikan Ingin Mengaktifkan Perintah Hazmat...🐧`")
     level = hazmat.pattern_match.group(2)
     if hazmat.fwd_from:
         return
@@ -22,7 +22,7 @@ async def _(hazmat):
         await hazmat.edit("`Kata Bisa Menghancurkan Apapun :)`")
         return
     chat = "@hazmat_suit_bot"
-    await hazmat.edit("```Perintah Hazmat Diaktifkan, Sedang Memproses.... ⚡```")
+    await hazmat.edit("```Perintah Hazmat Diaktifkan, Sedang Memproses.... 🐧```")
     message_id_to_reply = hazmat.message.reply_to_msg_id
     msg_reply = None
     async with hazmat.client.conversation(chat) as conv:
