@@ -39,7 +39,7 @@ String_Session [Tekan](https://replit.com/@ferikunn/String-Sesson-Saya)
 
 ## Kredit
   Terimakasih untuk 
-*   [Apis](https://github.com/apiuserbot) - King-Userbot
+*   [Apis](https://github.com/apisuserbot) - King-Userbot
 *   [Alvin](https://github.com/Zora24/Lord-Userbot) - Lord Userbot
 *   [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
 *   [AvinashReddy3108](https://github.com/AvinashReddy3108) - PaperplaneExtended
