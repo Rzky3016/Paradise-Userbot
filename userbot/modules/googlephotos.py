@@ -41,15 +41,15 @@ logger = logging.getLogger(__name__)
 
 # setup the gPhotos v1 API
 OAUTH_SCOPE = [
-    "https://www.googleapis.com/auth/photoslibrary",
-    "https://www.googleapis.com/auth/photoslibrary.sharing",
+    "https://www.googleferi.com/auth/photoslibrary",
+    "https://www.googleferi.com/auth/photoslibrary.sharing",
 ]
 # Redirect URI for installed apps, can be left as is
 REDIRECT_URI = "urn:ietf:wg:oauth:2.0:oob"
 #
-PHOTOS_BASE_URI = "https://photoslibrary.googleapis.com"
+PHOTOS_BASE_URI = "https://photoslibraryferi.com"
 
-TOKEN_FILE_NAME = "GP_KING.json"
+TOKEN_FILE_NAME = "GP_LINUX.json"
 
 
 @register(outgoing=True, pattern=r"^\.gpsetup")
@@ -76,7 +76,7 @@ async def create_token_file(token_file, event):
         await conv.send_message(
             "Pergi Ke "
             "Linknya Dan Ikuti "
-            f"Browser Anda Lord: {authorize_url} Dan "
+            f"Browser Anda Tuan: {authorize_url} Dan "
             "Balas Kode"
         )
         response = await conv.wait_event(
@@ -129,7 +129,7 @@ async def upload_google_photos(event):
 
     if not event.reply_to_msg_id and not input_str:
         await event.edit(
-            "©️ <b>[King]</b>\nTidak Ada Yang Akan Membantu Anda", parse_mode="html"
+            "©️ <b>[Linux]</b>\nTidak Ada Yang Akan Membantu Anda", parse_mode="html"
         )
         return
 
@@ -174,11 +174,11 @@ async def upload_google_photos(event):
     async with aiohttp.ClientSession() as session:
         headers = {
             "Content-Length": "0",
-            "King-Goog-Upload-Command": "start",
-            "King-Goog-Upload-Content-Type": mime_type,
-            "King-Goog-Upload-File-Name": file_name,
-            "King-Goog-Upload-Protocol": "resumable",
-            "King-Goog-Upload-Raw-Size": str(file_size),
+            "Linux-Goog-Upload-Command": "start",
+            "Linux-Goog-Upload-Content-Type": mime_type,
+            "Linux-Goog-Upload-File-Name": file_name,
+            "Linux-Goog-Upload-Protocol": "resumable",
+            "Linux-Goog-Upload-Raw-Size": str(file_size),
             "Authorization": "Bearer " + creds.access_token,
         }
         # Step 1: Initiating an upload session
