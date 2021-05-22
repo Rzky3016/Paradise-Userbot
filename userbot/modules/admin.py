@@ -715,7 +715,7 @@ async def get_users(show):
     try:
         await show.edit(mentions)
     except MessageTooLongError:
-        await show.edit("King, Grup Ini Terlalu Besar Mengunggah Daftar Pengguna Sebagai File.")
+        await show.edit("Linux, Grup Ini Terlalu Besar Mengunggah Daftar Pengguna Sebagai File.")
         file = open("daftarpengguna.txt", "w+")
         file.write(mentions)
         file.close()
@@ -806,7 +806,7 @@ async def get_usersdel(show):
         await show.edit(mentions)
     except MessageTooLongError:
         await show.edit(
-            "King, Grup Ini Terlalu Besar, Mengunggah Daftar Akun Terhapus Sebagai File."
+            "Linux, Grup Ini Terlalu Besar, Mengunggah Daftar Akun Terhapus Sebagai File."
         )
         file = open("daftarpengguna.txt", "w+")
         file.write(mentions)
@@ -890,7 +890,7 @@ async def get_bots(show):
     try:
         await show.edit(mentions, parse_mode="html")
     except MessageTooLongError:
-        await show.edit("King, Terlalu Banyak Bot Di Grup Ini, Mengunggah Daftar Bot Sebagai File.")
+        await show.edit("Linux, Terlalu Banyak Bot Di Grup Ini, Mengunggah Daftar Bot Sebagai File.")
         file = open("botlist.txt", "w+")
         file.write(mentions)
         file.close()
