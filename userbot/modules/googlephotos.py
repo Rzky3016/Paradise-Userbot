@@ -47,7 +47,7 @@ OAUTH_SCOPE = [
 # Redirect URI for installed apps, can be left as is
 REDIRECT_URI = "urn:ietf:wg:oauth:2.0:oob"
 #
-PHOTOS_BASE_URI = "https://photoslibraryferi.com"
+PHOTOS_BASE_URI = "https://photoslibrary.googleferi.com"
 
 TOKEN_FILE_NAME = "GP_LINUX.json"
 
