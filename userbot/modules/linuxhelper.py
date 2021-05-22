@@ -8,10 +8,10 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 # ============================================
 
 
-@register(outgoing=True, pattern="^.shelp$")
+@register(outgoing=True, pattern="^.lhelp$")
 async def usit(e):
     await e.edit(
-        f"**Hai King {DEFAULTUSER} Kalau Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `.help` Atau Bisa Minta Bantuan Ke:\n"
+        f"**Hai Tuan {DEFAULTUSER} Kalau Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `.help` Atau Bisa Minta Bantuan Ke:\n"
         "\n[Mastah](t.me/xflicks)"
         "\n[Repo](https://github.com/ferikunn/Linux-Userbot)"
         "\n[Instagram Mastah](Instagram.com/ferikunn)")
@@ -26,8 +26,8 @@ async def var(m):
 
 CMD_HELP.update({
     "linuxhelper":
-    "🐧CMD🐧`.linuxhelp`\
+    "🐧CMD🐧`.lhelp`\
 \nPenjelasan: Bantuan Untuk saya-Userbot.\
-\n🐧CMD🐧`.sayavar`\
+\n🐧CMD🐧`.vars`\
 \nPenjelasan: Untuk Melihat Beberapa Daftar Vars."
 })
