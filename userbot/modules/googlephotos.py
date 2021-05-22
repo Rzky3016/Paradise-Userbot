@@ -136,7 +136,7 @@ async def upload_google_photos(event):
     token_file = TOKEN_FILE_NAME
     is_cred_exists, creds = await check_creds(token_file, event)
     if not is_cred_exists:
-        await event.edit("Pertama Jalankan <code>.gpsetup</code> Dulu King", parse_mode="html")
+        await event.edit("Pertama Jalankan <code>.gpsetup</code> Dulu Tuan", parse_mode="html")
 
     service = build("photoslibrary", "v1", http=creds.authorize(Http()))
 
