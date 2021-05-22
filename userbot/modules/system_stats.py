@@ -1,4 +1,4 @@
-# System Stats Saya-Userbot
+# System Stats Linux-Userbot
 
 import asyncio
 import redis
@@ -272,7 +272,7 @@ async def amireallyalive(alive):
         f"🐍 **Python**   \n   ↳ `Versi {python_version()}` \n"
         f"👾 **Versi Bot**\n   ↳ `{BOT_VER}` \n"
         f"📂 **Modul**    \n   ↳ `{len(modules)}` \n\n"
-        f"♚ **Repo Saya:** [Linux-Userbot](https://github.com/ferikunn/Linux-Userbot)\n🛠️ **Group Support: **[Tekan](t.me/masukajaudhh)\n👨‍💻 **Mastah:** [Feri](t.me/xflicks)\n"
+        f"♚ **Repo Linux:** [Linux-Userbot](https://github.com/ferikunn/Linux-Userbot)\n🛠️ **Group Support: **[Tekan](t.me/masukajaudhh)\n👨‍💻 **Mastah:** [Feri](t.me/xflicks)\n"
         f"══════════════════════")
     if ALIVE_LOGO:
         try:
