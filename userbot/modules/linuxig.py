@@ -1,16 +1,10 @@
 # Koala Ganteng, Kode Dari Koala Bangsul Press F untuk Koala @Manusiarakitann
 # Keredit Motor Eh Maksudnya Kredit Kampang Bot (c) Koala Bgke @ManusiaRakitann
-# Karna Aku Gabut Aku Pasang Keredit Lagi # Keredit
-# Yak Pasang Credit Banyak Banyak Biar Makin Keren
-# Copyright (C) 2021 Apis / @xflicks By Linux Userbot
 # All rights reserved.
 # Keredit
 # Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License.
-# King Userbot - From King To King
 # Yang Gbs Basa Enggres bisa Terjemahkan di atas
-# Ngefork Doang Gak Bisa Anjg
-# Kalo Clone Ini Jangan dihapus ya anjg nanti Apis Ngamuk, Ok Mksh Sma Sma
 
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
