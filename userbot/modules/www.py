@@ -146,7 +146,7 @@ async def pingme(pong):
                     f"`%sms` \n"
                     f"**☞ i'm online  :** "
                     f"`{uptime}` \n"
-                    f"__|━|⎆__ **My king  :** `{ALIVE_NAME}`" % (duration))
+                    f"__|━|⎆__ **Tuanku  :** `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern="^.uping$")
