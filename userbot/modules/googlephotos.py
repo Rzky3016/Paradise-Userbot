@@ -194,10 +194,10 @@ async def upload_google_photos(event):
         logger.info(step_one_resp_headers)
         # Step 2: Saving the session URL
 
-        real_upload_url = step_one_resp_headers.get("King-Goog-Upload-URL")
+        real_upload_url = step_one_resp_headers.get("Linux-Goog-Upload-URL")
         logger.info(real_upload_url)
         upload_granularity = int(
-            step_one_resp_headers.get("King-Goog-Upload-Chunk-Granularity")
+            step_one_resp_headers.get("Linux-Goog-Upload-Chunk-Granularity")
         )
         logger.info(upload_granularity)
         number_of_req_s = int((file_size / upload_granularity))
