@@ -130,7 +130,7 @@ async def dyno_usage(dyno):
     """
         Get your account Dyno Usage
     """
-    await dyno.edit("Loading, Sabar Kontoll...⚡")
+    await dyno.edit("Memproses, Mohon Tunggu sebentar...⌛")
     await asyncio.sleep(1)
     useragent = (
         'Mozilla/5.0 (Linux; Android 10; SM-G975F) '
@@ -184,15 +184,15 @@ async def dyno_usage(dyno):
                 "╭┈─╼━━━━━━━━━━━━━━━╾─┈╮ \n"
                 "│      ⇱ 🐧Linux-Userbot🐧 ⇲ \n"
                 "╭┈─╼━━━━━━━━━━━━━━━╾─┈╮ \n"
-                "│📱◈ Penggunaan Kouta Anda : \n"
-                f"│⏳◈ {AppHours} Jam - {AppMinutes} Menit. \n"
-                f"│⚡◈ Persentase : {AppPercentage}% \n"
+                "│◈ Penggunaan Kouta Anda : \n"
+                f"│◈ {AppHours} Jam - {AppMinutes} Menit. \n"
+                f"│◈ Persentase : {AppPercentage}% \n"
                 "╰┈───────────────────┈╮ \n"
-                "│📱◈ Sisa Kouta Bulan ini : \n"
-                f"│⏳◈ {hours} Jam - {minutes} Menit. \n"
-                f"│⚡◈ Persentase : {percentage}% Lagi. \n"
+                "│◈ Sisa Kouta Bulan ini : \n"
+                f"│◈ {hours} Jam - {minutes} Menit. \n"
+                f"│◈ Persentase : {percentage}% Lagi. \n"
                 "╰┈───────────────────┈╯ \n"
-                f"🐧 Tuan  : {ALIVE_NAME} \n"
+                f" **Tuan**  : {ALIVE_NAME} \n"
             )
             await asyncio.sleep(20)
             await event.delete()
@@ -224,7 +224,7 @@ CMD_HELP.update({"heroku": "🐧CMD🐧: `.kuota`"
                  "\n↳ : Check Quota Dyno Heroku"
                  "\n\n🐧CMD🐧: `.set var <NEW VAR> <VALUE>`"
                  "\n↳ : Tambahkan Variabel Baru Atau Memperbarui Variabel"
-                 "\nSetelah Menyetel Variabel Tersebut, King-Userbot Akan Di Restart."
+                 "\nSetelah Menyetel Variabel Tersebut, Linux-Userbot Akan Di Restart."
                  "\n\n🐧CMD🐧: `.get var atau .get var <VAR>`"
                  "\n↳ : Dapatkan Variabel Yang Ada, !!PERINGATAN!! Gunakanlah Di Grup Privasi Anda."
                  "\nIni Mengembalikan Semua Informasi Pribadi Anda, Harap berhati-hati."
