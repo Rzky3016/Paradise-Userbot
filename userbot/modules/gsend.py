@@ -32,9 +32,8 @@ async def remoteaccess(event):
     except BaseException:
         await event.edit("** Gabisa Tolol,Emang lu join grup nya TOD ? **")
 
-
 CMD_HELP.update({
-    "grubsend":
+    "kirimgrub":
     "•CMD: `.gsend`\
     \n•Penjelasan: Gatau cek sendiri Goblok."
 
