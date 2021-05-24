@@ -42,7 +42,7 @@ CMD_HELP.update({
     \n•Penjelasan: Gatau cek sendiri asu\
     \n\n`•🐧CMD🐧: stress`\
     \n•Penjelasan: Nyindir orang Goblok.
-    \n\n`•🐧CMD🐧: .gajelas`\
+    \n\n`•🐧CMD🐧: .gajelas`
     \n•Penjelasan: Nyindir orang Goblok."
 
 
