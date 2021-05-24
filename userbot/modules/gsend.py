@@ -33,8 +33,8 @@ async def remoteaccess(event):
         await event.edit("** Gabisa Tolol,Emang lu join grup nya TOD ? **")
 
 CMD_HELP.update({
-     "Groupsend": ".gsend\
+    "Groupsend": ".gsend\
     \nMengirim Pesan Jarak Jauh Ke Grup Lain .gsend <link grup> <pesan>."
 
 
-    })
+})
