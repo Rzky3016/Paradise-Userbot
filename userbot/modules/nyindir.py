@@ -40,9 +40,9 @@ CMD_HELP.update({
     "nyindir1":
     "`•🐧CMD🐧: .tua`\
     \n•Penjelasan: Gatau cek sendiri asu\
-    "`•🐧CMD🐧: .stress`
-    \n•Penjelasan: Gatau cek sendiri asu
-    \n\n`•🐧CMD🐧: .gajelas`
+    "`•🐧CMD🐧: .stress`\
+    \n•Penjelasan: Gatau cek sendiri asu\
+    \n\n`•🐧CMD🐧: .gajelas`\
     \n•Penjelasan: Nyindir orang Goblok."
 
 
