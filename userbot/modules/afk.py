@@ -24,10 +24,10 @@ from userbot.events import register
 
 # ========================= CONSTANTS ============================
 AFKSTR = [
-    f"**🐧Tuan🐧 {ALIVE_NAME} Sedang AFK!🐧**",
-    f"**🐧Tuan🐧 {ALIVE_NAME} Sedang AFK\n •Mohon Menunggu Hingga Dia Online Kembali🐧**",
-    f"**🐧Tuan🐧 {ALIVE_NAME} Sedang AFK!\n •Mohon Jangan Spam Tunggu Dia Online Kembali🐧**",
-    f"**🐧Tuan🐧 {ALIVE_NAME} Sedang AFK!🐧**",
+    f"**Tuan ➡{ALIVE_NAME} Sedang AFK!**",
+    f"**Tuan ➡{ALIVE_NAME} Sedang AFK\n •Mohon Menunggu Hingga Dia Online Kembali**",
+    f"**Tuan ➡{ALIVE_NAME} Sedang AFK!\n •Mohon Jangan Spam Tunggu Dia Online Kembali**",
+    f"**Tuan ➡{ALIVE_NAME} Sedang AFK!**",
 ]
 
 
@@ -98,7 +98,7 @@ async def type_afk_is_not_true(notafk):
     afk_end = back_alive.replace(microsecond=0)
     if ISAFK:
         ISAFK = False
-        msg = await notafk.respond("**🐧Linux `Sudah Tidak Afk Lagi`...🐧**")
+        msg = await notafk.respond("**Tuan `Sudah Tidak Afk Lagi`...**")
         time.sleep(3)
         await msg.delete()
         await notafk.client(UpdateProfileRequest(first_name=user.first_name, last_name=last1))
@@ -166,7 +166,7 @@ async def mention_afk(mention):
                 afk_since = f"`{int(seconds)} Detik`"
             if mention.sender_id not in USERS:
                 if AFKREASON:
-                    await mention.reply(f"**🐧Linux AFK🐧 **\n╭✠╼━━━━━━❖━━━━━━━✠╮\n{ALIVE_NAME} Afk :)...\nLama AFK : {afk_since}.\
+                    await mention.reply(f"**🐧Linux AFK🐧**\n╭✠╼━━━━━━❖━━━━━━━✠╮\n{ALIVE_NAME} Afk :)...\nLama AFK : {afk_since}.\
                         \n𝘼𝙡𝙖𝙨𝙖𝙣: `{AFKREASON}`\n╰✠╼━━━━━━❖━━━━━━━✠╯")
                 else:
                     await mention.reply(str(choice(AFKSTR)))
@@ -175,7 +175,7 @@ async def mention_afk(mention):
             elif mention.sender_id in USERS:
                 if USERS[mention.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
-                        await mention.reply(f"**🐧Linux AFK🐧 **\n╭✠╼━━━━━━❖━━━━━━━✠╮\n{ALIVE_NAME} Afk :)...\nLama AFK : {afk_since}.\
+                        await mention.reply(f"**🐧Linux AFK🐧**\n╭✠╼━━━━━━❖━━━━━━━✠╮\n{ALIVE_NAME} Afk :)...\nLama AFK : {afk_since}.\
                         \n𝘼𝙡𝙖𝙨𝙖𝙣: `{AFKREASON}`\n╰✠╼━━━━━━❖━━━━━━━✠╯")
                     else:
                         await mention.reply(str(choice(AFKSTR)))
@@ -243,7 +243,7 @@ async def afk_on_pm(sender):
                 afk_since = f"`{int(seconds)} Detik`"
             if sender.sender_id not in USERS:
                 if AFKREASON:
-                    await sender.reply(f"**🐧Linux AFK🐧 **\n╭✠╼━━━━━━❖━━━━━━━✠╮\nMohon Maaf `{ALIVE_NAME}` Lagi Afk...\nLama AFK : {afk_since}.\
+                    await sender.reply(f"**🐧Linux AFK🐧**\n╭✠╼━━━━━━❖━━━━━━━✠╮\nMohon Maaf `{ALIVE_NAME}` Lagi Afk...\nLama AFK : {afk_since}.\
                         \n𝘼𝙡𝙖𝙨𝙖𝙣: `{AFKREASON}`\n╰✠╼━━━━━━❖━━━━━━━✠╯")
                 else:
                     await sender.reply(str(choice(AFKSTR)))
@@ -252,7 +252,7 @@ async def afk_on_pm(sender):
             elif apprv and sender.sender_id in USERS:
                 if USERS[sender.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
-                        await sender.reply(f"**🐧Linux AFK🐧 **\n╭✠╼━━━━━━❖━━━━━━━✠╮\nMohon Maaf `{ALIVE_NAME}` Lagi Afk... Sebentar Bangsat!!\nLama AFK : {afk_since}.\
+                        await sender.reply(f"**🐧Linux AFK🐧**\n╭✠╼━━━━━━❖━━━━━━━✠╮\nMohon Maaf `{ALIVE_NAME}` Lagi Afk... Sebentar Bangsat!!\nLama AFK : {afk_since}.\
                         \n𝘼𝙡𝙖𝙨𝙖𝙣: `{AFKREASON}`\n╰✠╼━━━━━━❖━━━━━━━✠╯")
                     else:
                         await sender.reply(str(choice(AFKSTR)))
