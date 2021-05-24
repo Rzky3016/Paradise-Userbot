@@ -97,7 +97,7 @@ NEKOBIN_URL = "https://nekobin.com/"
 async def setlang(prog):
     global CARBONLANG
     CARBONLANG = prog.pattern_match.group(1)
-    await prog.edit(f"Language for carbon.now.sh set to {CARBONLANG}")
+    await prog.edit(f"Bahasa untuk carbon.now.sh disetel ke {CARBONLANG}")
 
 
 @register(outgoing=True, pattern="^.carbon")
@@ -169,7 +169,7 @@ async def carbon_api(e):
 @register(outgoing=True, pattern="^.img (.*)")
 async def img_sampler(event):
     """ For .img command, search and return images matching the query. """
-    await event.edit("`Mohon Menunggu Lord, Sedang Mencari Gambar Yang Anda Cari...`")
+    await event.edit("`Mohon Menunggu Tuan, Sedang Mencari Gambar Yang Anda Cari...`")
     query = event.pattern_match.group(1)
     lim = findall(r"lim=\d+", query)
     try:
@@ -216,7 +216,7 @@ async def moni(event):
                     number, currency_from, rebmun, currency_to))
             else:
                 await event.edit(
-                    "`This seems to be some alien currency, which I can't convert right now.`"
+                    "`Sepertinya ini adalah mata uang asing, yang tidak dapat saya konversi sekarang.`"
                 )
         except Exception as e:
             await event.edit(str(e))
@@ -370,7 +370,7 @@ async def _(event):
         after_tr_text = translated.text
         # TODO: emojify the :
         # either here, or before translation
-        output_str = """**TRANSLATED** from {} to {}
+        output_str = """**Diterjemahkan** Dari {} Ke {}
 {}""".format(
             translated.src,
             lan,
@@ -394,7 +394,7 @@ async def lang(value):
             LANG = LANGUAGES[arg]
         else:
             await value.edit(
-                f"`Invalid Language code !!`\n`Available language codes for TRT`:\n\n`{LANGUAGES}`"
+                f"`Kode Bahasa tidak valid !!`\n`Kode bahasa yang tersedia untuk TRT`:\n\n`{LANGUAGES}`"
             )
             return
     elif util == "tts":
