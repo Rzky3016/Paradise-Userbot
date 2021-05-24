@@ -23,7 +23,7 @@ async def get_user_from_event(event):
         if user.isnumeric():
             user = int(user)
         if not user:
-            await event.edit(f"`{ALIVE_NAME}`: ** Pass the user's username, id or reply!**")
+            await event.edit(f"`{ALIVE_NAME}`: ** Berikan nama pengguna, id, atau balasan pengguna!**")
             return
         if event.message.entities is not None:
             probable_user_mention_entity = event.message.entities[0]
@@ -61,11 +61,11 @@ async def gspide(rk):
     sender = await lazy.get_sender()
     me = await lazy.client.get_me()
     if not sender.id == me.id:
-        rkp = await lazy.reply("`processing...`")
+        rkp = await lazy.reply("`Memproses...`")
     else:
-        rkp = await lazy.edit("`processing...`")
+        rkp = await lazy.edit("`Memproses...`")
     me = await rk.client.get_me()
-    await rkp.edit(f"`{ALIVE_NAME}:` **Requesting  to gkick user!**")
+    await rkp.edit(f"`{ALIVE_NAME}:` **Meminta untuk Menendang pengguna secara global!**")
     my_mention = "[{}](tg://user?id={})".format(me.first_name, me.id)
     f"@{me.username}" if me.username else my_mention
     await rk.get_chat()
