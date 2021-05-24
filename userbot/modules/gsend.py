@@ -32,9 +32,10 @@ async def remoteaccess(event):
     except BaseException:
         await event.edit("** Gabisa Tolol,Emang lu join grup nya TOD ? **")
 
-CMD_HELP.update({
-    "Groupsend": ".gsend\
-    \nMengirim Pesan Jarak Jauh Ke Grup Lain .gsend <link grup> <pesan>."
 
+CMD_HELP.update({
+    "grubsend":
+    "•CMD: `.gsend`\
+    \n•Penjelasan: Gatau cek sendiri Goblok."
 
 })
