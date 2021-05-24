@@ -33,9 +33,9 @@ async def testing(event):
     await event.edit("Tidak Ada yang Terjadi di sini🙃🙂")
 
 CMD_HELP.update({
-        "haram": **`haram`\
-    \n\n**CMD : **`.allout`\
-    \n**Penjelasannya : **Membanned semua anggota dalam 1 cmnd"
-    
+    "haram": **`haram`
+    \n\n**CMD: **`.allout`
+    \n**Penjelasannya: **Membanned semua anggota dalam 1 cmnd"
+
 
 })
