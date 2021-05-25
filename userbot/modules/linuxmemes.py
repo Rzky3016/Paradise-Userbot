@@ -35,16 +35,16 @@ async def _(event):
 
         animation_chars = [
 
-            "👁👁\n  👄  =====> Hey, How are you?",
-            "👁👁\n  👅  =====> Everything okay?",
-            "👁👁\n  💋  =====> Why are you staring at this?",
-            "👁👁\n  👄  =====> You idiot",
-            "👁👁\n  👅  =====> Go away",
-            "👁👁\n  💋  =====> Stop laughing",
-            "👁👁\n  👄  =====> It's not funny",
-            "👁👁\n  👅  =====> I guess ur still looking",
-            "👁👁\n  💋  =====> Ok retard 😑",
-            "👁👁\n  👄  =====> I go away then"
+            "👁👁\n  👄  =====> Hai apa kabar?",
+            "👁👁\n  👅  =====> Semua baik-baik saja?",
+            "👁👁\n  💋  =====> Mengapa Anda menatap ini?",
+            "👁👁\n  👄  =====> Kamu goblok",
+            "👁👁\n  👅  =====> Pergi",
+            "👁👁\n  💋  =====> Berhenti tertawa",
+            "👁👁\n  👄  =====> Itu tidak lucu",
+            "👁👁\n  👅  =====> Saya kira Anda masih mencari",
+            "👁👁\n  💋  =====> Memperlambat Asu 😑",
+            "👁👁\n  👄  =====> Kalau begitu aku pergi"
         ]
 
         for i in animation_ttl:
