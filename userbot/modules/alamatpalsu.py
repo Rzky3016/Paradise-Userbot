@@ -31,7 +31,7 @@ async def _(event):
     linux5 = result["zip"]
     linux6 = result["latitude"]
     linux7 = result["longitude"]
-        f"<b><u>INFORMASI BERHASIL DIKUMPULKAN</b></u>\n\n<b>Ip type :-</b><code>{king1}</code>\n<b>Country code:- </b> <code>{king2}</code>\n<b>State name :-</b><code>{king3}</code>\n<b>City name :- </b><code>{king4}</code>\n<b>zip :-</b><code>{king5}</code>\n<b>Latitude:- </b> <code>{king6}</code>\n<b>Longitude :- </b><code>{king7}</code>\n",
+        f"<b><u>INFORMASI BERHASIL DIKUMPULKAN</b></u>\n\n<b>Ip type :-</b><code>{linux1}</code>\n<b>Country code:- </b> <code>{linux2}</code>\n<b>State name :-</b><code>{linux3}</code>\n<b>City name :- </b><code>{linux4}</code>\n<b>zip :-</b><code>{linux5}</code>\n<b>Latitude:- </b> <code>{linux6}</code>\n<b>Longitude :- </b><code>{linux7}</code>\n",
         parse_mode = "HTML",
     )
 
