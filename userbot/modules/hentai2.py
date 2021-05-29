@@ -9,7 +9,7 @@ async def _(event):
     if event.fwd_from:
         return
     link = event.pattern_match.group(1)
-    chat = "@nHentaiBot"
+    chat = "@Nhentaisupportbot"
     await event.edit("```Processing```")
     async with bot.conversation(chat) as conv:
         try:
@@ -20,7 +20,7 @@ async def _(event):
             await bot.send_message(chat, link)
             response = await response
         except YouBlockedUserError:
-            await event.reply("```Please unblock @nHentaiBot and try again```")
+            await event.reply("```Please unblock @Nhentaisupportbot and try again```")
             return
         if response.text.startswith("**Sorry I couldn't get manga from**"):
             await event.edit("```I think this is not the right link```")
