@@ -6,6 +6,7 @@ from userbot.events import register
 # Credit @xflicks Linux-Userbot
 # KALAU clone jan di apus asu
 
+
 @register(outgoing=True, pattern=r"^\.nhentai(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
@@ -24,7 +25,8 @@ async def _(event):
         except YouBlockedUserError:
             await event.reply("```Di mohon buka blokir @Nhentaisupportbot Dan Coba Kembali```")
             return
-        if response.text.startswith("**Maaf, saya tidak bisa mendapatkan manga**"):
+        if response.text.startswith(
+                "**Maaf, saya tidak bisa mendapatkan manga**"):
             await event.edit("```Saya pikir ini bukan tautan yang benar```")
         else:
             await event.delete()
