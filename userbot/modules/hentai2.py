@@ -3,6 +3,8 @@ from telethon.errors.rpcerrorlist import YouBlockedUserError
 from userbot import bot, CMD_HELP
 from userbot.events import register
 
+# Credit @xflicks Linux-Userbot
+# KALAU clone jan di apus asu
 
 @register(outgoing=True, pattern=r"^\.nhentai(?: |$)(.*)")
 async def _(event):
@@ -10,7 +12,7 @@ async def _(event):
         return
     link = event.pattern_match.group(1)
     chat = "@Nhentaisupportbot"
-    await event.edit("```Processing```")
+    await event.edit("```Memproses```")
     async with bot.conversation(chat) as conv:
         try:
             response = conv.wait_event(
@@ -20,10 +22,10 @@ async def _(event):
             await bot.send_message(chat, link)
             response = await response
         except YouBlockedUserError:
-            await event.reply("```Please unblock @Nhentaisupportbot and try again```")
+            await event.reply("```Di mohon buka blokir @Nhentaisupportbot Dan Coba Kembali```")
             return
-        if response.text.startswith("**Sorry I couldn't get manga from**"):
-            await event.edit("```I think this is not the right link```")
+        if response.text.startswith("**Maaf, saya tidak bisa mendapatkan manga**"):
+            await event.edit("```Saya pikir ini bukan tautan yang benar```")
         else:
             await event.delete()
             await bot.send_message(event.chat_id, response.message)
@@ -31,4 +33,4 @@ async def _(event):
 CMD_HELP.update({
     "hentai2":
     "`.nhentai` <link / code> \
-\nUsage: view nhentai in telegra.ph XD\n"})
+\nUsage: Untuk Mencari Hentai Dengan Kode Nuklir\n"})
