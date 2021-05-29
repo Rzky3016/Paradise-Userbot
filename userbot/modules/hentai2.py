@@ -4,7 +4,7 @@ from userbot import bot, CMD_HELP
 from userbot.events import register
 
 # Credit @xflicks Linux-Userbot
-# KALAU clone jan di apus asu
+# KALAU clone jan di hapus Creditnya asu
 
 
 @register(outgoing=True, pattern=r"^\.nhentai(?: |$)(.*)")
