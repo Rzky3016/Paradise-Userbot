@@ -58,6 +58,11 @@ async def pingme(pong):
     await pong.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´\n            \\              (\n              \\  ")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
+    await pong.edit(f"❃")
+    await pong.edit(f"❃❃")
+    await pong.edit(f"❃❃❃")
+    await pong.edit(f"❃❃❃❃")
+    await pong.edit(f"❃❃❃❃❃")
     await pong.edit(f"〠 __Test__ **PING** __|━|⎆__ ヅ "
                     f"\n  ☞ `%sms` \n"
                     f"〠 __My__ **Tuan** __|━|⎆__ ヅ "
