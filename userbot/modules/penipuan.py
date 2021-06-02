@@ -81,7 +81,7 @@ async def _(event):
 
 CMD_HELP.update(
     {
-        "penipuan": "**° Modul :** `fakeaction`\
+        "penipuan": "**° Modul :** `penipuan`\
         \n\n  •  **Perintah :** `.ftyping` | `.faudio` | `.fvideo` | `.fgame` <jumlah text>\
         \n  •  **Function :** Fake typing ini Berfungsi dalam group\
     "
