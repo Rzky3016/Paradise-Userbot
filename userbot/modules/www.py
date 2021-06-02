@@ -58,11 +58,6 @@ async def pingme(pong):
     await pong.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´\n            \\              (\n              \\  ")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"❃")
-    await pong.edit(f"❃❃")
-    await pong.edit(f"❃❃❃")
-    await pong.edit(f"❃❃❃❃")
-    await pong.edit(f"❃❃❃❃❃")
     await pong.edit(f"〠 __Test__ **PING** __|━|⎆__ ヅ "
                     f"\n  ☞ `%sms` \n"
                     f"〠 __My__ **Tuan** __|━|⎆__ ヅ "
@@ -116,18 +111,20 @@ async def pingme(pong):
     start = datetime.now()
     await pong.edit("**Memulai Test Sinyal**")
     await pong.edit("**..Mohon menunggu..**")
-    await pong.edit("**🐧.........**")
-    await pong.edit("**..🐧.......**")
-    await pong.edit("**.. .🐧......**")
-    await pong.edit("**DUARRR!**")
-    await pong.edit("**................**")
+    await pong.edit("卍")
+    await pong.edit("卍卍")
+    await pong.edit("卍卍卍卍")
+    await pong.edit("卍卍卍卍卍")
+    await pong.edit("卍卍卍卍卍卍")
+    await pong.edit("卍卍卍卍卍卍卍")
+    await pong.edit("卍卍卍卍卍卍卍卍")
     await pong.edit("❤")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"卍════〠 **TEST PING** 〠════卍\n"
                     f"═⎆ **Ping:** "
                     f"`%sms` \n"
-                    f"═⎆ **Sisa Waktu:** "
+                    f"═⎆ **Waktu Aktif:** "
                     f"`{uptime}` \n"
                     f"**✠➲ Tuan:** `{ALIVE_NAME}`" % (duration))
 
