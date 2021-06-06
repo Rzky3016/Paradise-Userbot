@@ -1,5 +1,3 @@
-# System Stats Linux-Userbot
-
 import asyncio
 import redis
 
@@ -341,38 +339,7 @@ async def redis(alive):
     await alive.edit("__......🐧Alive🐧........__")
     await alive.edit("__Connecting to server..__")
     await alive.edit("__Connecting to server...__")
-    await alive.edit("🐧Linux-Userbot🐧")
-    await alive.edit("🐧Linux-Userbot🐧              🚗")
-    await alive.edit("🐧Linux-Userbot🐧             🚗")
-    await alive.edit("🐧Linux-Userbot🐧            🚗")
-    await alive.edit("🐧Linux-Userbot🐧           🚗")
-    await alive.edit("🐧Linux-Userbot🐧          🚗")
-    await alive.edit("🐧Linux-Userbot🐧         🚗")
-    await alive.edit("🐧Linux-Userbot🐧        🚗")
-    await alive.edit("🐧Linux-Userbot🐧       🚗")
-    await alive.edit("🐧Linux-Userbot🐧      🚗")
-    await alive.edit("🐧Linux-Userbot🐧     🚗")
-    await alive.edit("🐧Linux-Userbot🐧    🚗")
-    await alive.edit("🐧Linux-Userbot🐧   🚗")
-    await alive.edit("🐧Linux-Userbot🐧  🚗")
-    await alive.edit("🐧Linux-Userbot🐧 🚗")
-    await alive.edit("🐧Linux-Userbot🐧🚗")
-    await alive.edit("🐧Linux-Userbo🐧🚗")
-    await alive.edit("🐧Linux-Userb🚗t🐧")
-    await alive.edit("🐧Linux-User🚗ot🐧")
-    await alive.edit("🐧Linux-Use🚗bot🐧")
-    await alive.edit("🐧Linux-Us🚗rbot🐧")
-    await alive.edit("🐧Linux-U🚗erbot🐧")
-    await alive.edit("🐧Linux-🚗serbot🐧")
-    await alive.edit("🐧Linux🚗Userbot🐧")
-    await alive.edit("🐧Linu🚗-Userbot🐧")
-    await alive.edit("🐧Lin🚗x-Userbot🐧")
-    await alive.edit("🐧Li🚗ux-Userbot🐧")
-    await alive.edit("🐧L🚗nux-Userbot🐧")
-    await alive.edit("🐧🚗Linux-Userbot🐧")
     await alive.edit("⚡")
-    await asyncio.sleep(3)
-    await alive.edit("Loadnjinggg")
     await asyncio.sleep(3)
     output = (
         f"**ㅤㅤ  ╭─━━═━═━═━═━━─╮** \n"
