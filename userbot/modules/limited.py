@@ -30,6 +30,4 @@ CMD_HELP.update({
     "limit":
     "•CMD: `.limit`\
     \n•Penjelasan: ngecek akun kena limit."
-
-
 })
