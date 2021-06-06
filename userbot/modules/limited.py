@@ -27,8 +27,7 @@ async def _(event):
 
 
 CMD_HELP.update({
-    "limit":
-    \n\n•CMD: `.limit`\
+    "limit": n\n•CMD: `.limit`
     \n•Penjelasan: ngecek akun kena limit."
 
 
