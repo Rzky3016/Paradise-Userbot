@@ -91,14 +91,14 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             await asyncio.sleep(5)
             return await event.delete()
         else:
-            await event.edit("`🐧Linux🐧 Berhasil Di Deploy!\n" "Restarting, Mohon Menunggu Kontollll.....🐧`")
+            await event.edit("`🐧Linux🐧 Berhasil Di Deploy!\n" "Restarting, Mohon Menunggu Tuan.....`")
             await asyncio.sleep(15)
             await event.delete()
 
         if BOTLOG:
             await event.client.send_message(
                 BOTLOG_CHATID, "#BOT \n"
-                "`King-Userbot Berhasil Di Update`")
+                "`Linux-Userbot Berhasil Di Update`")
 
     else:
         await event.edit('`[HEROKU]:'
@@ -126,7 +126,7 @@ async def update(event, repo, ups_rem, ac_br):
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "#BOT \n"
-            "**Saya-Userbot Telah Di Perbarui**")
+            "**Linux-Userbot Telah Di Perbarui**")
         await asyncio.sleep(100)
         await event.delete()
 
