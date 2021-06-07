@@ -227,6 +227,6 @@ CMD_HELP.update({
     \nPenjelasan: sama kaya perintah ping."
 })
 CMD_HELP.update(
-    {"sinyal": "**Modules:** `Sinyal`\
+    "sinyal": "**Modules:** `Sinyal`\
     \n\n**•CMD: `.sinyal`\
     \n  •**Penjelasan :** __Untuk melihat sinyal bot__"})
