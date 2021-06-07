@@ -113,11 +113,11 @@ async def pingme(pong):
     await pong.edit("**..Mohon menunggu..**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"-**Ping:** "
+    await pong.edit(f"➥**Ping:** "
                     f"`%sms` \n"
-                    f"-**Waktu Aktif:** "
+                    f"➥**Waktu Aktif:** "
                     f"`{uptime}` \n"
-                    f"-**Tuan:** `{ALIVE_NAME}`" % (duration))
+                    f"➥**Tuan:** `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern="^.sinyal$")
@@ -139,7 +139,7 @@ async def pingme(pong):
                     f"`%sms` \n"
                     f"**☞ i'm online  :** "
                     f"`{uptime}` \n"
-                    f"__|━|⎆__ **Tuanku  :** `{ALIVE_NAME}`" % (duration))
+                    f"__|━|⎆__ **Tuan  :** `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern="^.uping$")
@@ -150,10 +150,10 @@ async def pingme(pong):
     await pong.edit("`.....☞Linux Userbot☜.....`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"┏━━| **LINUX PONG** |━━卍\n"
-                    f"┣|•  __Ping:__ "
+    await pong.edit(f"**LINUX PONG**\n"
+                    f"➥__Ping:__ "
                     f"`%sms` \n"
-                    f"┗|• __Uptime:__ "
+                    f"➥__Uptime:__ "
                     f"`{uptime}` \n" % (duration))
 
 
@@ -217,15 +217,16 @@ async def pingme(pong):
     duration = (end - start).microseconds / 9000
     await pong.edit("⎚⎆ __Linux__ **Test Ping!**\n`%sms`" % (duration))
 
-CMD_HELP.update(
-    {"ping": "🐧CMD🐧`.ping` ; 🐧CMD🐧`.lping` ; 🐧CMD🐧`.xping` ; 🐧🐧`.fping`\
+CMD_HELP.update({
+    "ping":
+    "•CMD:`.ping` ; •CMD:`.lping` ; •CMD:`.xping` ; •CMD:`.fping`\
     \nPenjelasan: Untuk menunjukkan ping bot.\
-    \n\n🐧CMD🐧`.speed`\
+    \n\n•CMD:`.speed`\
     \nPenjelasan: Untuk menunjukkan kecepatan.\
-    \n\n🐧CMD🐧`.pong`\
+    \n\n•CMD:`.pong`\
     \nPenjelasan: sama kaya perintah ping."
      })
 CMD_HELP.update(
     {"sinyal": "**Modules:** `Sinyal`\
-    \n\n**🐧CMD🐧: `.sinyal`\
+    \n\n**•CMD: `.sinyal`\
     \n  •**Penjelasan :** __Untuk melihat sinyal bot__"})
