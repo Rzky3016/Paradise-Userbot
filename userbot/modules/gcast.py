@@ -60,9 +60,9 @@ async def gucast(event):
 
 
 CMD_HELP.update({
-        "gcast":
+    "gcast":
         "**•CMD:**`.gcast`\
         \n**Penjelasan : **Mengirim  Global Broadcast pesan ke Seluruh Grup yang kamu masuk.\
-        \n\n"**•CMD:**`.gucast`\
-        \n•**Penjelasan: **Mengirim  Global Broadcast pesan ke Seluruh Private Massage / PC yang masuk."
+        \n\n" **•CMD: **`.gucast`
+        \n•** Penjelasan: **Mengirim  Global Broadcast pesan ke Seluruh Private Massage / PC yang masuk."
 })
