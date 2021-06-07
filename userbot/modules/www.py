@@ -225,7 +225,7 @@ CMD_HELP.update({
     \nPenjelasan: Untuk menunjukkan kecepatan.\
     \n\n•CMD:`.pong`\
     \nPenjelasan: sama kaya perintah ping."
-     })
+})
 CMD_HELP.update(
     {"sinyal": "**Modules:** `Sinyal`\
     \n\n**•CMD: `.sinyal`\
