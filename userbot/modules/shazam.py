@@ -10,7 +10,6 @@
 # Coded by @xflicks
 
 from pydub import AudioSegment
-from json import dumps
 from userbot.events import register
 from .shazam_helper.communication import recognize_song_from_signature
 from .shazam_helper.algorithm import SignatureGenerator
@@ -18,6 +17,7 @@ from requests import get
 from os import remove
 import urllib.parse
 from userbot import CMD_HELP
+
 
 @register(outgoing=True, pattern="^.shazam")
 async def shazam(event):
@@ -33,14 +33,15 @@ async def shazam(event):
         audio = audio.set_sample_width(2)
         audio = audio.set_frame_rate(16000)
         audio = audio.set_channels(1)
-            
+
         signature_generator = SignatureGenerator()
         signature_generator.feed_input(audio.get_array_of_samples())
-            
+
         signature_generator.MAX_TIME_SECONDS = 12
         if audio.duration_seconds > 12 * 3:
-            signature_generator.samples_processed += 16000 * (int(audio.duration_seconds / 2) - 6)
-            
+            signature_generator.samples_processed += 16000 * \
+                (int(audio.duration_seconds / 2) - 6)
+
         results = '{"error": "Not found"}'
         sarki = None
         await event.edit('`🎧 🎤 Shazamed...`')
@@ -55,8 +56,8 @@ async def shazam(event):
                 break
             else:
                 await event.edit(f'`İlk {(signature_generator.samples_processed / 16000)} saniyede hiçbir şey bulunamadı... Biraz daha deniyorum.`')
-        
-        if not 'track' in sarki:
+
+        if 'track' not in sarki:
             return await event.edit('`Ehh Shazam tidak mengerti suaramu 😔. Anda dapat mengirim suara yang lebih terbuka?`')
         await event.edit('`✅ Musiqini tapdım... Məlumatlar toplanır...`')
         Caption = f'**Musik:** [{sarki["track"]["title"]}]({sarki["track"]["url"]})\n'
@@ -65,7 +66,7 @@ async def shazam(event):
         else:
             Caption += f'**Artis(lər):** `{sarki["track"]["subtitle"]}`\n'
 
-        if 'genres'in sarki['track']:
+        if 'genres' in sarki['track']:
             Caption += f'**Aliran:** `{sarki["track"]["genres"]["primary"]}`\n'
 
         if sarki["track"]["sections"][0]["type"] == "SONG":
@@ -79,7 +80,8 @@ async def shazam(event):
                     'spotify:track:', 'http://open.spotify.com/track/'
                 )
             elif provider['actions'][0]['uri'].startswith('intent:#Intent;action=android.media.action.MEDIA_PLAY_FROM_SEARCH'):
-                Url = f'https://open.spotify.com/search/' + urllib.parse.quote(sarki["track"]["subtitle"] + ' - ' + sarki["track"]["title"])
+                Url = f'https://open.spotify.com/search/' + \
+                    urllib.parse.quote(sarki["track"]["subtitle"] + ' - ' + sarki["track"]["title"])
             elif provider['actions'][0]['uri'].startswith('deezer'):
                 Url = provider['actions'][0]['uri'].replace(
                     'deezer-query://', 'https://'
@@ -103,9 +105,9 @@ async def shazam(event):
                 sarki["track"]["images"]["coverarthq"] if 'coverarthq' in sarki["track"]["images"] else sarki["track"]["images"]["background"],
                 caption=Caption,
                 reply_to=reply_message
-                )
+            )
         else:
-            await event.edit(Caption)  
+            await event.edit(Caption)
         remove(dosya)
 
 CMD_HELP.update({
