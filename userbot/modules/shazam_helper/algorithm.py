@@ -208,7 +208,6 @@ class SignatureGenerator:
 
         self.spread_ffts_output.append(spread_last_fft)
 
-
     def do_peak_recognition(self):
 
         fft_minus_46 = self.fft_outputs[(
@@ -243,8 +242,8 @@ class SignatureGenerator:
 
                     max_neighbor_in_other_adjacent_ffts = max_neighbor_in_fft_minus_49
 
-                    for other_offset in [-53, -45, * \
-                        range(165, 201, 7), *range(214, 250, 7)]:
+                    for other_offset in [-53, -45, *
+                                         range(165, 201, 7), *range(214, 250, 7)]:
 
                         max_neighbor_in_other_adjacent_ffts = max(
                             self.spread_ffts_output[(self.spread_ffts_output.position + other_offset) % self.spread_ffts_output.buffer_size][bin_position - 1],
