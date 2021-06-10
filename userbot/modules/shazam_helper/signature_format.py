@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# Ferikun
 # -*- encoding: Utf-8 -*-
 from typing import Dict, List
 from base64 import b64decode, b64encode
