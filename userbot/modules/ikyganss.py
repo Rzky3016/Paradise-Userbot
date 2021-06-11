@@ -218,7 +218,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("🗿")
     sleep(2)
-    await typew.edit("**🗿PARADISE - USERBOT🗿**\n\n [Tekan Disini](https://github.com/ferikunn/Linux-Userbot)\n Kalian kya Babi...")
+    await typew.edit("**🗿PARADISE - USERBOT🗿**\n\n [Tekan Disini](https://github.com/Rzky3016/Paradise-Userbot)\n Kalian kya Monyed🐒...")
 
 CMD_HELP.update({
     "animasi2":
