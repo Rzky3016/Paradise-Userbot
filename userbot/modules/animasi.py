@@ -3,15 +3,15 @@ from userbot import CMD_HELP
 from userbot.events import register
 
 
-@register(outgoing=True, pattern='^.feri(?: |$)(.*)')
+@register(outgoing=True, pattern='^.rizky(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
-    await typew.edit("`Hai Perkenalkan Namaku Feri`")
+    await typew.edit("`Hai Perkenalkan Namaku Rizky`")
     sleep(3)
-    await typew.edit("`17 Tahun`")
+    await typew.edit("`16 Tahun`")
     sleep(1)
-    await typew.edit("`Tinggal Di Trenggalek, Salam Kenal:)`")
+    await typew.edit("`Owner Dari Paradise Userbot, Salam Kenal:)`")
 # Create by myself @localheart
 
 
@@ -21,10 +21,21 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("`Cuma Mau Bilang`")
     sleep(3)
-    await typew.edit("`Aku Sayang Kamu`")
+    await typew.edit("`Aku Sayang Kamu, Kamu Sangat Berharga Dan Berarti Di Hidupku`")
     sleep(1)
     await typew.edit("`I LOVE YOU 💞`")
 # Create by myself @localheart
+
+
+@register(outgoing=True. pattern='^.ganteng(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(3)
+    await typew.edit("`Lu Mau Tau Semua Fakta?`")
+    sleep(3)
+    await typew.edit("`Fakta Yang Belum Terbongkar Selama Ini`")
+    sleep(3)
+    await typew.edit("`GUA GANTENG FIX NO DEBAT😏`")
 
 
 @register(outgoing=True, pattern='^.semangat(?: |$)(.*)')
@@ -37,6 +48,37 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`Dan Selalu Bersyukur`")
 # Create by myself @localheart
+
+
+@register(outgoing=True, pattern='^.wibu(?: |$)(.*)')
+async def typewriter (type):
+    typew.pattern_match.group(1)
+    sleep(2)
+    await typew.edit("`Kata Emak`")
+    sleep(2)
+    await typew.edit("`Kalo Ketemu Wibuu`")
+    sleep(2)
+    await typew.edit("`Harus Lari Sekenceng Mungkin🏃🏻`")
+    sleep(1)
+    await typew.edit("`ㅤㅤㅤㅤㅤㅤㅤㅤㅤ🏃🏻`")
+    sleep(1)
+    await typew.edit("`ㅤㅤㅤㅤㅤㅤㅤㅤ🏃🏻💨`")
+    sleep(1)
+    await typew.edit("`ㅤㅤㅤㅤㅤㅤㅤ🏃🏻💨ㅤ`")
+    sleep(1)
+    await typew.edit("`ㅤㅤㅤㅤㅤㅤ🏃🏻💨ㅤㅤ`")
+    sleep(1)
+    await typew.edit("`ㅤㅤㅤㅤㅤ🏃🏻💨ㅤㅤㅤ`")
+    sleep(1)
+    await typew.edit("`ㅤㅤㅤㅤ🏃🏻💨ㅤㅤㅤㅤ`")
+    sleep(1)
+    await typew.edit("`ㅤㅤㅤ🏃🏻💨ㅤㅤㅤㅤㅤ`")
+    sleep(1)
+    await typew.edit("`ㅤㅤ🏃🏻💨ㅤㅤㅤㅤㅤㅤ`")
+    sleep(1)
+    await typew.edit("`ㅤ🏃🏻💨ㅤㅤㅤㅤㅤㅤㅤ`")
+    sleep(1)
+    await typew.edit("`🏃🏻💨ㅤㅤㅤㅤㅤㅤㅤㅤ`")
 
 
 @register(outgoing=True, pattern='^.pe(?: |$)(.*)')
@@ -68,5 +110,9 @@ CMD_HELP.update({
 \n\n🐧CMD🐧`p`\
 \nPenjelasan: Cek lah asw.\
 \n\n🐧CMD🐧`.semangat`\
-\nPenjelasan: Cek lah asw."
+\nPenjelasan: Cek lah asw.\
+\n\n🗿CMD🗿`.wibu`\
+\nPenjelasan: Lari Dari Wibu.\
+\n\n🗿CMD🗿`.ganteng`\
+\nPenjelasan: Gua Ganteng.\
 })
