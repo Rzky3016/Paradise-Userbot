@@ -7,7 +7,7 @@
 <p align="center">&nbsp;</p>
 
 ### Repo Linux Userbot
-Repo Yang Dibuat [Feri](https://t.me/xflicks) Dari Berbagai Repo Userbot Github 
+Repo Yang Dibuat [Rizky](https://t.me/Nopegoodloking) Dari Berbagai Repo Userbot Github 
 String_Session [Tekan](https://replit.com/@ferikunn/String-Sesson-Saya)
 
 ## Cara Deploy 👷
