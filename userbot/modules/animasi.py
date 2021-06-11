@@ -114,5 +114,5 @@ CMD_HELP.update({
 \n\n🗿CMD🗿`.wibu`\
 \nPenjelasan: Lari Dari Wibu.\
 \n\n🗿CMD🗿`.ganteng`\
-\nPenjelasan: Gua Ganteng.\
+\nPenjelasan: Gua Ganteng."
 })
