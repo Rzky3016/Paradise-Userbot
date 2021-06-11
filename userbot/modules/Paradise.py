@@ -44,11 +44,11 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 CMD_HELP.update({
-    "Linux":
-    "🐧CMD🐧`.Linux`\
+    "Paradise":
+    "🗿CMD🗿`.Paradise`\
     \nUsage: alive bot.\
-    \n\n🐧CMD🐧`.sadboy`\
+    \n\n🗿CMD🗿`.sadboy`\
     \nUsage: hiks\
-    \n\n🐧CMD🐧`.punten` ; 🐧CMD🐧`.pantau`\
+    \n\n🗿CMD🗿`.punten` ; 🗿CMD🗿`.pantau`\
     \nUsage: coba aja."
 })
