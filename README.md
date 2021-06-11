@@ -1,5 +1,5 @@
 # Linux Userbot
-![Linux-Userbot Logo](https://telegra.ph/file/a347ed9a0b3ae6db7b24c.jpg)
+![Paradise-Userbot Logo](https://telegra.ph/file/8f6dc8c4536b52ca3271c.jpg)
 
 
 
