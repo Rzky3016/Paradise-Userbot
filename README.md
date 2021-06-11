@@ -1,4 +1,4 @@
-# Linux Userbot
+# Paradise Userbot
 ![Paradise-Userbot Logo](https://telegra.ph/file/8f6dc8c4536b52ca3271c.jpg)
 
 
@@ -6,7 +6,7 @@
 <h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
 <p align="center">&nbsp;</p>
 
-### Repo Linux Userbot
+### Repo Paradise Userbot
 Repo Yang Dibuat [Rizky](https://t.me/Nopegoodloking) Dari Berbagai Repo Userbot Github 
 String_Session [Tekan](https://replit.com/@ferikunn/String-Sesson-Saya)
 
