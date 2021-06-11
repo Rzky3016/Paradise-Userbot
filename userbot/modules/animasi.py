@@ -51,7 +51,7 @@ async def typewriter(typew):
 
 
 @register(outgoing=True, pattern='^.wibu(?: |$)(.*)')
-async def typewriter (type):
+async def typewriter(type):
     typew.pattern_match.group(1)
     sleep(2)
     await typew.edit("`Kata Emak`")

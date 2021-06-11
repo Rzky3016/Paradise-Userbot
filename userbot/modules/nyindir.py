@@ -34,10 +34,10 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
     await typew.edit("**YA AMPUN LU NGOMONG APA? GA NYAMBUNG KONTOL KAYA KEHIDUPAN LU MAKANYA ORG ORG KAYA LU GABAKALN MAJU HIDUPNYA APA LAGI ORG ORG BAWAHAN KAYA LU.**")
-    
-    
+
+
 @register(outgoing=True, pattern='^.caper(?: |$)(.*)')
-async def typewriter (typew):
+async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
     await typew.edit("**CAPER BET LU NAJIS, MAU DI RESPON KAH? GUA TAU LU DIKACANGIN JADI LU CAPER KYK GINI. DAPET APA SI GITU? DI GAJI GA? NGACA + MIKIR LU UDAH GEDE KONTOL.**")
