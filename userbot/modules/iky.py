@@ -101,7 +101,7 @@ async def koc(e):
         await e.edit("`BAGAI GULALI`")
         await e.edit("`IMUUUTTTTT LUCUUU`")
         await e.edit("`WALAAUUUU TAK TERLALU TINGGI`")
-        await e.edit("`GW GABUUTTTT`")
+        await e.edit("`GW GANTENGGGG`")
         await e.edit("`EMMMM BACOTNYA`")
         await e.edit("`GABUTTTT WOI GABUT`")
         await e.edit("🙈🙈🙈🙈")
