@@ -109,7 +109,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("Canda **BURIK**")
     sleep(1)
-    await typew.edit("Lari Ada Plastik KePanasan")
+    await typew.edit("Lari Ada Plastik Goyang")
 
 
 @register(outgoing=True, pattern='^.lopu(?: |$)(.*)')
@@ -216,9 +216,9 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("🐧")
+    await typew.edit("🗿")
     sleep(2)
-    await typew.edit("**🐧LINUX - USERBOT🐧**\n\n [Tekan Disini](https://github.com/ferikunn/Linux-Userbot)\n Kalian kya Babi...")
+    await typew.edit("**🗿PARADISE - USERBOT🗿**\n\n [Tekan Disini](https://github.com/ferikunn/Linux-Userbot)\n Kalian kya Babi...")
 
 CMD_HELP.update({
     "animasi2":
