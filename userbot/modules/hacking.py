@@ -120,6 +120,6 @@ async def hack(event):
 
 
 CMD_HELP.update({
-    "hacking": "⚡CMD⚡: `.hack`\
+    "hacking": "🗿CMD🗿: `.hack`\
         \n↳ : Untuk hacking via Termux."
 })
