@@ -101,15 +101,15 @@ async def typewriter(typew):
 
 CMD_HELP.update({
     "animasi3":
-    "🐧CMD🐧`.pe`\
+    "🗿CMD🗿`.pe`\
 \nPenjelasan: Cek lah asw.\
-\n\n🐧CMD🐧`.feri`\
+\n\n🗿CMD🗿`.feri`\
 \nPenjelasan: Cek lah asw.\
-\n\n🐧CMD🐧`.ilyu`\
+\n\n🗿CMD🗿`.ilyu`\
 \nPenjelasan: Cek lah asw.\
-\n\n🐧CMD🐧`p`\
+\n\n🗿CMD🗿`p`\
 \nPenjelasan: Cek lah asw.\
-\n\n🐧CMD🐧`.semangat`\
+\n\n🗿CMD🗿`.semangat`\
 \nPenjelasan: Cek lah asw.\
 \n\n🗿CMD🗿`.wibu`\
 \nPenjelasan: Lari Dari Wibu.\
