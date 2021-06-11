@@ -64,14 +64,15 @@ async def pingme(pong):
                     f"\n  ☞ `{ALIVE_NAME}` \n" % (duration))
 
 
-@register(outgoing=True, pattern="^.lping$")
+@register(outgoing=True, pattern="^.pping$")
 async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("🐧")
-    await pong.edit("__**...🐧Linux🐧...**__")
-    await pong.edit("__**.....USERBOT.....**__")
+    await pong.edit("🗿")
+    await pong.edit("__**...🗿PARADISE🗿...**__")
+    await pong.edit("__**....USERBOT....**__")
+    await pong.edit("__**.....🗿 EMOT BATU 🗿.....**__")
     await pong.edit("__**......MOHON MENUNGGU......**__")
     await pong.edit("**0% ▒▒▒▒▒▒▒▒▒▒**")
     await pong.edit("**20% ██▒▒▒▒▒▒▒▒**")
@@ -81,7 +82,7 @@ async def pingme(pong):
     await pong.edit("**100% ██████████**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**╰━❖ Linux Ping ❖━╯**\n"
+    await pong.edit(f"**╰━❖ Paradise Ping ❖━╯**\n"
                     f"☞ __ping:__ "
                     f"`%sms` \n"
                     f"☞ __i'm online:__ "
@@ -93,11 +94,11 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("`.....🐧Linux🐧.....`")
-    await pong.edit("`🐧`")
+    await pong.edit("`.....🗿Paradise🗿.....`")
+    await pong.edit("`🗿`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"•⎚• ⎆ __Linux__ **Pong!**\n"
+    await pong.edit(f"•⎚• ⎆ __Paradise__ **Pong!**\n"
                     f"☞  __Ping:__ "
                     f"`%sms` \n"
                     f"☞  __Sisa Waktu:__ "
@@ -134,7 +135,7 @@ async def pingme(pong):
     await pong.edit("**100% ██████████**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"- Linux -\n"
+    await pong.edit(f"- Paradise -\n"
                     f"**☞ sinyal  :** "
                     f"`%sms` \n"
                     f"**☞ i'm online  :** "
@@ -147,10 +148,10 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("`.....☞Linux Userbot☜.....`")
+    await pong.edit("`.....𓆩☞Paradise Userbot☜𓆪.....`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**LINUX PONG**\n"
+    await pong.edit(f"**PARADISE PONG**\n"
                     f"➥__Ping:__ "
                     f"`%sms` \n"
                     f"➥__Uptime:__ "
@@ -181,7 +182,7 @@ async def speedtst(spd):
                    f"`{result['ping']}` \n"
                    "⚙️ **ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   "⚙️ **BOT:** `🐧Linux Userbot🐧`")
+                   "⚙️ **BOT:** `🗿Paradise Userbot🗿`")
 
 
 def speed_convert(size):
@@ -215,11 +216,11 @@ async def pingme(pong):
     await pong.edit("`Pong🏎...........`")
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await pong.edit("⎚⎆ __Linux__ **Test Ping!**\n`%sms`" % (duration))
+    await pong.edit("⎚⎆ __Paradise__ **Test Ping!**\n`%sms`" % (duration))
 
 CMD_HELP.update({
     "ping":
-    "•CMD:`.ping` ; •CMD:`.lping` ; •CMD:`.xping` ; •CMD:`.fping`\
+    "•CMD:`.ping` ; •CMD:`.pping` ; •CMD:`.xping` ; •CMD:`.fping`\
     \nPenjelasan: Untuk menunjukkan ping bot.\
     \n\n•CMD:`.speed`\
     \nPenjelasan: Untuk menunjukkan kecepatan.\
