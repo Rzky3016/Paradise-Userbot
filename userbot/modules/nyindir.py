@@ -34,16 +34,25 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
     await typew.edit("**YA AMPUN LU NGOMONG APA? GA NYAMBUNG KONTOL KAYA KEHIDUPAN LU MAKANYA ORG ORG KAYA LU GABAKALN MAJU HIDUPNYA APA LAGI ORG ORG BAWAHAN KAYA LU.**")
+    
+    
+@register(outgoing=True, pattern='^.caper(?: |$)(.*)')
+async def typewriter (typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("**CAPER BET LU NAJIS, MAU DI RESPON KAH? GUA TAU LU DIKACANGIN JADI LU CAPER KYK GINI. DAPET APA SI GITU? DI GAJI GA? NGACA + MIKIR LU UDAH GEDE KONTOL.**")
 
 
 CMD_HELP.update({
     "nyindir1":
-    "•🐧CMD🐧: `.tua`\
+    "•🗿CMD🗿: `.tua`\
     \n•Penjelasan: Gatau cek sendiri asu\
-    \n\n•🐧CMD🐧: `.stress`\
+    \n\n•🗿CMD🗿: `.stress`\
     \n•Penjelasan: Gatau cek sendiri asu\
-    \n\n•🐧CMD🐧: `.gajelas`\
-    \n•Penjelasan: Nyindir orang Goblok."
+    \n\n•🗿CMD🗿: `.gajelas`\
+    \n•Penjelasan: Nyindir orang Goblok.\
+    \n\n•🗿CMD🗿: `.caper`\
+    \n•Penjelasan: Buat Orang Caper."
 
 
 })
