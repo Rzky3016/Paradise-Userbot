@@ -20,7 +20,7 @@ async def insta(event):
     if event.fwd_from:
         return
     if not event.reply_to_msg_id:
-        await event.edit("`Linux, Mohon Balas Ke Link Instagram`")
+        await event.edit("`Paradise, Mohon Balas Ke Link Instagram`")
         return
     reply_message = await event.get_reply_message()
     if not reply_message.text:
@@ -51,7 +51,7 @@ async def insta(event):
             await event.client.send_file(
                 event.chat_id,
                 response.message.media,
-                caption=f"**Download By @masukajaudhh**",
+                caption=f"**Download By @Nopegoodloking**",
             )
             await event.client.send_read_acknowledge(conv.chat_id)
             await bot(functions.messages.DeleteHistoryRequest(peer=chat, max_id=0))
@@ -60,5 +60,5 @@ async def insta(event):
 
 # Linux - Userbot
 # Feri
-CMD_HELP.update({"instagram": "**Modules:** __Instagram__\n\n🐧CMD🐧: `.ig`"
+CMD_HELP.update({"instagram": "**Modules:** __Instagram__\n\n🗿CMD🗿: `.ig`"
                  "\n**Penjelasan:** Download Media di Postingan Instagram, Balas ke link instagram ketik `.ig`"})
