@@ -36,8 +36,8 @@ from userbot.events import register
 # =================== CONSTANT ===================
 PP_TOO_SMOL = "`Gambar Terlalu Kecil`"
 PP_ERROR = "`Gagal Memproses Gambar`"
-NO_ADMIN = "`Linux Bukan Admin 🙃`"
-NO_PERM = "`Linux Tidak Mempunyai Izin!`"
+NO_ADMIN = "`Gua Bukan Admin Jing, Jadiin Admin Dulu🙃`"
+NO_PERM = "`Paradise Tidak Mempunyai Izin!`"
 NO_SQL = "`Berjalan Pada Mode Non-SQL`"
 
 CHAT_PP_CHANGED = "`Berhasil Mengubah Profil Grup`"
@@ -134,7 +134,7 @@ async def promote(promt):
         pin_messages=True,
     )
 
-    await promt.edit("`Promosikan Pengguna Sebagai Admin... Mohon Menunggu`")
+    await promt.edit("`Promosikan Pengguna Sebagai Admin... Tunggu Bentar Ya Nyed`")
     user, rank = await get_user_from_event(promt)
     if not rank:
         rank = "Admin"  # Just in case.
@@ -144,7 +144,7 @@ async def promote(promt):
     # Try to promote if current user is admin or creator
     try:
         await promt.client(EditAdminRequest(promt.chat_id, user.id, new_rights, rank))
-        await promt.edit("`Berhasil Mempromosikan Pengguna Ini Sebagai Admin!`")
+        await promt.edit("`Berhasil Mempromosikan Pengguna Ini Sebagai Admin, Bilang Makasih dulu Nyed`")
         await sleep(5)
         await promt.delete()
 
@@ -174,7 +174,7 @@ async def demote(dmod):
         return await dmod.edit(NO_ADMIN)
 
     # If passing, declare that we're going to demote
-    await dmod.edit("`Sedang Melepas Admin...`")
+    await dmod.edit("`Sedang Melepas Admin... Yahaha Di Pecat😂`")
     rank = "Admin"  # dummy rank, lol.
     user = await get_user_from_event(dmod)
     user = user[0]
@@ -198,7 +198,7 @@ async def demote(dmod):
     # Assume we don't have permission to demote
     except BadRequestError:
         return await dmod.edit(NO_PERM)
-    await dmod.edit("`Admin Berhasil Dilepas!`")
+    await dmod.edit("`Admin Berhasil Dilepas, Mampusss!`")
     await sleep(5)
     await dmod.delete()
 
@@ -228,7 +228,7 @@ async def ban(bon):
         return
 
     # Announce that we're going to whack the pest
-    await bon.edit("`Melakukan Banned!`")
+    await bon.edit("`Melakukan Banned! Yasin...`")
 
     try:
         await bon.client(EditBannedRequest(bon.chat_id, user.id, BANNED_RIGHTS))
@@ -277,7 +277,7 @@ async def nothanos(unbon):
         return await unbon.edit(NO_ADMIN)
 
     # If everything goes well...
-    await unbon.edit("`Sedang Melakukan Unban...`")
+    await unbon.edit("`Sedang Melakukan Unban... Bangkit Lah Wahai Alien Planet Bumi`")
 
     user = await get_user_from_event(unbon)
     user = user[0]
@@ -330,7 +330,7 @@ async def spider(spdr):
         )
 
     # If everything goes well, do announcing and mute
-    await spdr.edit("`Telah Dibisukan!`")
+    await spdr.edit("`Telah Dibisukan! Diem Lu Nyed`")
     if mute(spdr.chat_id, user.id) is False:
         return await spdr.edit("`Error! Pengguna Sudah Dibisukan.`")
     else:
@@ -540,7 +540,7 @@ async def rm_deletedacc(show):
 
     # Well
     if not admin and not creator:
-        return await show.edit("`King Bukan Admin Disini! 🙃`")
+        return await show.edit("`Paradise Bukan Admin Disini! 🙃`")
 
     await show.edit("`Menghapus Akun Terhapus...\nMohon Menunggu Lord Sedang Dalam Proses`")
     del_u = 0
@@ -553,7 +553,7 @@ async def rm_deletedacc(show):
                     EditBannedRequest(show.chat_id, user.id, BANNED_RIGHTS)
                 )
             except ChatAdminRequiredError:
-                return await show.edit("`Lord Tidak Memiliki Izin Banned Dalam Grup Ini`")
+                return await show.edit("`Paradise Tidak Memiliki Izin Banned Dalam Grup Ini`")
             except UserAdminInvalidError:
                 del_u -= 1
                 del_a += 1
