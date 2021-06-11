@@ -55,7 +55,7 @@ async def _(event):
             "wc.png",
         )
     try:
-        await event.edit("`Sedang Memproses....`")
+        await event.edit("`Sedang Memproses.... sabar ya tod`")
         text = open("userbot/utils/styles/alice.txt", encoding="utf-8").read()
         image_color = np.array(Image.open("wc.png"))
         image_color = image_color[::1, ::1]
