@@ -12,7 +12,7 @@ async def _(event):
     input_str = "".join(event.text.split(maxsplit=1)[1:])
     reply_message = await event.get_reply_message()
     if not event.reply_to_msg_id:
-        await event.edit("```King, Mohon Balas Ke Pesan Pengguna atau ketik .deteksi (ID/Username) Yang mau Anda deteksi```")
+        await event.edit("```Bos, Mohon Balas Ke Pesan Pengguna atau ketik .deteksi (ID/Username) Yang mau Anda deteksi```")
         return
     if input_str:
         try:
@@ -54,6 +54,6 @@ def user_full_name(user):
 # Feri Ganteng
 CMD_HELP.update({
     "deteksi":
-        "🐧CMD🐧`.deteksi`\
+        "🗿CMD🗿`.deteksi`\
           \nPenjelasan: Melihat Riwayat Grup Yang Pernah/Sedang dimasuki."
 })
