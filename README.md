@@ -38,8 +38,9 @@ String_Session [Tekan](https://replit.com/@ferikunn/String-Sesson-Saya)
 </p>
 
 ## Kredit
-  Terimakasih untuk 
-*ㅤㅤ[feri](https://github.com/ferikunn) - Linux-Userbot 
+  Terimakasih untuk :
+  
+•ㅤㅤ[feri](https://github.com/ferikunn) - Linux-Userbot 
 *   [Apis](https://github.com/apisuserbot) - King-Userbot
 *   [Alvin](https://github.com/Zora24/Lord-Userbot) - Lord Userbot
 *   [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
