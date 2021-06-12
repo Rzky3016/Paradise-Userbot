@@ -155,7 +155,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
-      "value": "LINUX-USERBOT",
+      "value": "PARADISE-USERBOT",
       "required": false
     },
     "ALIVE_NAME": {
