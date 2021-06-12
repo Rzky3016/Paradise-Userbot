@@ -418,7 +418,7 @@ with bot:
                     link_preview=True)
             else:
                 result = builder.article(
-                    
+
                     "**🗿Paradise-Userbot🗿**",
                     text="""**Anda Bisa Membuat Paradise Userbot Anda Sendiri Dengan Cara:** [Tekan Disini](t.me/Nopegoodloking)""",
                     buttons=[
