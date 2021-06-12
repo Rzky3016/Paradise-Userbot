@@ -27,27 +27,21 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 DEF_UNAPPROVED_MSG = (
     "┏▼━━━━━━━━━━━━━━━━━━━▼┓\n"
-    "    Mau Apa Kawan?\n"
+    "    Mau Apa Bro?\n"
     f"  MAU GANGGUIN BOS `{DEFAULTUSER}` ?\n"
     "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n"
 
     f"Gua Babu Nya `{DEFAULTUSER}`\n"
+    " Jangan Spam Ya Sabar Orangnya Lagi Ga Ada\n"
+    " Jangan Bandel Dibilangin, Lu Spam Gua Blok\n"
+    " Paham? Yodah Gosah Spam, Tunggu Dia Approve Chat Kamu\n"
+    "╾─────────────────────╼\n"
+    " Batas Spam = 1-3 Chat
     "╾─────────────────────╼\n\n"
 
-    "┏▼━━━━━━━━━━━━━━━━━━━▼┓\n"
-    " Baca Yakk\n"
-    " Gausah Spam Ya\n"
-    " Jangan Bandel\n"
-    " Sabar Pasti Majikanku balas pesanmu\n"
-    " Tungguin Aja Ya Ngentot Sampai Bos\n"
-    f" `{DEFAULTUSER}` Ngebaca Pesan Elu\n"
-    "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n"
 
-    "╾─────────────────────╼\n"
-    "   😡😡Konsolllll 😡😡\n"
-    "─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇\n"
-    f"- Babu Nya `{DEFAULTUSER}`\n"
-    "- Jangan spam Ya anjing, Sabar!!")
+    f"- Babu Nya `{DEFAULTUSER}`\n")
+    
 # =================================================================
 
 
