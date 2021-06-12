@@ -116,7 +116,7 @@ async def set_var(var):
                 "**Menambahkan Config Vars**:\n"
                 f"`{variable}` **=** `{value}`"
             )
-        await var.edit("`Linux Menambahkan Config Vars...`")
+        await var.edit("`Paradise Menambahkan Config Vars...`")
     heroku_var[variable] = value
 
 
@@ -182,7 +182,7 @@ async def dyno_usage(dyno):
 
             await dyno.edit(
                 "╭┈─╼━━━━━━━━━━━━━━━╾─┈╮ \n"
-                "│      ⇱ 🐧Linux-Userbot🐧 ⇲ \n"
+                "│      ⇱𓆩🗿Paradise-Userbot🗿,𓆪⇲ \n"
                 "╭┈─╼━━━━━━━━━━━━━━━╾─┈╮ \n"
                 "│◈ Penggunaan Kouta Anda : \n"
                 f"│◈ {AppHours} Jam - {AppMinutes} Menit. \n"
@@ -220,14 +220,15 @@ async def _(dyno):
     return os.remove("logs.txt")
 
 
-CMD_HELP.update({"heroku": "🐧CMD🐧: `.kuota`"
+CMD_HELP.update({"heroku": "🗿CMD🗿:`.kuota`"
                  "\n↳ : Check Quota Dyno Heroku"
-                 "\n\n🐧CMD🐧: `.set var <NEW VAR> <VALUE>`"
+                 "\n\n🗿CMD🗿:`.set var <NEW VAR> <VALUE>`"
                  "\n↳ : Tambahkan Variabel Baru Atau Memperbarui Variabel"
                  "\nSetelah Menyetel Variabel Tersebut, Linux-Userbot Akan Di Restart."
-                 "\n\n🐧CMD🐧: `.get var atau .get var <VAR>`"
+                 "\n\n🗿CMD🗿:`.get var atau .get var <VAR>`"
                  "\n↳ : Dapatkan Variabel Yang Ada, !!PERINGATAN!! Gunakanlah Di Grup Privasi Anda."
                  "\nIni Mengembalikan Semua Informasi Pribadi Anda, Harap berhati-hati."
-                 "\n\n🐧CMD🐧: `.del var <VAR>`"
+                 
+                 "\n\n🗿CMD🗿:`.del var <VAR>`"
                  "\n↳ : Menghapus Variabel Yang Ada"
                  "\nSetelah Menghapus Variabel, Bot Akan Di Restart."})
