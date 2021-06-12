@@ -160,8 +160,8 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**⚜-**🐧Linux-Userbot🐧 Versi:** \n "
-            f"heads/Linux-Userbot-0-x634i7u1"
+            "**⚜-**🗿Paradise-Userbot🗿 Versi:** \n "
+            f"heads/Paradise-Userbot-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
         )
@@ -219,15 +219,15 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:linux|linuxon)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:paradise|paradisexon)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**🐧Linux-Userbot🐧** \n"
-        f"\n__**{LINUX_TEKS_KUSTOM}**__\n"
+        f"**🗿Paradise-Userbot🗿** \n"
+        f"\n__**{PARADISE_TEKS_KUSTOM}**__\n"
         f"**══════════════════════**\n"
-        f"**🐧Linux** \n"
+        f"**🗿Paradise** \n"
         f" ↳ : `{DEFAULTUSER}` \n"
         f"**👤 Username** \n"
         f" ↳ : `@{user.username}` \n"
@@ -263,14 +263,14 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"══════════════════════\n"
-        f"     ** 🐧Linux-Userbot🐧 ** \n\n"
+        f"     ** 🗿Paradise-Userbot🗿 ** \n\n"
         f"🐧 **Majikan**  \n   ↳ `{DEFAULTUSER}` \n"
         f"👤 **Username** \n   ↳ `@{user.username}` \n"
         f"⚙️ **Telethon** \n   ↳ `Versi {version.__version__}` \n"
         f"🐍 **Python**   \n   ↳ `Versi {python_version()}` \n"
         f"👾 **Versi Bot**\n   ↳ `{BOT_VER}` \n"
         f"📂 **Modul**    \n   ↳ `{len(modules)}` \n\n"
-        f"♚ **Repo Linux:** [Linux-Userbot](https://github.com/ferikunn/Linux-Userbot)\n🛠️ **Group Support: **[Tekan](t.me/masukajaudhh)\n👨‍💻 **Mastah:** [Feri](t.me/xflicks)\n"
+        f"♚ **Repo Paradise:** [Paradise-Userbot](https://github.com/Rzky3016/Paradise-Userbot)\n🛠️ **Group Support: **[Tekan](t.me/paradiseuserbot)\n👨‍💻 **Mastah:** [Rizky](t.me/Nopegoodloking)\n"
         f"══════════════════════")
     if ALIVE_LOGO:
         try:
@@ -292,20 +292,20 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-@register(outgoing=True, pattern=r"^\.(?:team|teamon)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:team|Paradize)\s?(.)?")
 async def amireallyalive(alive):
     await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("..🐧Team-Linux🐧..")
+    await alive.edit("..🗿Team-Paradis🗿e..")
     output = (
-        f"════════🐧Team-Linux🐧═════════\n"
+        f"════════🗿Team-Paradise🗿═════════\n"
         f"**Nama Creator Kami**\n"
-        f"╟◈🛠️ Developer : [Feri](t.me/xflicks) \n"
-        f"╟◈🛠️ Developer : [Feri](t.me/xflicks) \n"
-        f"╟◈👤 Contributor : [Feri](t.me/xflicks) \n"
+        f"╟◈🛠️ Developer : [Rizky](t.me/Nopegoodloking) \n"
+        f"╟◈🛠️ Developer : [Rizky](t.me/Nopegoodloking) \n"
+        f"╟◈👤 Contributor : [Rizky](t.me/Nopegoodloking) \n"
         f"╰╼═══════════════════╾╯\n"
         f"**Terimakasih Telah Menggunakan Project Userbot Kami** 🙏 \n"
-        f"═════════🐧Linux🐧═════════════")
+        f"═════════🗿PARADISE🗿═════════════")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -330,25 +330,25 @@ async def amireallyalive(alive):
 async def redis(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("__🐧...Userbot....🐧__")
+    await alive.edit("__🗿...Userbot....🗿__")
     await alive.edit("__...Main..Program...__")
     await alive.edit("__Sistem Akan Menyala...__")
-    await alive.edit("__....🐧Userbot🐧....__")
+    await alive.edit("__....🗿Userbot🗿....__")
     await alive.edit("__Connecting...Alive.....__")
     await alive.edit("__.....Program.....__")
-    await alive.edit("__......🐧Alive🐧........__")
+    await alive.edit("__......🗿Alive..🗿......__")
     await alive.edit("__Connecting to server..__")
     await alive.edit("__Connecting to server...__")
-    await alive.edit("⚡")
+    await alive.edit("🗿")
     await asyncio.sleep(3)
     output = (
         f"**ㅤㅤ  ╭─━━═━═━═━═━━─╮** \n"
-        f"**       ⊏┊🐧Linux-Userbot🐧 ⊨🛠️ ** \n"
+        f"**       ⊏┊🗿Paradise-Userbot🗿 ⊨🛠️ ** \n"
         f"**ㅤㅤ  ╰─━━═━═━═━═━━─╯** \n"
         f"╭╼════════════════════╾╮ \n"
-        f"│    ⇱  𝐒𝐞𝐥𝐚𝐦𝐚𝐭 𝐃𝐚𝐭𝐚𝐧𝐠 𝐃𝐢 𝐀𝐥𝐢𝐯𝐞 ⇲ \n"
+        f"│    ⇱ 𓆩𝐒𝐞𝐥𝐚𝐦𝐚𝐭 𝐃𝐚𝐭𝐚𝐧𝐠 𝐃𝐢 𝐀𝐥𝐢𝐯𝐞𓆪 ⇲ \n"
         f"┟╼════════════════════╾┤ \n"
-        f"╟◈ 🐧  `Tuan    :`{DEFAULTUSER} \n"
+        f"╟◈ 🗿  `Tuan    :`{DEFAULTUSER} \n"
         f"╟◈ 👤 `Username :`@{user.username} \n"
         f"╟◈ ⚙️  `Telethon :`v. {version.__version__} \n"
         f"╟◈ 🐍  `Python   :`v. {python_version()} \n"
@@ -359,8 +359,8 @@ async def redis(alive):
         f"├◈ **Jangan lupa untuk mendukung kami** \n"
         f"│    **userbot, cara menekan di bawah ini.** \n"
         f"╰╼════════════════════╾╯ \n"
-        f"| [Repo](https://github.com/ferikunn/Linux-Userbot) | [Group-Help](t.me/masukajaudhh) | "
-        f"[Pemilik](t.me/xflicks) | ")
+        f"| [Repo](https://github.com/Rzky3016/Paradise-Userbot) | [Group-Help](t.me/paradiseuserbot) | "
+        f"[Pemilik](t.me/Nopegoodloking) | ")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -403,24 +403,24 @@ async def amireallyalivereset(ureset):
 
 CMD_HELP.update({
     "sistem":
-    "🐧CMD🐧: `.sysd`"
+    "🗿CMD🗿: `.sysd`"
     "\n↳ : Menampilkan informasi sistem menggunakan neofetch."
-    "\n\n🐧CMD🐧: `.db`"
+    "\n\n🗿CMD🗿:`.db`"
     "\n↳ : Menampilkan Databse Info."
-    "\n\n🐧CMD🐧: `.spc`"
+    "\n\n🗿CMD🗿: `.spc`"
     "\n↳ : Tampilkan spesifikasi sistem."
 })
-CMD_HELP.update({"alive": "🐧CMD🐧: `.alive` atau `.on` dan `.team`"
+CMD_HELP.update({"alive": "🗿CMD🗿: `.alive` atau `.on` dan `.team`"
                  "\n↳ : Untuk melihat apakah bot Anda berfungsi atau tidak dan team untuk mengetahui creator."
-                 "\n\n🐧CMD🐧: `.aliveu` <text>"
+                 "\n\n🗿CMD🗿:`.aliveu` <text>"
                  "\n↳ : Mengubah 'pengguna' hidup-hidup ke teks yang Anda inginkan."
-                 "\n\n🐧CMD🐧: `.restalive`"
+                 "\n\n🗿CMD🗿:`.restalive`"
                  "\n↳ : Mereset Pengguna."})
 CMD_HELP.update(
     {
         "botversion":
-        "🐧CMD🐧: `.botver`"
+        "🗿CMD🗿: `.botver`"
         "\n↳ : Menampilkan versi userbot."
-        "\n\n🐧CMD🐧: `.pip` <module(s)>"
+        "\n\n🗿CMD🗿:`.pip` <module(s)>"
         "\n↳ : Melakukan pencarian modul pip(s)."
     })
