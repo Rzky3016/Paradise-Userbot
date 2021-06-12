@@ -1,7 +1,7 @@
 {
-  "name": "Linux-Userbot",
-  "description": "[Linux-Userbot] USERBOT TELEGRAM.",
-  "logo": "https://telegra.ph/file/a347ed9a0b3ae6db7b24c.jpg",
+  "name": "Paradise-Userbot",
+  "description": "[Paradise-Userbot] USERBOT TELEGRAM.",
+  "logo": "https://telegra.ph/file/8f6dc8c4536b52ca3271c.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ferikunn/Linux-Userbot",
-  "telegram": "https://t.me/xflicks",
-  "success_url": "https://t.me/xflicks",
+  "repository": "https://github.com/Rzky3016/Paradise-Userbot",
+  "telegram": "https://t.me/Nopegoodloking",
+  "success_url": "https://t.me/Nopegoodloking",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -162,8 +162,8 @@
       "description": "Nama untuk menunjukan pesan .alive",
       "required": false
     },
-    "LINUX_TEKS_KUSTOM": {
-      "description": "Kustom Pesan Alive Mu Untuk Perintah .linux (Isi Terserah)",
+    "PARADISE_TEKS_KUSTOM": {
+      "description": "Kustom Pesan Alive Mu Untuk Perintah .paradise (Isi Terserah)",
       "required": false
     },
     "S_PACK_NAME": {
