@@ -26,19 +26,20 @@ String_Session [Tekan](https://replit.com/@ferikunn/String-Sesson-Saya)
 
 ## Group Support 🛠
 
-   <a href="https://t.me/masukajaudhh"><img src="https://img.shields.io/badge/Group%20Support%3F-yes-green?&style=flat-square?&logo=telegram" width=220px></a></p>
+   <a href="https://t.me/paradiseuserbot"><img src="https://img.shields.io/badge/Group%20Support%3F-yes-green?&style=flat-square?&logo=telegram" width=220px></a></p>
 
 
-## <p align="center">DEPLOY Linux-Userbot</p>
+## <p align="center">DEPLOY Paradise-Userbot</p>
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ferikunn/Linux-Userbot/tree/Linux-Userbot"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Rizky3016/Paradise-Userbot/tree/Paradise-Userbot"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 <br>
 </p>
 
 ## Kredit
   Terimakasih untuk 
+*ㅤㅤ[feri](https://github.com/ferikunn) - Linux-Userbot 
 *   [Apis](https://github.com/apisuserbot) - King-Userbot
 *   [Alvin](https://github.com/Zora24/Lord-Userbot) - Lord Userbot
 *   [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
