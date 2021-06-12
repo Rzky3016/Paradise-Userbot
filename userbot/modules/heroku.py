@@ -228,7 +228,7 @@ CMD_HELP.update({"heroku": "🗿CMD🗿:`.kuota`"
                  "\n\n🗿CMD🗿:`.get var atau .get var <VAR>`"
                  "\n↳ : Dapatkan Variabel Yang Ada, !!PERINGATAN!! Gunakanlah Di Grup Privasi Anda."
                  "\nIni Mengembalikan Semua Informasi Pribadi Anda, Harap berhati-hati."
-                 
+
                  "\n\n🗿CMD🗿:`.del var <VAR>`"
                  "\n↳ : Menghapus Variabel Yang Ada"
                  "\nSetelah Menghapus Variabel, Bot Akan Di Restart."})
