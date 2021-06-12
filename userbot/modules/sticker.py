@@ -58,7 +58,7 @@ async def kang(args):
                 in message.media.document.attributes
             ):
                 emoji = message.media.document.attributes[1].alt
-                if emoji != "🐧":
+                if emoji != "🗿":
                     emojibypass = True
         elif "tgsticker" in message.media.document.mime_type:
             await args.edit(f"`{random.choice(KANGING_STR)}`")
@@ -73,14 +73,14 @@ async def kang(args):
             is_anim = True
             photo = 1
         else:
-            return await args.edit("`File Tidak Didukung Tuan!`")
+            return await args.edit("`File Tidak Didukung Nyed!`")
     else:
         return await args.edit("`Maaf Tuan, Saya Gagal Mengambil Sticker Ini!`")
 
     if photo:
         splat = args.text.split()
         if not emojibypass:
-            emoji = "🐧"
+            emoji = "🗿"
         pack = 1
         if len(splat) == 3:
             pack = splat[2]  # User sent both
@@ -178,8 +178,8 @@ async def kang(args):
                         await bot.send_read_acknowledge(conv.chat_id)
                         return await args.edit(
                             "`Sticker ditambahkan ke pack yang berbeda !"
-                            "\nIni pack yang baru saja Lord buat!"
-                            f"\nTekan [Colongan](t.me/addstickers/{packname}) Untuk Melihat Sticker Colongan Lu",
+                            "\nIni pack yang baru saja Tuan buat!"
+                            f"\nTekan [Colongan](t.me/addstickers/{packname}) Untuk Melihat Sticker Colongan Lu. TOBAT YA NJENG",
                             parse_mode="md",
                         )
                 if is_anim:
@@ -246,7 +246,7 @@ async def kang(args):
                 await bot.send_read_acknowledge(conv.chat_id)
 
         await args.edit(
-            f"**Sukses Nyolong Sticker,** **[Tekan](t.me/addstickers/{packname})** **Untuk Melihat Sticker Colongan Anda**",
+            f"**Sukses Nyolong Sticker,** **[Tekan](t.me/addstickers/{packname})** **Untuk Melihat Sticker Colongan Anda** **TOBAT NYED TOBAT!!**",
             parse_mode="md",
         )
 
@@ -279,7 +279,7 @@ async def resize_photo(photo):
 async def get_pack_info(event):
     if not event.is_reply:
         return await event.edit(
-            "`Mohon Balas Ke Sticker Tuan`"
+            "`Mohon Balas Ke Sticker Tuan, Aduh Goblok Bgt Tuan Gua.`"
         )
 
     rep_msg = await event.get_reply_message()
@@ -353,10 +353,10 @@ async def sticker_to_png(sticker):
 
 CMD_HELP.update(
     {
-        "stickers": "**Modules:** __Stickers__\n\n🐧CMD🐧: `.kang` | 🐧CMD🐧`.tikel (emoji) [nomer]`"
+        "stickers": "**Modules:** __Stickers__\n\n🗿CMD🗿: `.kang` | 🐧CMD🐧`.tikel (emoji) [nomer]`"
         "\n**Penjelasan:** Balas ke sticker atau gambar `.tikel`  untuk menjadikannya sebagai sticker Colongan Anda "
         "\nBisa memilih emoji sesuai pilihan Anda, dan bisa memilih nomer pack."
-        "\n\n🐧CMD🐧: `.stkrinfo`"
+        "\n\n🗿CMD🗿:`.stkrinfo`"
         "\n**Penjelasan:** Balas ke sticker, untuk mendapatkan informasi pack sticker."
-        "\n\n🐧CMD🐧: `.getsticker`"
+        "\n\n🗿CMD🗿: `.getsticker`"
         "\n**Penjelasan:** Balas ke sticker untuk mendapatkan File 'PNG' Sticker."})
