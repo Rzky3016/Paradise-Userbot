@@ -26,15 +26,15 @@ from userbot.events import register
 
 
 KANGING_STR = [
-    "Saatnya Mbandet stiker suuuuu...:)",
-    "Stikernya Gw colong ya Ajggg",
-    "Stikernya Aku Curi......",
-    "Stickernya Tak Embat suu...",
+    "Hai Tod, Bagi Stiker Yee...:)",
+    "Stikernya Gw colong ya Njeng...",
+    "Stikernya Aku Curi, Makasih......",
+    "Stickernya Gw Colong Jangan Lapor Polisi Yak...",
 ]
 
 
-@register(outgoing=True, pattern=r"^\.(?:tikel|kang)\s?(.)?")
-async def kang(args):
+@register(outgoing=True, pattern=r"^\.(?:tikel|colong)\s?(.)?")
+async def colong(args):
     user = await bot.get_me()
     if not user.username:
         user.username = user.first_name
@@ -334,7 +334,7 @@ async def sticker_to_png(sticker):
     try:
         img.document.attributes[1]
     except Exception:
-        await sticker.edit("`Maaf Tuan, Ini Bukanlah Sticker`")
+        await sticker.edit("`Ini Bukan Sticker Bodoh..`")
         return
 
     with io.BytesIO() as image:
