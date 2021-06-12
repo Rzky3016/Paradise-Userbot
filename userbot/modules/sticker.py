@@ -353,7 +353,7 @@ async def sticker_to_png(sticker):
 
 CMD_HELP.update(
     {
-        "stickers": "**Modules:** __Stickers__\n\n🗿CMD🗿: `.kang` | 🐧CMD🐧`.tikel (emoji) [nomer]`"
+        "stickers": "**Modules:** __Stickers__\n\n🗿CMD🗿: `.colong` | 🗿CMD🗿`.tikel (emoji) [nomer]`"
         "\n**Penjelasan:** Balas ke sticker atau gambar `.tikel`  untuk menjadikannya sebagai sticker Colongan Anda "
         "\nBisa memilih emoji sesuai pilihan Anda, dan bisa memilih nomer pack."
         "\n\n🗿CMD🗿:`.stkrinfo`"
