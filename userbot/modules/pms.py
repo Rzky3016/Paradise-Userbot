@@ -36,7 +36,7 @@ DEF_UNAPPROVED_MSG = (
     " Jangan Bandel Dibilangin, Lu Spam Gua Blok\n"
     " Paham? Yodah Gosah Spam, Tunggu Dia Approve Chat Kamu\n"
     "╾─────────────────────╼\n"
-    "  ❗ PERINGATAN 1 - 3❗\n"
+    " PERINGATAN 1 - 3\n"
     " Supported By: 🗿𝙋𝘼𝙍𝘼𝘿𝙄𝙎𝙀-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🗿\n"
     "╾─────────────────────╼\n\n"
 
