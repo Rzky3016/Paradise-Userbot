@@ -45,7 +45,7 @@ async def typewriter(typew):
 
 CMD_HELP.update({
     "Paradise":
-    "🗿CMD🗿`.Paradise`\
+    "🗿CMD🗿`.paradise`\
     \nUsage: alive bot.\
     \n\n🗿CMD🗿`.sadboy`\
     \nUsage: hiks\
