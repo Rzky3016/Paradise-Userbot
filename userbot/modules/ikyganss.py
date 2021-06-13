@@ -16,6 +16,21 @@ async def typewriter(typew):
     await typew.edit("gasukaa😫")
     sleep(1)
     await typew.edit("__Jancok__🤮")
+    
+@register(outgoing=True, pattern='^.byy(?: |$)(.*)')
+async def typewriter (typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("Ahh Bibyy Mahh...:(")
+    sleep(2)
+    await typew.edit("Gublukkk...")
+    await typew.edit("Byy...👉🏻👈🏻🥺")
+    await typew.edit("Bibyy Gublukk xixi..")
+    sleep(2)
+    await typew.edit("Ihh Maaf Bibyy🥺")
+    sleep(2)
+    await typew.edit("Akuu Cayangg Bibyy💕")
+    await typew.edit("Lovee Youu Cantikk😘")
 
 
 @register(outgoing=True, pattern='^.kntl(?: |$)(.*)')
@@ -224,6 +239,8 @@ CMD_HELP.update({
     "animasi2":
     "`•CMD: .hai`\
     \n•Penjelasan: Cosplay Nissa Sablon\
+    \n\n`•CMD: .byy`\
+    \n•Penjelasan: Byy Mah Gublukk\
     \n\n`•CMD: .kntl`\
     \n•Penjelasan: Cek Aja dh\
     \n\n`•CMD: .alay`\
