@@ -27,7 +27,7 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
-@register(outgoing=True. pattern='^.ganteng(?: |$)(.*)')
+@register(outgoing=True, pattern='^.ganteng(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
