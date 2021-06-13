@@ -39,7 +39,7 @@ DEF_UNAPPROVED_MSG = (
     " ❗PERINGATAN 1 - 3\n"
     " 🚧Supported By: 🗿𝙋𝘼𝙍𝘼𝘿𝙄𝙎𝙀-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🗿\n"
     "╾─────────────────────╼\n\n"
-    f"- Babu Nya `{DEFAULTUSER}`\n")
+    f"- Babu Nya `{DEFAULTUSER}`")
 
 
 # =================================================================
