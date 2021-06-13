@@ -238,5 +238,5 @@ CMD_HELP.update({
     "\n\n.update now"
     "\n🗿CMD🗿: Memperbarui 🗿Paradise-Userbot🗿."
     "\n\n.update deploy"
-    "\n🗿CMD🗿: Memperbarui 🗿Paradise-Userbot D🗿engan Cara Deploy Ulang."
+    "\n🗿CMD🗿: Memperbarui 🗿Paradise-Userbot🗿 Dengan Cara Deploy Ulang."
 })
