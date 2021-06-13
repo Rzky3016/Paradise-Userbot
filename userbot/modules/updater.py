@@ -53,7 +53,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if HEROKU_APP_NAME is None:
             await event.edit(
                 '`[HEROKU]: Harap Siapkan Variabel` **HEROKU_APP_NAME** `'
-                ' untuk dapat deploy perubahan terbaru dari Linux Userbot.`'
+                ' untuk dapat deploy perubahan terbaru dari Paradise Userbot.`'
             )
             repo.__del__()
             return
@@ -63,11 +63,11 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
                 break
         if heroku_app is None:
             await event.edit(
-                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy Linux Userbot dyno.`'
+                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy Paradise Userbot dyno.`'
             )
             return repo.__del__()
         await event.edit('`[HEROKU]:'
-                         '\nDyno 🐧Linux-Userbot🐧 Sedang Dalam Proses, Mohon Menunggu 7-8 Menit`'
+                         '\nDyno 🗿Paradise-Userbot🗿 Sedang Dalam Proses, Mohon Menunggu 7-8 Menit`'
                          )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -91,14 +91,14 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             await asyncio.sleep(5)
             return await event.delete()
         else:
-            await event.edit("`🐧Linux🐧 Berhasil Di Deploy!\n" "Restarting, Mohon Menunggu Tuan.....`")
+            await event.edit("`🗿Paradise🗿 Berhasil Di Deploy!\n" "Restarting, Mohon Menunggu Tuan.....`")
             await asyncio.sleep(15)
             await event.delete()
 
         if BOTLOG:
             await event.client.send_message(
                 BOTLOG_CHATID, "#BOT \n"
-                "`Linux-Userbot Berhasil Di Update`")
+                "`Paradise-Userbot Berhasil Di Update`")
 
     else:
         await event.edit('`[HEROKU]:'
@@ -115,18 +115,18 @@ async def update(event, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await update_requirements()
-    await event.edit('**🐧Linux-Userbot🐧** `Berhasil Di Update!`')
+    await event.edit('**🗿Paradise-Userbot🗿** `Berhasil Di Update!`')
     await asyncio.sleep(1)
-    await event.edit('**🐧Linux-Userbot🐧** `Di Restart....`')
+    await event.edit('**🗿Paradise-Userbot🗿** `Di Restart....`')
     await asyncio.sleep(1)
-    await event.edit('`Mohon Menunggu Beberapa Detik Sayang`')
+    await event.edit('`Mohon Menunggu Beberapa Detik Ya Sayangku`')
     await asyncio.sleep(10)
     await event.delete()
 
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "#BOT \n"
-            "**Linux-Userbot Telah Di Perbarui**")
+            "**Paradise-Userbot Telah Di Perbarui**")
         await asyncio.sleep(100)
         await event.delete()
 
@@ -139,7 +139,7 @@ async def update(event, repo, ups_rem, ac_br):
 @ register(outgoing=True, pattern=r"^.update(?: |$)(now|deploy)?")
 async def upstream(event):
     "For .update command, check if the bot is up to date, update if specified"
-    await event.edit("`Sedang melakukan Pembaharuan, mengentot ke repo...🐧`")
+    await event.edit("`Sedang melakukan Pembaharuan, mengontol ke repo...🗿`")
     conf = event.pattern_match.group(1)
     off_repo = UPSTREAM_REPO_URL
     force_update = False
@@ -188,13 +188,13 @@ async def upstream(event):
 
     if changelog == '' and force_update is False:
         await event.edit(
-            f'\n**🐧Linux-Userbot🐧 Sudah Versi Terbaru**\n')
+            f'\n**🗿Paradise-Userbot🗿 Sudah Versi Terbaru**\n')
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
 
     if conf is None and force_update is False:
-        changelog_str = f'**🛠️ Pembaruan Untuk 🐧Linux-Userbot🐧 [{ac_br}]:\n\n🛠️ Pembaruan:**\n`{changelog}`'
+        changelog_str = f'**🛠️ Pembaruan Untuk 🗿Paradise-Userbot🗿 [{ac_br}]:\n\n🛠️ Pembaruan:**\n`{changelog}`'
         if len(changelog_str) > 4096:
             await event.edit("`Changelog Terlalu Besar, Lihat File Untuk Melihatnya.`")
             file = open("output.txt", "w+")
@@ -208,18 +208,18 @@ async def upstream(event):
             remove("output.txt")
         else:
             await event.edit(changelog_str)
-        return await event.respond('**Perintah Untuk Update Linux Userbot**\n >`.update now`\n >`.update deploy`\n\n__Untuk Meng Update Fitur Terbaru Dari Linux Userbot.__')
+        return await event.respond('**Perintah Untuk Update 🗿Paradise Userbot🗿**\n >`.update now`\n >`.update deploy`\n\n__Untuk Meng Update Fitur Terbaru Dari Paradise Userbot.__')
 
     if force_update:
         await event.edit(
             '`Sinkronisasi Paksa Ke Kode Userbot Stabil Terbaru, Harap Tunggu .....`')
     else:
-        await event.edit('`🛠️ Proses Update 🐧Linux-Userbot🐧, Loading....1%`')
-        await event.edit('`🛠️ Proses Update 🐧Linux-Userbot🐧, Loading....20%`')
-        await event.edit('`🛠️ Proses Update 🐧Linux-Userbot🐧, Loading....35%`')
-        await event.edit('`🛠️ Proses Update 🐧Linux-Userbot🐧, Loading....77%`')
-        await event.edit('`🛠️ Proses Update 🐧Linux-Userbot🐧, Updating...90%`')
-        await event.edit('`🛠️ Proses Update 🐧Linux-Userbot🐧, Mohon Menunggu Sayang....100%`')
+        await event.edit('`🛠️ Proses Update 🗿Paradise-Userbot🗿, Loading....1%`')
+        await event.edit('`🛠️ Proses Update 🗿Paradise-Userbot🗿, Loading....20%`')
+        await event.edit('`🛠️ Proses Update 🗿Paradise-Userbot🗿, Loading....35%`')
+        await event.edit('`🛠️ Proses Update 🗿Paradise-Userbot🗿, Loading....77%`')
+        await event.edit('`🛠️ Proses Update 🗿Paradise-Userbot🗿, Updating...90%`')
+        await event.edit('`🛠️ Proses Update 🗿Paradise-Userbot🗿, Mohon Menunggu Sayang....100%`')
     if conf == "now":
         await update(event, repo, ups_rem, ac_br)
         await asyncio.sleep(10)
@@ -234,9 +234,9 @@ async def upstream(event):
 CMD_HELP.update({
     'update':
     ".update"
-    "\n🐧CMD🐧: Untuk Melihat Pembaruan Terbaru 🐧Linux-Userbot🐧."
+    "\n🗿CMD🗿: Untuk Melihat Pembaruan Terbaru 🗿Paradise-Userbot🗿."
     "\n\n.update now"
-    "\n🐧CMD🐧: Memperbarui 🐧Linux-Userbot🐧."
+    "\n🗿CMD🗿: Memperbarui 🗿Paradise-Userbot🗿."
     "\n\n.update deploy"
-    "\n🐧CMD🐧: Memperbarui 🐧Linux-Userbot🐧 Dengan Cara Deploy Ulang."
+    "\n🗿CMD🗿: Memperbarui 🗿Paradise-Userbot D🗿engan Cara Deploy Ulang."
 })
