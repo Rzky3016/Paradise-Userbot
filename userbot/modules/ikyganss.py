@@ -16,9 +16,10 @@ async def typewriter(typew):
     await typew.edit("gasukaa😫")
     sleep(1)
     await typew.edit("__Jancok__🤮")
-    
+
+
 @register(outgoing=True, pattern='^.byy(?: |$)(.*)')
-async def typewriter (typew):
+async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
     await typew.edit("Ahh Bibyy Mahh...:(")
