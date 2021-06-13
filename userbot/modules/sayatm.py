@@ -30,8 +30,8 @@ async def _(event):
         except YouBlockedUserError:
             await event.edit("`Mohon buka blokir` @TempMailBot `lalu coba lagi`")
             return
-        await event.edit(f"**LINUX TEMPMAIL** ~ `{response.message.message}`\n\n[KLIK DISINI UNTUK VERIFIKASI]({sayauserbot})")
+        await event.edit(f"**PARADISE TEMPMAIL** ~ `{response.message.message}`\n\n[KLIK DISINI UNTUK VERIFIKASI]({sayauserbot})")
 
 
-CMD_HELP.update({"tempmail": "**Modules:** __Temp Mail__\n\n🐧CMD🐧: `.tm`"
+CMD_HELP.update({"tempmail": "**Modules:** __Temp Mail__\n\n🗿CMD🗿: `.tm`"
                  "\n**Penjelasan:** Mendapatkan Email Gratis Dari Temp Mail"})
