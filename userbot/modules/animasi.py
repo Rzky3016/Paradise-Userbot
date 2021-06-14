@@ -59,23 +59,23 @@ async def typewriter(type):
     await typew.edit("`Kalo Ketemu Wibuu`")
     sleep(2)
     await typew.edit("`Harus Lari Sekenceng Mungkin🏃🏻`")
-    
+
     await typew.edit("`ㅤㅤㅤㅤㅤㅤㅤㅤㅤ🏃🏻`")
-    
+
     await typew.edit("`ㅤㅤㅤㅤㅤㅤㅤㅤ🏃🏻💨`")
-    
+
     await typew.edit("`ㅤㅤㅤㅤㅤㅤㅤ🏃🏻💨ㅤ`")
-    
+
     await typew.edit("`ㅤㅤㅤㅤㅤㅤ🏃🏻💨ㅤㅤ`")
-    
+
     await typew.edit("`ㅤㅤㅤㅤㅤ🏃🏻💨ㅤㅤㅤ`")
-    
+
     await typew.edit("`ㅤㅤㅤㅤ🏃🏻💨ㅤㅤㅤㅤ`")
-    
+
     await typew.edit("`ㅤㅤㅤ🏃🏻💨ㅤㅤㅤㅤㅤ`")
-    
+
     await typew.edit("`ㅤㅤ🏃🏻💨ㅤㅤㅤㅤㅤㅤ`")
-    
+
     await typew.edit("`ㅤ🏃🏻💨ㅤㅤㅤㅤㅤㅤㅤ`")
 
     await typew.edit("`🏃🏻💨ㅤㅤㅤㅤㅤㅤㅤㅤ`")
