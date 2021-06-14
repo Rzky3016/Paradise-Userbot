@@ -3,11 +3,11 @@ from userbot import CMD_HELP
 from userbot.events import register
 
 
-@register(outgoing=True, pattern='^.rizky(?: |$)(.*)')
+@register(outgoing=True, pattern='^.iky(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
-    await typew.edit("`Hai Perkenalkan Namaku Rizky`")
+    await typew.edit("`Hai Perkenalkan Namaku Rizky Panggil Aja Iky`")
     sleep(3)
     await typew.edit("`16 Tahun`")
     sleep(1)
@@ -30,7 +30,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.ganteng(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    sleep(3)
+    sleep(1)
     await typew.edit("`Lu Mau Tau Semua Fakta?`")
     sleep(3)
     await typew.edit("`Fakta Yang Belum Terbongkar Selama Ini`")
@@ -103,7 +103,7 @@ CMD_HELP.update({
     "animasi3":
     "🗿CMD🗿`.pe`\
 \nPenjelasan: Cek lah asw.\
-\n\n🗿CMD🗿`.feri`\
+\n\n🗿CMD🗿`.iky`\
 \nPenjelasan: Cek lah asw.\
 \n\n🗿CMD🗿`.ilyu`\
 \nPenjelasan: Cek lah asw.\
