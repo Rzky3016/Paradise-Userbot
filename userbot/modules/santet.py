@@ -9,7 +9,7 @@ async def typewriter(typew):
     await typew.edit("`Saya Telah Mengaktifkan Perintah Santet Online...,🗿`")
     sleep(2)
     await typew.edit("`Mencari Nama Orang Ini...🔍`")
-    sleep(2)
+    sleep(3)
     await typew.edit("`Santet Online Segera Dilakukan,Hati Hati Nanti Kejang Kejang Badan Lu`")
     sleep(1)
     await typew.edit("0%")
@@ -312,9 +312,9 @@ async def typewriter(typew):
     number = number + 1
     sleep(0.03)
     await typew.edit(str(number) + "%   ████████████████▌")
-    sleep(2)
+    sleep(3)
     await typew.edit("`Target Berhasil Tersantet Online`")
-    sleep(1)
+    sleep(4)
     await typew.edit("`MATI AJA LU SETANN!!!...`")
 
 
