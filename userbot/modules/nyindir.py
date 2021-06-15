@@ -43,6 +43,20 @@ async def typewriter(typew):
     await typew.edit("**CAPER BET LU NAJIS, MAU DI RESPON KAH? GUA TAU LU DIKACANGIN JADI LU CAPER KYK GINI. DAPET APA SI GITU? DI GAJI GA? NGACA + MIKIR LU UDAH GEDE KONTOL.**")
 
 
+@register(outgoing=True, pattern='^.tobat(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("**TOBAT NJENG TOBATTT, KIAMAT BENTAR LAGI DAN LU MASIH GINI?**")
+    sleep(3)
+    await typew.edit("**TOBAT NYED BIAR APA SI LU GITU? GA ADA FAEDAHNYA. BIAR APA COBA?**")
+    sleep(3)
+    await typew.edit("**BIAR TERKENAL?**")
+    sleep(3)
+    await typew.edit("**BIAR VIRAL?**)
+    sleep(3)
+    await typew.edit("**TOBAT YA NYED TOBAT IBADAH JANGAN MAKSIAT MULU TOD**")
+    
 CMD_HELP.update({
     "nyindir1":
     "•🗿CMD🗿: `.tua`\
@@ -52,7 +66,8 @@ CMD_HELP.update({
     \n\n•🗿CMD🗿: `.gajelas`\
     \n•Penjelasan: Nyindir orang Goblok.\
     \n\n•🗿CMD🗿: `.caper`\
-    \n•Penjelasan: Buat Orang Caper."
-
+    \n•Penjelasan: Buat Orang Caper\
+    \n\n•🗿CMD🗿: `.tobat`\
+    \n•Penjelasan: Tobat Nyed Tobat."
 
 })
