@@ -114,7 +114,7 @@ async def typewriter(typew):
                      "　　　　　 Ｕ Ｕ\n")
 
 
-@register(outgoing=True, pattern='^.awkwok(?: |$)(.*)')
+@register(outgoing=True, pattern='^.aowkwk(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("────██──────▀▀▀██\n"
@@ -323,7 +323,7 @@ CMD_HELP.update({
     \n🗿CMD🗿: liat sendiri\
     \n\n`.y`\
     \n🗿CMD🗿: jempol\
-    \n\n`.awkwok`\
+    \n\n`.aowkwk`\
     \n🗿CMD: 🗿ketawa lari.\
     \n\n`.ular` ; `.babi` ; `.foff` ; `.foto` ; `.ajg`\
     \n🗿CMD🗿:liat sendiri."
