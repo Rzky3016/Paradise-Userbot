@@ -6,7 +6,7 @@ from userbot.events import register
 @register(outgoing=True, pattern='^.iky(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    sleep(3)
+    sleep(2)
     await typew.edit("`Hai Perkenalkan Namaku Rizky Panggil Aja Iky`")
     sleep(3)
     await typew.edit("`16 Tahun`")
@@ -31,7 +31,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("`Lu Mau Tau Semua Fakta?`")
+    await typew.edit("`Lu Mau Tau Sebuah Fakta?`")
     sleep(3)
     await typew.edit("`Fakta Yang Belum Terbongkar Selama Ini`")
     sleep(3)
@@ -51,7 +51,7 @@ async def typewriter(typew):
 
 
 @register(outgoing=True, pattern='^.wibu(?: |$)(.*)')
-async def typewriter(type):
+async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
     await typew.edit("`Kata Emak`")
@@ -59,26 +59,42 @@ async def typewriter(type):
     await typew.edit("`Kalo Ketemu Wibuu`")
     sleep(2)
     await typew.edit("`Harus Lari Sekenceng Mungkin🏃🏻`")
-
     await typew.edit("`ㅤㅤㅤㅤㅤㅤㅤㅤㅤ🏃🏻`")
-
     await typew.edit("`ㅤㅤㅤㅤㅤㅤㅤㅤ🏃🏻💨`")
-
     await typew.edit("`ㅤㅤㅤㅤㅤㅤㅤ🏃🏻💨ㅤ`")
-
     await typew.edit("`ㅤㅤㅤㅤㅤㅤ🏃🏻💨ㅤㅤ`")
-
     await typew.edit("`ㅤㅤㅤㅤㅤ🏃🏻💨ㅤㅤㅤ`")
-
     await typew.edit("`ㅤㅤㅤㅤ🏃🏻💨ㅤㅤㅤㅤ`")
-
     await typew.edit("`ㅤㅤㅤ🏃🏻💨ㅤㅤㅤㅤㅤ`")
-
     await typew.edit("`ㅤㅤ🏃🏻💨ㅤㅤㅤㅤㅤㅤ`")
-
     await typew.edit("`ㅤ🏃🏻💨ㅤㅤㅤㅤㅤㅤㅤ`")
-
     await typew.edit("`🏃🏻💨ㅤㅤㅤㅤㅤㅤㅤㅤ`")
+    
+
+@register(outgoing=True, pattern='^.byy(?: |$)(.*)')
+async def typewriter(typew)
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("`Ahh Bibyy Mahh...🥺👉🏻👈🏻`")
+    sleep(3)
+    await typew.edit("`**GUBLUKK...🤪**`")
+    sleep(3)
+    await typew.edit("`Ihh Ihh🥺...`")
+    sleep(3)
+    await typew.edit("`Maaf Bibyy...🥺`")
+    sleep(3)
+    await typew.edit("`Maaf Yaa Cayangku..`")
+    sleep(3)
+    await typew.edit("`Nanti Aku Beliin Monas Deh Biar Nda Ngambek👉🏻👈🏻`")
+    sleep(3)
+    await typew.edit("`Udah Yaa Jangan Ngambek...`")
+    sleep(3)
+    await typew.edit("`Maafin Akuu Byy😘`")
+    sleep(3)
+    await typew.edit("`Lovee Youu Bibyy `🥰")
+    sleep(2)
+    await typew.edit("`Mwuachhh....😘💕`")
+#punya ikyy🥺
 
 
 @register(outgoing=True, pattern='^.pe(?: |$)(.*)')
@@ -87,7 +103,7 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("`Bapaknya Udin Di Makan Udang`")
     sleep(2)
-    await typew.edit("`Cuma Sendiri nih Senggol Dong`")
+    await typew.edit("`Cuma Sendiri ni Senggol Dong`")
 
 
 @register(outgoing=True, pattern='^p(?: |$)(.*)')
@@ -113,6 +129,8 @@ CMD_HELP.update({
 \nPenjelasan: Cek lah asw.\
 \n\n🗿CMD🗿`.wibu`\
 \nPenjelasan: Lari Dari Wibu.\
+\n\n🗿CMD🗿`.byy`\
+\nPenjelasan: Khusus Orang Yang Udah Punya Doi.\
 \n\n🗿CMD🗿`.ganteng`\
 \nPenjelasan: Gua Ganteng."
 })
