@@ -67,7 +67,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             )
             return repo.__del__()
         await event.edit('`[HEROKU]:'
-                         '\nDyno 🗿Paradise-Userbot🗿 Sedang Dalam Proses, Mohon Menunggu 7-8 Menit`'
+                         '\nDyno 🗿Paradise-Userbot🗿 Sedang Dalam Proses, Mohon Menunggu 7-8 Menit TUNGGU BENTAR NYED`'
                          )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -119,7 +119,7 @@ async def update(event, repo, ups_rem, ac_br):
     await asyncio.sleep(1)
     await event.edit('**🗿Paradise-Userbot🗿** `Di Restart....`')
     await asyncio.sleep(1)
-    await event.edit('`Mohon Menunggu Beberapa Detik Ya Sayangku`')
+    await event.edit('`Mohon Menunggu Beberapa Detik Ya Ahli Kubur`')
     await asyncio.sleep(10)
     await event.delete()
 
@@ -139,7 +139,7 @@ async def update(event, repo, ups_rem, ac_br):
 @ register(outgoing=True, pattern=r"^.update(?: |$)(now|deploy)?")
 async def upstream(event):
     "For .update command, check if the bot is up to date, update if specified"
-    await event.edit("`Sedang melakukan Pembaharuan, mengontol ke repo...🗿`")
+    await event.edit("`Sedang melakukan Pembaharuan ke repo...🗿`")
     conf = event.pattern_match.group(1)
     off_repo = UPSTREAM_REPO_URL
     force_update = False
