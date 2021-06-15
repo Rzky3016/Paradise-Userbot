@@ -219,7 +219,7 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:paradise|paradisexon)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:paradise|on)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
@@ -227,7 +227,7 @@ async def amireallyalive(alive):
         f"**🗿Paradise-Userbot🗿** \n"
         f"\n__**{PARADISE_TEKS_KUSTOM}**__\n"
         f"**══════════════════════**\n"
-        f"**🗿Paradise** \n"
+        f"**𖣐PARADISE PROGRAM STARTED𖣐** \n"
         f" ↳ : `{DEFAULTUSER}` \n"
         f"**👤 Username** \n"
         f" ↳ : `@{user.username}` \n"
@@ -264,13 +264,13 @@ async def amireallyalive(alive):
     output = (
         f"══════════════════════\n"
         f"     ** 🗿Paradise-Userbot🗿 ** \n\n"
-        f"🐧 **Majikan**  \n   ↳ `{DEFAULTUSER}` \n"
+        f"🗿 **Majikan**  \n   ↳ `{DEFAULTUSER}` \n"
         f"👤 **Username** \n   ↳ `@{user.username}` \n"
         f"⚙️ **Telethon** \n   ↳ `Versi {version.__version__}` \n"
         f"🐍 **Python**   \n   ↳ `Versi {python_version()}` \n"
         f"👾 **Versi Bot**\n   ↳ `{BOT_VER}` \n"
         f"📂 **Modul**    \n   ↳ `{len(modules)}` \n\n"
-        f"♚ **Repo Paradise:** [Paradise-Userbot](https://github.com/Rzky3016/Paradise-Userbot)\n🛠️ **Group Support: **[Tekan](t.me/paradiseuserbot)\n👨‍💻 **Mastah:** [Rizky](t.me/Nopegoodloking)\n"
+        f"✮ **Repo Paradise:** [Paradise-Userbot](https://github.com/Rzky3016/Paradise-Userbot)\n🛠️ **Group Support: **[Tekan](t.me/paradiseuserbot)\n👨‍💻 **Mastah:** [Rizky](t.me/Nopegoodloking)\n"
         f"══════════════════════")
     if ALIVE_LOGO:
         try:
@@ -410,7 +410,7 @@ CMD_HELP.update({
     "\n\n🗿CMD🗿: `.spc`"
     "\n↳ : Tampilkan spesifikasi sistem."
 })
-CMD_HELP.update({"alive": "🗿CMD🗿: `.alive` atau `.on` dan `.team`"
+CMD_HELP.update({"alive": "🗿CMD🗿: `.alive` `.paradise` atau `.on` dan `.team`"
                  "\n↳ : Untuk melihat apakah bot Anda berfungsi atau tidak dan team untuk mengetahui creator."
                  "\n\n🗿CMD🗿:`.aliveu` <text>"
                  "\n↳ : Mengubah 'pengguna' hidup-hidup ke teks yang Anda inginkan."
