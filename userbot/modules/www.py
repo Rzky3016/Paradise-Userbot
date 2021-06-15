@@ -60,7 +60,7 @@ async def pingme(pong):
     duration = (end - start).microseconds / 1000
     await pong.edit(f"〠 __Test__ **PING** __|━|⎆__ ヅ "
                     f"\n  ☞ `%sms` \n"
-                    f"〠 __My__ **Tuan** __|━|⎆__ ヅ "
+                    f"〠 __My__ **Owner** __|━|⎆__ ヅ "
                     f"\n  ☞ `{ALIVE_NAME}` \n" % (duration))
 
 
@@ -82,10 +82,10 @@ async def pingme(pong):
     await pong.edit("**100% ██████████**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**╰━❖ Paradise Ping ❖━╯**\n"
-                    f"☞ __ping:__ "
+    await pong.edit(f"**╰━𖣘 Paradise Ping 𖣘━╯**\n"
+                    f"⪩ __ping:__ "
                     f"`%sms` \n"
-                    f"☞ __i'm online:__ "
+                    f"⪩ __i'm online:__ "
                     f"`{uptime}` \n" % (duration))
 
 
@@ -99,9 +99,9 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"•⎚• ⎆ __Paradise__ **Pong!**\n"
-                    f"☞  __Ping:__ "
+                    f"»  __Ping:__ "
                     f"`%sms` \n"
-                    f"☞  __Sisa Waktu:__ "
+                    f"»  __Sisa Waktu:__ "
                     f"`{uptime}` \n" % (duration))
 
 
@@ -136,11 +136,11 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"- Paradise -\n"
-                    f"**☞ sinyal  :** "
+                    f"**⪩ sinyal  :** "
                     f"`%sms` \n"
-                    f"**☞ i'm online  :** "
+                    f"**⪩ i'm online  :** "
                     f"`{uptime}` \n"
-                    f"__|━|⎆__ **Tuan  :** `{ALIVE_NAME}`" % (duration))
+                    f"__|━|⎆__ **Owner  :** `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern="^.uping$")
@@ -148,7 +148,7 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("`.....𓆩☞Paradise Userbot☜𓆪.....`")
+    await pong.edit("`.....𓆩✇Paradise Userbot✇𓆪.....`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**PARADISE PONG**\n"
