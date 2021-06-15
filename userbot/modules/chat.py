@@ -96,7 +96,7 @@ async def log(log_text):
             textx = user + log_text.pattern_match.group(1)
             await bot.send_message(BOTLOG_CHATID, textx)
         else:
-            await log_text.edit("`Apa Yang Harus Linux Log?`")
+            await log_text.edit("`Apa Yang Harus Paradise Log?`")
             return
         await log_text.edit("`Logged Berhasil!`")
     else:
@@ -108,7 +108,7 @@ async def log(log_text):
 @register(outgoing=True, pattern="^.kickme$")
 async def kickme(leave):
     """ Basically it's .kickme command """
-    await leave.edit("`Grub Sampahhhhh, Out Aja suu dari sini membernya baperan cuihhh sampahh Byee kontolllll!!`")
+    await leave.edit("`Grub Sampahhhhh, Out Aja dari sini Tod semua membernya baperan iuhh sampahh, Byee Toddd!!`")
     await leave.client.kick_participant(leave.chat_id, 'me')
 
 
@@ -136,7 +136,7 @@ async def mute_chat(mute_e):
         return
     await mute_e.edit(str(mute_e.chat_id))
     kread(str(mute_e.chat_id))
-    await mute_e.edit("`Ssshssh Linux Telah Membisukan Obrolan!`")
+    await mute_e.edit("`Ssshssh Diam Paradise Telah Membisukan Obrolan!`")
     await sleep(2)
     await mute_e.delete()
     if BOTLOG:
@@ -224,7 +224,7 @@ async def get_chatinfo(event):
             await event.edit("`Grup/Channel Tidak Valid`")
             return None
         except ChannelPrivateError:
-            await event.edit("`Ini Adalah Grup/Channel Privasi Atau Tuan Dibanned Dari Sana`")
+            await event.edit("`Ini Adalah Grup/Channel Privasi Atau Lu Dibanned Dari Sana`")
             return None
         except ChannelPublicGroupNaError:
             await event.edit("`Channel Atau Supergrup Tidak Ditemukan`")
