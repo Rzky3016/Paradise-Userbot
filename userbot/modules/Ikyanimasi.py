@@ -1,4 +1,4 @@
-# Feri Gans
+# Ikyy Gans
 
 from time import sleep
 from userbot import CMD_HELP, bot
