@@ -296,7 +296,7 @@ async def amireallyalive(alive):
 async def amireallyalive(alive):
     await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("..🗿Team-Paradis🗿e..")
+    await alive.edit("..🗿Team-Paradise🗿..")
     output = (
         f"════════🗿Team-Paradise🗿═════════\n"
         f"**Nama Creator Kami**\n"
@@ -330,12 +330,12 @@ async def amireallyalive(alive):
 async def redis(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("__🗿...Userbot....🗿__")
+    await alive.edit("__🗿...USERBOT....🗿__")
     await alive.edit("__...Main..Program...__")
-    await alive.edit("__Sistem Akan Menyala...__")
+    await alive.edit("__SYSTEM WILL BE STARTED...__")
     await alive.edit("__....🗿Userbot🗿....__")
     await alive.edit("__Connecting...Alive.....__")
-    await alive.edit("__.....Program.....__")
+    await alive.edit("__.....Program ON.....__")
     await alive.edit("__......🗿Alive..🗿......__")
     await alive.edit("__Connecting to server..__")
     await alive.edit("__Connecting to server...__")
@@ -359,8 +359,9 @@ async def redis(alive):
         f"├◈ **Jangan lupa untuk mendukung kami** \n"
         f"│    **userbot, cara menekan di bawah ini.** \n"
         f"╰╼════════════════════╾╯ \n"
-        f"| [Repo](https://github.com/Rzky3016/Paradise-Userbot) | [Group-Help](t.me/paradiseuserbot) | "
-        f"[Pemilik](t.me/Nopegoodloking) | ")
+        f"⪩ [Repo](https://github.com/Rzky3016/Paradise-Userbot)\n"
+        f"⪩ [Group-Help](t.me/paradiseuserbot)\n"
+        f"⪩ [Pemilik](t.me/Nopegoodloking) ")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
