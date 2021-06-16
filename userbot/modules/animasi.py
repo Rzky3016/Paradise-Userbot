@@ -78,27 +78,27 @@ async def typewriter(typew):
 
 @register(outgoing=True, pattern='^.byy(?: |$)(.*)')
 async def typewriter(typew):
-typew.pattern_match.group(1)
-sleep(1)
-await typew.edit("`Ahh Bibyy Mahh...🥺👉🏻👈🏻`")
-sleep(4)
-await typew.edit("`**GUBLUKK...🤪**`")
-sleep(4)
-await typew.edit("`Ihh Ihh🥺...`")
-sleep(4)
-await typew.edit("`Maaf Bibyy...🥺`")
-sleep(4)
-await typew.edit("`Maaf Yaa Cayangku..`")
-sleep(4)
-await typew.edit("`Nanti Aku Beliin Monas Deh Biar Nda Ngambek👉🏻👈🏻`")
-sleep(4)
-await typew.edit("`Udah Yaa Jangan Ngambek...`")
-sleep(4)
-await typew.edit("`Maafin Akuu Byy😘`")
-sleep(4)
-await typew.edit("`Lovee Youu Bibyy `🥰")
-sleep(2)
-await typew.edit("`Mwuachhh....😘💕`")
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("`Ahh Bibyy Mahh...🥺👉🏻👈🏻`")
+    sleep(4)
+    await typew.edit("`**GUBLUKK...🤪**`")
+    sleep(4)
+    await typew.edit("`Ihh Ihh🥺...`")
+    sleep(4)
+    await typew.edit("`Maaf Bibyy...🥺`")
+    sleep(4)
+    await typew.edit("`Maaf Yaa Cayangku..`")
+    sleep(4)
+    await typew.edit("`Nanti Aku Beliin Monas Deh Biar Nda Ngambek👉🏻👈🏻`")
+    sleep(4)
+    await typew.edit("`Udah Yaa Jangan Ngambek...`")
+    sleep(4)
+    await typew.edit("`Maafin Akuu Byy😘`")
+    sleep(4)
+    await typew.edit("`Lovee Youu Bibyy `🥰")
+    sleep(2)
+    await typew.edit("`Mwuachhh....😘💕`")
 # punya ikyy🥺
 
 
@@ -121,7 +121,7 @@ async def typewriter(typew):
 
 
 CMD_HELP.update({
-    "animasi3":
+    "panimasi":
     "🗿CMD🗿`.pe`\
 \nPenjelasan: Cek lah asw.\
 \n\n🗿CMD🗿`.iky`\
