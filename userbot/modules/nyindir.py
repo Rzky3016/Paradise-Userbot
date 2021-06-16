@@ -53,7 +53,7 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("**BIAR TERKENAL?**")
     sleep(3)
-    await typew.edit("**BIAR VIRAL?**)
+    await typew.edit("**BIAR VIRAL?**")
     sleep(3)
     await typew.edit("**TOBAT YA NYED TOBAT IBADAH JANGAN MAKSIAT MULU TOD**")
 
