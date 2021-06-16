@@ -10,8 +10,12 @@ async def typewriter(typew):
     await typew.edit("`Hai Perkenalkan Namaku Rizky Panggil Aja Iky`")
     sleep(3)
     await typew.edit("`16 Tahun`")
-    sleep(1)
+    sleep(3)
     await typew.edit("`Owner Dari Paradise Userbot, Salam Kenal:)`")
+    sleep(3)
+    await typew.edit("`Dan Satu Lagi...`")
+    sleep(3)
+    await type.edit("`Gua Ganteng Njay 😏`")
 # Create by myself @localheart
 
 
