@@ -26,10 +26,10 @@ from userbot.events import register
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 DEF_UNAPPROVED_MSG = (
-    "┏▼━━━━━━━━━━━━━━━━━━━▼┓\n"
-    "    Mau Apa Bro?\n"
+    "𖣘━━━━━━━━━━━━━━━━━━━𖣘\n"
+    "   Kenapa Chat Bro?\n"
     f"  MAU GANGGUIN BOS `{DEFAULTUSER}` ?\n"
-    "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n"
+    "𖣘━━━━━━━━━━━━━━━━━━━𖣘\n\n"
 
     f"Gua Babu Nya `{DEFAULTUSER}`\n"
     " Jangan Spam Ya Sabar Orangnya Lagi Ga Ada\n"
@@ -37,7 +37,7 @@ DEF_UNAPPROVED_MSG = (
     " Paham? Yodah Gosah Spam, Tunggu Dia Approve Chat Kamu\n"
     "╾─────────────────────╼\n"
     " ❗PERINGATAN 1 - 3\n"
-    " 🚧Supported By: 🗿𝙋𝘼𝙍𝘼𝘿𝙄𝙎𝙀-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🗿\n"
+    " 🗿𝙋𝘼𝙍𝘼𝘿𝙄𝙎𝙀-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🗿\n"
     "╾─────────────────────╼\n\n"
     f"- Babu Nya `{DEFAULTUSER}`")
 
