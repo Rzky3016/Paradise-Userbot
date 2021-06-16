@@ -219,7 +219,7 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:paradise|on)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:paradise|paradiseon)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
@@ -411,7 +411,7 @@ CMD_HELP.update({
     "\n\n🗿CMD🗿: `.spc`"
     "\n↳ : Tampilkan spesifikasi sistem."
 })
-CMD_HELP.update({"alive": "🗿CMD🗿: `.alive` `.paradise` atau `.on` dan `.team`"
+CMD_HELP.update({"alive": "🗿CMD🗿: `.paradise` `.alive` atau `.on` dan `.team`"
                  "\n↳ : Untuk melihat apakah bot Anda berfungsi atau tidak dan team untuk mengetahui creator."
                  "\n\n🗿CMD🗿:`.aliveu` <text>"
                  "\n↳ : Mengubah 'pengguna' hidup-hidup ke teks yang Anda inginkan."
