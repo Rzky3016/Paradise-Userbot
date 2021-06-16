@@ -73,7 +73,7 @@ async def typewriter(typew):
     await typew.edit("`ㅤㅤ🏃🏻💨ㅤㅤㅤㅤㅤㅤ`")
     await typew.edit("`ㅤ🏃🏻💨ㅤㅤㅤㅤㅤㅤㅤ`")
     await typew.edit("`🏃🏻💨ㅤㅤㅤㅤㅤㅤㅤㅤ`")
-#create by iky
+# create by iky
 
 
 @register(outgoing=True, pattern='^.byy(?: |$)(.*)')
