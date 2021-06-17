@@ -33,8 +33,8 @@ def gib_link(link):
         return _base + f"https{colon}{slash}{slash}pin.it{slash}{link}"
 
 
-@ultroid_cmd(
-    pattern="pntrst ?(.*)",
+@register(outgoing=True, pattern='^.pinterest(?: |$)(.*)')
+
 )
 async def pinterest(e):
     m = e.pattern_match.group(1)
@@ -55,3 +55,11 @@ async def pinterest(e):
     else:
         await e.delete()
         await e.client.send_file(e.chat_id, hulu[0]["href"], caption=f"Pin:- {m}")
+        
+CMD_HELP.update(
+    {
+        "pinterest":
+        "`.pinterest<link foto atau video dari pinterest>`\
+        \n↳ : Mengunduh foto atau video dari pinterest melalui link."
+    }
+)
