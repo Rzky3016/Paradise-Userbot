@@ -84,8 +84,8 @@ async def typewriter(typew):
     await typew.edit("`ㅤㅤ🏃🏻💨ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ`")
     await typew.edit("`ㅤ🏃🏻💨ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ`")
     await typew.edit("`🏃🏻💨ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ`")
-    sleep(3)
     await typew.edit("`🧎🏻‍♂️ huhh... akhirnya bisa lolos dari wibu mematikan`")
+    
 # create by iky
 
 
@@ -95,7 +95,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`Ahh Bibyy Mahh...🥺👉🏻👈🏻`")
     sleep(4)
-    await typew.edit("`**GUBLUKK...🤪**`")
+    await typew.edit("**GUBLUKK...🤪**")
     sleep(4)
     await typew.edit("`Ihh Ihh🥺...`")
     sleep(4)
@@ -119,7 +119,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(2)
-    await typew.edit("`Bapaknya Udin Di Makan Udang`")
+    await typew.edit("`Bapaknya Udin Di Makan Singkong`")
     sleep(2)
     await typew.edit("`Cuma Sendiri ni Senggol Dong`")
 
