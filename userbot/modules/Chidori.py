@@ -17,6 +17,7 @@ async def typewriter(typew):
     await typew.edit("You:(✖﹏✖)")
 # Create by myself @PashaDIE
 
+
 @register(outgoing=True, pattern='^.rasengan(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -31,7 +32,7 @@ async def typewriter(typew):
     await typew.edit("(Ξ｀Д´)🌀)))Rasengan！")
     sleep(2)
     await typew.edit("You: ( ✖╭╮✖ )")
-#create by myself @Nopegoodloking
+# create by myself @Nopegoodloking
 
 CMD_HELP.update({
     'Nartohh animasi':
