@@ -35,7 +35,7 @@ async def typewriter(typew):
 # create by myself @Nopegoodloking
 
 CMD_HELP.update({
-    'Nartohh animasi':
+    'Nartohh':
     '🗿CMD🗿`.chidori`\
         \nUsage: Mengeluarkan Chidori Dari Mamank Kakashi'
     '🗿CMD🗿`.rasengan`\
