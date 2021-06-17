@@ -24,10 +24,10 @@ from userbot.events import register
 
 # ========================= CONSTANTS ============================
 AFKSTR = [
-    f"__⚜ SIBUK__\n\n╭╼══════════════╾\n**Maaf Bang {ALIVE_NAME} Sedang SIBUK**\n╰╼═════════╾",
-    f"__⚜ SIBUK__\n\n╭╼══════════════╾\n**Bang {ALIVE_NAME} Sedang SIBUK**\n**Tunggu Sampai Online Kembali**\n╰╼═════════╾",
-    f"__⚜ SIBUK__\n\n╭╼══════════════╾\n**{ALIVE_NAME} Sedang SIBUK**\n**Tunggulah Sampai Online**\n╰╼═════════╾",
-    f"__⚜ SIBUK__\n\n╭╼══════════════╾\n**Bang {ALIVE_NAME} Sedang SIBUK**\n╰╼═════════╾",
+    f"__⚜ SIBUK__\n\n╭╼══════════════╾\n**Maap Om, {ALIVE_NAME} Lagi SIBUK**\n╰╼═════════╾",
+    f"__⚜ SIBUK__\n\n╭╼══════════════╾\n** Majikan Gua Lagi SIBUK NGENTODDD gosah ganggu Anjg**\n**Tunggu Sampai Online Kembali**\n╰╼═════════╾",
+    f"__⚜ SIBUK__\n\n╭╼══════════════╾\n**{ALIVE_NAME} Lagi SIBUK**\n**Tunggu Aja Sampai Online Atau Pergi Aja Ntar Balik Lagi Yee**\n╰╼═════════╾",
+    f"__⚜ SIBUK__\n\n╭╼══════════════╾\n**{ALIVE_NAME} Lagi SIBUK**\n╰╼═════════╾",
 ]
 
 
@@ -62,16 +62,16 @@ async def set_afk(afk_e):
     afk_start = start_1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit(f"**⚜ Sibuk**\n\n╭╼══════════════╾\n**{ALIVE_NAME} Telah Sibuk!**\
+        await afk_e.edit(f"**⚜ Sibuk**\n\n╭╼══════════════╾\n**{ALIVE_NAME} Sibuk Jangan Ganggu!**\
         \n╰► **Alasan :** `{string}`\n╰╼═════════╾")
     else:
-        await afk_e.edit(f"**⚜ Sibuk**\n\n╭╼══════════════╾\n**{ALIVE_NAME} Telah Sibuk!**\n╰╼═════════╾")
+        await afk_e.edit(f"**⚜ Sibuk**\n\n╭╼══════════════╾\n**{ALIVE_NAME} Sibuk Jangan Ganggu!**\n╰╼═════════╾")
     if user.last_name:
         await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + "⚜𝗦𝗜𝗕𝗨𝗞⚜"))
     else:
-        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name="⚜𝗦𝗜𝗕𝗨𝗞⚜"))
+        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name="𖣘𝗦𝗜𝗕𝗨𝗞𖣘"))
     if BOTLOG:
-        await afk_e.client.send_message(BOTLOG_CHATID, "#SIBUK\n**Abang²an Telah SIBUK!**")
+        await afk_e.client.send_message(BOTLOG_CHATID, "#SIBUK\n**Lu Lagi SIBUK! Udah Kerjain Aja Apa Yg Lu Mau Kerjain Biar Ini Gua Yang Atur👌🏻**")
     ISAFK = True
     afk_time = datetime.now()  # pylint:disable=E0602
     raise StopPropagation
@@ -90,7 +90,7 @@ async def type_afk_is_not_true(notafk):
     global afk_end
     user = await bot.get_me()  # pylint:disable=E0602
     last = user.last_name
-    if last and last.endswith("⚜𝙎𝙄𝘽𝙐𝙆⚜"):
+    if last and last.endswith("𖣘𝙎𝙄𝘽𝙐𝙆𖣘"):
         last1 = last[:-12]
     else:
         last1 = ""
@@ -98,7 +98,7 @@ async def type_afk_is_not_true(notafk):
     afk_end = back_alive.replace(microsecond=0)
     if ISAFK:
         ISAFK = False
-        msg = await notafk.respond(f"⚜ __**ONLINE**__")
+        msg = await notafk.respond(f"✇ __**ONLINE**__")
         time.sleep(7)
         await msg.delete()
         await notafk.client(UpdateProfileRequest(first_name=user.first_name, last_name=last1))
@@ -166,7 +166,7 @@ async def mention_afk(mention):
                 afk_since = f"`{int(seconds)} Detik`"
             if mention.sender_id not in USERS:
                 if AFKREASON:
-                    await mention.reply(f"⚜ __**PESAN**__\n\n╭╼══════════════╾\n**{ALIVE_NAME} Sedang SIBUK!**\n**Sejak :** {afk_since} Yang Lalu\
+                    await mention.reply(f"⚜ __**PESAN**__\n\n╭╼══════════════╾\n**{ALIVE_NAME} Masih SIBUK!**\n**Sejak :** {afk_since} Yang Lalu\
                         \n╰► **Alasan :** `{AFKREASON}`\n╰╼═════════╾")
                 else:
                     await mention.reply(str(choice(AFKSTR)))
@@ -243,7 +243,7 @@ async def afk_on_pm(sender):
                 afk_since = f"`{int(seconds)} Detik`"
             if sender.sender_id not in USERS:
                 if AFKREASON:
-                    await sender.reply(f"⚜ __**PESAN**__\n\n╭╼══════════════╾\n**{ALIVE_NAME} Masih SIBUK Mohon Tunggu!**\n**Sejak :** {afk_since} Yang Lalu\
+                    await sender.reply(f"⚜ __**PESAN**__\n\n╭╼══════════════╾\n**{ALIVE_NAME} Masih SIBUK Tunggu Aja Njg!**\n**Sejak :** {afk_since} Yang Lalu\
                         \n╰► **Alasan :** `{AFKREASON}`\n╰╼═════════╾")
                 else:
                     await sender.reply(str(choice(AFKSTR)))
@@ -252,7 +252,7 @@ async def afk_on_pm(sender):
             elif apprv and sender.sender_id in USERS:
                 if USERS[sender.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
-                        await sender.reply(f"⚜ __**PESAN**__\n\n╭╼══════════════╾\n**{ALIVE_NAME} Di Bilang Masih SIBUK**\n**Sejak :** {afk_since} Yang Lalu\
+                        await sender.reply(f"⚜ __**PESAN**__\n\n╭╼══════════════╾\n**{ALIVE_NAME} Di Bilang Masih SIBUK Batu Bet Dah Bocah**\n**Sejak :** {afk_since} Yang Lalu\
                             \n╰► **Alasan :** `{AFKREASON}`\n╰╼═════════╾")
                     else:
                         await sender.reply(str(choice(AFKSTR)))
@@ -267,7 +267,7 @@ CMD_HELP.update(
     {
         "sibuk": "**✘ Plugin : **`sibuk`\
         \n\n  •  **Perintah :** `.sibuk`\
-        \n  •  **Function : **Memberi tahu kalau Abang²an sedang SIBUK , dan menguubah nama belakang menjadi ⚜𝗦𝗜𝗕𝗨𝗞⚜\
+        \n  •  **Function : **Memberi tahu kalau Lu sedang SIBUK , dan mengubah nama belakang menjadi 𖣘𝗦𝗜𝗕𝗨𝗞𖣘\
         \n\n  •  **Notes :** __Bila ada orang spam berlebihan ke Anda , tinggal ketik__ `.block`\
     "
     }
