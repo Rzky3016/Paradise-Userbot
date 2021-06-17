@@ -420,10 +420,10 @@ CMD_HELP.update({"alive": "🗿CMD🗿: ` `.alive` atau `.on` dan `.team`"
 
 CMD_HELP.update({"paradise": "🗿CMD🗿:` `.paradise`"
                  "\n⪩ : Alive Bot Program."})
-    
-#ga work anjg 
-#fuck
-#yeah dude
+
+# ga work anjg
+# fuck
+# yeah dude
 
 
 CMD_HELP.update(
