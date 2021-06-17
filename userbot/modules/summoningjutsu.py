@@ -30,8 +30,8 @@ async def summon(ult):
     await ult.client.send_file(ult.chat_id, "https://telegra.ph/file/78c05f1d42e16c61990ca.jpg")
 
     CMD_HELP.update({
-        "summoningjutsu": 
+        "summoningjutsu":
         n\🗿CMD🗿`.summonjutsu`
-\nPenjelasan: Jutsu Untuk Memanggil Gamabunta."
+        \nPenjelasan: Jutsu Untuk Memanggil Gamabunta."
 
     })
