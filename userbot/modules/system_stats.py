@@ -411,19 +411,21 @@ CMD_HELP.update({
     "\n\n🗿CMD🗿: `.spc`"
     "\n↳ : Tampilkan spesifikasi sistem."
 })
-CMD_HELP.update({"alive": "🗿CMD🗿: `.paradise` `.alive` atau `.on` dan `.team`"
+CMD_HELP.update({"alive": "🗿CMD🗿: ` `.alive` atau `.on` dan `.team`"
                  "\n↳ : Untuk melihat apakah bot Anda berfungsi atau tidak dan team untuk mengetahui creator."
                  "\n\n🗿CMD🗿:`.aliveu` <text>"
                  "\n↳ : Mengubah 'pengguna' hidup-hidup ke teks yang Anda inginkan."
                  "\n\n🗿CMD🗿:`.restalive`"
                  "\n↳ : Mereset Pengguna."})
 
-CMD_HELP.update(
-    {
-        "paradise":
-        "🗿CMD🗿: `.paradise`"
-        "\n⪩ : Alive Bot."
-    })
+CMD_HELP.update({"paradise": "🗿CMD🗿:` `.paradise`"
+                 "\n⪩ : Alive Bot Program."})
+    
+#ga work anjg 
+#fuck
+#yeah dude
+
+
 CMD_HELP.update(
     {
         "botversion":
