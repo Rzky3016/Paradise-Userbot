@@ -220,7 +220,7 @@ async def pipcheck(pip):
 
 
 @register(outgoing=True, pattern=r"^\.(?:paradise|paradiseon)\s?(.)?")
-async def amireallyalive(alive):
+async def amireallyalive(paradise):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
@@ -417,6 +417,13 @@ CMD_HELP.update({"alive": "🗿CMD🗿: `.paradise` `.alive` atau `.on` dan `.te
                  "\n↳ : Mengubah 'pengguna' hidup-hidup ke teks yang Anda inginkan."
                  "\n\n🗿CMD🗿:`.restalive`"
                  "\n↳ : Mereset Pengguna."})
+
+CMD_HELP.update(
+    {
+        "paradise:
+        "🗿CMD🗿: `.paradise`"
+        "\n⪩ : Alive Bot."
+})
 CMD_HELP.update(
     {
         "botversion":
