@@ -230,10 +230,10 @@ async def typewriter(typew):
                      "▓▓▓▓▓▓█‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡█\n"
                      "▓▓▓▓▓▓█████‡‡‡‡‡‡‡‡‡‡‡‡██\n"
                      "█████‡‡‡‡‡‡‡██████████\n")
-    
-    
+
+
 @register(outgoing=True, pattern='^.supreme(?: |$)(.*)')
-async def typewriter (typew):
+async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿\n"
                      "⣿⣿⣿⣿⣿⣿⡿⠋⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿\n"
