@@ -378,7 +378,7 @@ _/)______./¯"""/') ___/)___/)__,-----------’)_• ___/)_/)__./¯/)/)
         ]
 
 
-@ultroid_cmd(pattern="iloveu")
-async def lub(ult):
+@register(outgoing=True, pattern="ily")
+async def lub(prd):
     l = random.choice(love)
     return await eor(ult, l)
