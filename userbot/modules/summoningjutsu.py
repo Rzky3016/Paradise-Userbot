@@ -3,7 +3,7 @@ import asyncio
 from . import *
 
 
-@ultroid_cmd(pattern="summoningjutsu")
+@register(outgoing=True, pattern"^.summonjutsu$")
 async def summon(ult):
     ult.delete()
     a = await ult.client.send_file(ult.chat_id, "CAADBQADEwIAAkceYVabauGjzQ4OUgI")
