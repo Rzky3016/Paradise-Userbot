@@ -34,13 +34,12 @@ def gib_link(link):
 
 
 @register(outgoing=True, pattern='^.pinterest(?: |$)(.*)')
-
 )
 async def pinterest(e):
-    m = e.pattern_match.group(1)
-    get_link = get(gib_link(m)).text
-    hehe = bs(get_link, "html.parser")
-    hulu = hehe.find_all("a", {"class": "download_button"})
+    m=e.pattern_match.group(1)
+    get_link=get(gib_link(m)).text
+    hehe=bs(get_link, "html.parser")
+    hulu=hehe.find_all("a", {"class": "download_button"})
     if len(hulu) < 1:
         return await eod(e, "`Wrong link or private pin.`")
     elif len(hulu) > 1:
@@ -48,7 +47,7 @@ async def pinterest(e):
         donl(hulu[1]["href"], "pinterest.jpg")
         await e.delete()
         await e.client.send_file(
-            e.chat_id, "pinterest.mp4", thumb="pinterest.jpg", caption=f"Pin:- {m}"
+            e.chat_id, "pinterest.mp4", thumb = "pinterest.jpg", caption = f"Pin:- {m}"
         )
         os.remove("pinterest.mp4")
         os.remove("pinterest.jpg")
