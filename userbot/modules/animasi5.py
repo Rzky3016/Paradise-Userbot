@@ -22,16 +22,19 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("Ahh Bibyy Mahh...:(")
+    await typew.edit("**Ahh Bibyy Mahh...:(**")
     sleep(2)
-    await typew.edit("Gublukkk...")
-    await typew.edit("Byy...👉🏻👈🏻🥺")
-    await typew.edit("Bibyy Gublukk xixi..")
+    await typew.edit("**Gublukkk...**")
+    sleep(3)
+    await typew.edit("**Byy...👉🏻👈🏻🥺**")
+    sleep(3)
+    await typew.edit("**Bibyy Gublukk xixi..**")
     sleep(2)
-    await typew.edit("Ihh Maaf Bibyy🥺")
+    await typew.edit("**Ihh Maaf Bibyy🥺**")
     sleep(2)
-    await typew.edit("Akuu Cayangg Bibyy💕")
-    await typew.edit("Lovee Youu Cantikk😘")
+    await typew.edit("**Akuu Cayangg Bibyy💕**")
+    sleep(3)
+    await typew.edit("**Lovee Youu Cantikk😘**")
 
 
 @register(outgoing=True, pattern='^.kntl(?: |$)(.*)')
@@ -237,7 +240,7 @@ async def typewriter(typew):
     await typew.edit("**🗿PARADISE - USERBOT🗿**\n\n [Tekan Disini](https://github.com/Rzky3016/Paradise-Userbot)\n Kalian kya Monyed🐒...")
 
 CMD_HELP.update({
-    "animasi2":
+    "panimasi4":
     "`•CMD: .hai`\
     \n•Penjelasan: Cosplay Nissa Sablon\
     \n\n`•CMD: .byy`\
