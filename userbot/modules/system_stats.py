@@ -423,7 +423,7 @@ CMD_HELP.update(
         "paradise":
         "🗿CMD🗿: `.paradise`"
         "\n⪩ : Alive Bot."
-     })
+    })
 CMD_HELP.update(
     {
         "botversion":
