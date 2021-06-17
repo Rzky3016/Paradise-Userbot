@@ -420,7 +420,7 @@ CMD_HELP.update({"alive": "🗿CMD🗿: `.paradise` `.alive` atau `.on` dan `.te
 
 CMD_HELP.update(
     {
-        "paradise:
+        "paradise":
         "🗿CMD🗿: `.paradise`"
         "\n⪩ : Alive Bot."
      })
