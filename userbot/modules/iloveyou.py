@@ -378,7 +378,7 @@ _/)______./¯"""/') ___/)___/)__,-----------’)_• ___/)_/)__./¯/)/)
         ]
 
 
-@register(outgoing=True, pattern="ily")
+@register(outgoing=True, pattern=".ily")
 async def lub(prd):
     l = random.choice(love)
-    return await eor(ult, l)
+    return await eor(prd, l)
