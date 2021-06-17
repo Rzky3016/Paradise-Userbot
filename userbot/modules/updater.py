@@ -91,14 +91,14 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             await asyncio.sleep(5)
             return await event.delete()
         else:
-            await event.edit("`🗿Paradise🗿 Berhasil Di Deploy!\n" "Restarting, Mohon Menunggu Tuan.....`")
+            await event.edit("`🗿Paradise🗿 Berhasil Di Deploy!\n" "Restarting, Mohon Menunggu, SABAR YA TODD.....`")
             await asyncio.sleep(15)
             await event.delete()
 
         if BOTLOG:
             await event.client.send_message(
                 BOTLOG_CHATID, "#BOT \n"
-                "`Paradise-Userbot Berhasil Di Update`")
+                "`Paradise-Userbot Berhasil Di Update, Update Mulu Anjg`")
 
     else:
         await event.edit('`[HEROKU]:'
@@ -126,7 +126,7 @@ async def update(event, repo, ups_rem, ac_br):
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "#BOT \n"
-            "**Paradise-Userbot Telah Di Perbarui**")
+            "**Paradise-Userbot Telah Di Perbarui, Puas Lu Nyed?**")
         await asyncio.sleep(100)
         await event.delete()
 
@@ -139,7 +139,7 @@ async def update(event, repo, ups_rem, ac_br):
 @ register(outgoing=True, pattern=r"^.update(?: |$)(now|deploy)?")
 async def upstream(event):
     "For .update command, check if the bot is up to date, update if specified"
-    await event.edit("`Sedang melakukan Pembaharuan ke repo...🗿`")
+    await event.edit("`Paradise Sedang melakukan Pembaharuan ke repo...🗿`")
     conf = event.pattern_match.group(1)
     off_repo = UPSTREAM_REPO_URL
     force_update = False
@@ -219,7 +219,7 @@ async def upstream(event):
         await event.edit('`🛠️ Proses Update 🗿Paradise-Userbot🗿, Loading....35%`')
         await event.edit('`🛠️ Proses Update 🗿Paradise-Userbot🗿, Loading....77%`')
         await event.edit('`🛠️ Proses Update 🗿Paradise-Userbot🗿, Updating...90%`')
-        await event.edit('`🛠️ Proses Update 🗿Paradise-Userbot🗿, Mohon Menunggu Sayang....100%`')
+        await event.edit('`🛠️ Proses Update 🗿Paradise-Userbot🗿, TUNGGU BENTAR NYED SABAR JADI ORANG....100%`')
     if conf == "now":
         await update(event, repo, ups_rem, ac_br)
         await asyncio.sleep(10)
