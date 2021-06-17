@@ -31,7 +31,7 @@ async def summon(ult):
 
     CMD_HELP.update({
         "summoningjutsu":
-        n\🗿CMD🗿`.summonjutsu`
-        \nPenjelasan: Jutsu Untuk Memanggil Gamabunta."
+        "🗿CMD🗿`.summonjutsu`\
+    \nPenjelasan: Jutsu Untuk Memanggil Gamabunta."
 
     })
