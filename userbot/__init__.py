@@ -466,7 +466,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"Eror 404 not found Paradise Userbot Anda Sendiri, Jangan Menggunakan Milik Tuan {ALIVE_NAME}"
+                reply_pop_up_alert = f"Eror 404 not found Buat Paradise Userbot Anda Sendiri, Jangan Menggunakan Milik Tuan {ALIVE_NAME}"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -497,7 +497,7 @@ with bot:
                     )
                 )
             else:
-                reply_pop_up_alert = f"Eror 404 not found Saya Userbot Anda Sendiri, Jangan Menggunakan Milik Tuan {ALIVE_NAME}"
+                reply_pop_up_alert = f"Eror 404 not found Buat Userbot Anda Sendiri, Jangan Menggunakan Milik Tuan {ALIVE_NAME}"
 
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
