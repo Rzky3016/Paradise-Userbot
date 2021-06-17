@@ -51,7 +51,7 @@ async def randomise(items):
 async def sleepybot(time):
     """ For .sleep command, let the userbot snooze for a few second. """
     counter = int(time.pattern_match.group(1))
-    await time.edit("`Saya tidur dulu Tuan...🐧`")
+    await time.edit("`Izin Tidur Ngab Capek Ngurusin Lu Mulu..🥱`")
     if BOTLOG:
         str_counter = time_formatter(counter)
         await time.client.send_message(
@@ -59,29 +59,29 @@ async def sleepybot(time):
             f"You put the bot to sleep for {str_counter}.",
         )
     sleep(counter)
-    await time.edit("`🐧OFF🐧.`")
+    await time.edit("`🥱Bot Tidur.`")
 
 
 @register(outgoing=True, pattern="^.shutdown$")
 async def killdabot(event):
     """ For .shutdown command, shut the bot down."""
-    await event.edit("`Mematikan Linux-Userbot....`")
+    await event.edit("`Mematikan Paradise-Userbot....`")
     await asyncio.sleep(7)
     await event.delete()
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#SHUTDOWN \n"
-                                        "`Linux-Userbot Telah Dimatikan`")
+                                        "`Paradise-Userbot Telah Dimatikan`")
     await bot.disconnect()
 
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("`Restarting Linux-Userbot...`")
+    await event.edit("`Restarting Paradise-Userbot...`")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#RESTARTBOT \n"
-                                        "`Linux-Userbot Telah Di Restart`")
+                                        "`Paradise-Userbot Telah Barhasil Di Restart`")
     await bot.disconnect()
     # Spin a new instance of bot
     execl(sys.executable, sys.executable, *sys.argv)
@@ -93,7 +93,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Beberapa Repo Dan File:\n"
-        "\n[🐧Linux-Userbot🐧 Repo](https://github.com/ferikunn/Linux-Userbot/blob/Linux-Userbot/README.md)"
+        "\n[🗿Paradise-Userbot🗿Repo](https://github.com/Rzky3016/Paradise-Userbot/blob/Paradise-Userbot/README.md)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Setup Guide - Google Drive](https://telegra.ph/How-To-Setup-GDrive-11-02)"
         "\n[Setup Guide - LastFM Module](https://telegra.ph/How-to-set-up-LastFM-module-for-Paperplane-userbot-11-02)"
@@ -122,12 +122,12 @@ async def repo_is_here(wannasee):
     await wannasee.edit(
         "╭─━━━━━━━━━━━━━─╮\n"
         "                  Repo\n"
-        "     [🐧Linux-Userbot🐧](https://github.com/ferikunn/Linux-Userbot)\n"
+        "     [🗿 Paradise-Userbot 🗿](https://github.com/Rzky3016/Paradise-Userbot)\n"
         "╭─━━━━━━━━━━━━━─╯\n"
-        "│👨‍💻 **Mastah :** [Feri](t.me/xflicks)\n"
+        "│💻**Dev :** [Ikyy](t.me/Nopegoodloking)\n"
         "╰━━━━━━━━━━━━━━━╯\n"
-        "  Tutorial    : [Tutorial Deploy](https://telegra.ph/Deploy-04-06)"
-        "  Deploy      : [Tekan Disini](https://heroku.com/deploy?template=https://github.com/ferikunn/Linux-Userbot)"
+        "  Tutorial    : [Tutorial](https://t.me/paradisesupportch/4)"
+        "  Deploy      : [Tekan Disini](https://heroku.com/deploy?template=https://github.com/Rzky3016/Paradise-Userbot)"
     )
 
 
