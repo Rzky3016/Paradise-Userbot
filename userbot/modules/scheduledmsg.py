@@ -14,6 +14,7 @@
 import asyncio
 from . import *
 
+
 @ultroid_cmd(pattern="smsg(.*)")
 async def snku(ult):
     hm = await eod(ult, ". . .", time=1)
@@ -21,7 +22,7 @@ async def snku(ult):
         sec = ult.text.split(" ")
         time = sec[1]
         msg = sec[2]
-    except:
+    except BaseException:
         return await eod(hm, "OOI YOU DID IT WRONG DO .help schedulemsg, time=2")
     await asyncio.sleep(int(time))
     await bot.send_message(ult.chat_id, str(msg))
