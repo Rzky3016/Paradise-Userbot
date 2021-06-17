@@ -85,7 +85,7 @@ async def typewriter(typew):
     await typew.edit("`ㅤ🏃🏻💨ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ`")
     await typew.edit("`🏃🏻💨ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ`")
     await typew.edit("`🧎🏻‍♂️ huhh... akhirnya bisa lolos dari wibu mematikan`")
-    
+
 # create by iky
 
 
