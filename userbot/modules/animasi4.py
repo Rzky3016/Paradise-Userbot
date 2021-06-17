@@ -177,7 +177,7 @@ async def _(event):
 # Alvin Gans
 # Lord
 CMD_HELP.update({
-    "animasi":
+    "panimasi3":
     "`.nah` ; `.huh` ; `.owner`\
     \n🗿CMD🗿: cobain.\
     \n\n`.bunga` ; `.buah`\
