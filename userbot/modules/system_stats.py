@@ -419,7 +419,8 @@ CMD_HELP.update({"alive": "🗿CMD🗿: `.paradise` `.alive` atau `.on` dan `.te
                  "\n↳ : Mereset Pengguna."})
 
 CMD_HELP.update(
-    {"paradise:
+    {
+        "paradise:
         "🗿CMD🗿: `.paradise`"
         "\n⪩ : Alive Bot."
      })
