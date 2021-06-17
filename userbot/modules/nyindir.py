@@ -58,7 +58,7 @@ async def typewriter(typew):
     await typew.edit("**TOBAT YA NYED TOBAT IBADAH JANGAN MAKSIAT MULU TOD**")
 
 CMD_HELP.update({
-    "nyindir1":
+    "nyindir":
     "•🗿CMD🗿: `.tua`\
     \n•Penjelasan: Gatau cek sendiri asu\
     \n\n•🗿CMD🗿: `.stress`\
