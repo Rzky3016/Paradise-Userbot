@@ -21,7 +21,7 @@ async def get_admin(show):
         ):
             if not user.deleted:
                 link = f'<a href="tg://user?id={user.id}">{user.first_name}</a>'
-                mentions += f"\n🗿 Anak Ilang {link}"
+                mentions += f"\n⪩ Anak Ilang {link}"
             else:
                 mentions += f"\nAnak Ilang <code>{user.id}</code>"
     except ChatAdminRequiredError as err:
