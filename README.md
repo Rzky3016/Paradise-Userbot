@@ -2,6 +2,25 @@
 ![Paradise-Userbot Logo](https://telegra.ph/file/8f6dc8c4536b52ca3271c.jpg)
 
 
+<p align="center">
+  <a href="https://github.com/Rzky3016/Paradise-Userbot/fork">
+    <img src="https://img.shields.io/github/forks/Rzky3016/Paradise-Userbot?label=Fork&style=social">
+    
+    </a>
+    <a href="https://github.com/Rzky3016/Paradise-Userbot">
+      <img src="https://img.shields.io/github/stars/Rzky3016/Paradise-Userbot?style=social">
+    </a>
+  </p>
+
+<p align="left">
+  <a href="https://github.com/Rzky3016/Paradise-Userbot/blob/Paradise-Userbot/LICENSE"><img src="https://img.shields.io/github/license/Rzky3016/Paradise-Userbot?&style=social&logo=github">
+  </a></p>      
+  
+![Repo Size](https://img.shields.io/github/repo-size/Rzky3016/Paradise-Userbot?&style=plastic&logo=github)
+[![GitHub issues](https://img.shields.io/github/issues/Rzky3016/Paradise-Userbot?&style=plastic&logo=github)](https://github.com/Rzky3016/Paradise-Userbot/issues)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Rzky3016/Paradise-Userbot?&style=plastic&logo=github)](https://github.com/PashaDIE/Last-UBOT/graphs/commit-activity)
+[![GitHub contributors](https://img.shields.io/github/contributors/Rzky3016/Paradise-Userbot?&style=plastic&logo=github)](https://GitHub.com/Rzky3016/Paradise-Userbot/graphs/contributors/)
+<p align="justify">
 
 <h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
 <p align="center">&nbsp;</p>
