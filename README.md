@@ -1,7 +1,7 @@
 # Paradise Userbot
 ![Paradise-Userbot Logo](https://telegra.ph/file/8f6dc8c4536b52ca3271c.jpg)
 
-<a href="https://cooltext.com"><img src="https://r67.cooltext.com/d.php?renderid=386944937943376&extension=gif" width="802" height="96" alt="Paradise-Userbot" /></a>
+<a href="https://cooltext.com"><img src="https://cooltext.com/Render-Image?RenderID=386944937943376&LogoId=3869449379" width="802" height="96" alt="Paradise-Userbot" /></a>
 
 <p align="center">
   <a href="https://github.com/Rzky3016/Paradise-Userbot/fork">
