@@ -10,7 +10,7 @@
     <a href="https://github.com/Rzky3016/Paradise-Userbot">
       <img src="https://img.shields.io/github/stars/Rzky3016/Paradise-Userbot?style=social">
     </a>
-  </p>
+</p>
 
 <p align="left">
   <a href="https://github.com/Rzky3016/Paradise-Userbot/blob/Paradise-Userbot/LICENSE"><img src="https://img.shields.io/github/license/Rzky3016/Paradise-Userbot?&style=social&logo=github">
