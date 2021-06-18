@@ -220,7 +220,7 @@ async def pipcheck(pip):
 
 
 @register(outgoing=True, pattern=r"^\.(?:paradise|paradiseon)\s?(.)?")
-async def amireallyalive(paradise):
+async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
