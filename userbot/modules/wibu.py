@@ -5,7 +5,7 @@ from userbot import CMD_HELP
 from userbot.events import register
 
 
-@register(outgoing=True, pattern='^.wibu(?: |$)(.*)')
+@register(outgoing=True, pattern='^.wibu2(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(0.07)
@@ -46,6 +46,8 @@ async def typewriter(typew):
     await typew.edit("**Tapi Bo'ong🤾🏻**")
     sleep(0.07)
     await typew.edit("**Dasar Wibu, Istri Kartun🪂**")
+    sleep(1)
+    await typew.edit("**IUHH DEMEN KOK SAMA 2D😖**")
 
 
 @register(outgoing=True, pattern='^.wibbu(?: |$)(.*)')
@@ -53,13 +55,13 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**WI WIII WIIII WIIII.....**")
     sleep(1)
-    await typew.edit("__WIBUUU ANJIRRRRR!....__")
+    await typew.edit("__ARGHHH LARI ADA WIBUU!....__")
     sleep(1)
     await typew.edit("`🏃                        🏂`")
     await typew.edit("`🏃                       🏂`")
     await typew.edit("`🏃                      🏂`")
     await typew.edit("`🏃                     🏂`")
-    await typew.edit("`🏃   `LARII`          🏂`")
+    await typew.edit("`🏃   `LARII ADA WIBU`          🏂`")
     await typew.edit("`🏃                   🏂`")
     await typew.edit("`🏃                  🏂`")
     await typew.edit("`🏃                 🏂`")
@@ -103,18 +105,18 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("🎯")
     sleep(2)
-    await typew.edit("**Kasian Si Wibu Wokwokwok**")
+    await typew.edit("**Mampus Kau Wibu**")
 
 
 CMD_HELP.update(
     {
         "last": "**✘ Module :** `wibu`\
-        \n\n  •  **CMD :** `.wibu`\
+        \n\n  •  **CMD :** `.wibu2`\
         \n  •  **Function : **Untuk melihat sesuatu yang menarik\
         \n  •  **Function : **Lari Cuk Ada Wibuuu Arghhhh**\
-        \n  ** Harap chat developer king @SkyzoSaja Jika ingin mengidekan sesuatu yang menarik **\
+        \n  ** Harap chat developer Paradise @Nopegoodloking Jika ingin mengidekan sesuatu yang menarik **\
         \n\n  ** Perintah kosong **\
-        \n  ** Harap chat developer king @SkyzoSaja Jika ingin mengidekan sesuatu yang menarik **\
+        \n  ** Harap chat developer Paradise @Nopegoodloking Jika ingin mengidekan sesuatu yang menarik **\
     "
     }
 )
