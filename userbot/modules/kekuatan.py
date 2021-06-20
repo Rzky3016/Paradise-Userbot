@@ -42,7 +42,7 @@ from userbot import bot, TEMP_DOWNLOAD_DIRECTORY, CMD_HELP
 
 @register(outgoing=True, pattern=r'^.kekuatan(:? |$)([1-8])?')
 async def _(fry):
-    await fry.edit("`Saya Mengaktifkan Kekuatan Telegram...⚡`")
+    await fry.edit("`Saya Mengaktifkan Kekuatan Telegram...🗿`")
     level = fry.pattern_match.group(2)
     if fry.fwd_from:
         return
@@ -73,10 +73,10 @@ async def _(fry):
             """ - don't spam notif - """
             await bot.send_read_acknowledge(conv.chat_id)
         except YouBlockedUserError:
-            await fry.reply("`King Mohon Unblock` @image_deepfrybot`...`")
+            await fry.reply("`Bos Mohon Unblock` @image_deepfrybot`...`")
             return
         if response.text.startswith("Forward"):
-            await fry.edit("`Tuan Mohon Matikan Setelan Forward Privasi...`")
+            await fry.edit("`Bos Mohon Matikan Setelan Forward Privasi...`")
         else:
             downloaded_file_name = await fry.client.download_media(
                 response.media,
@@ -135,10 +135,10 @@ async def _(fry):
             """ - don't spam notif - """
             await bot.send_read_acknowledge(conv.chat_id)
         except YouBlockedUserError:
-            await fry.reply("`Tuan Mohon Unblock` @image_deepfrybot`...`")
+            await fry.reply("`Bos Mohon Unblock` @image_deepfrybot`...`")
             return
         if response.text.startswith("Forward"):
-            await fry.edit("`Tuan Mohon Matikan Setelan Privasi Forward...`")
+            await fry.edit("`Bos Mohon Matikan Setelan Privasi Forward...`")
         else:
             downloaded_file_name = await fry.client.download_media(
                 response.media,
@@ -166,6 +166,6 @@ async def _(fry):
 
 CMD_HELP.update({
     "kekuatan":
-    "**Modules: __Kekuatan__\n\n⚡list⚡: `.kekuatan` / `.kekuatan [level(1-8)]`"
+    "**Modules: __Kekuatan__\n\n🗿list:🗿 `.kekuatan` / `.kekuatan [level(1-8)]`"
     "\n**Penjelasan:** untuk mengubah foto/sticker."
 })
