@@ -243,7 +243,7 @@ async def afk_on_pm(sender):
                 if AFKREASON:
                     await sender.reply(f"**{ALIVE_NAME} Lagi OFF** {afk_since} **Yang Lalu**.\
                         \n☞ **Alasan**: `{AFKREASON}`")
-                        
+
                 else:
                     await sender.reply(str(choice(AFKSTR)))
                 USERS.update({sender.sender_id: 1})
