@@ -2,7 +2,7 @@ from userbot import bot
 from telethon import events
 
 
-@bot.on(events.NewMessage(pattern='^.swag(?: |$)(.*)", outgoing=True))
+@bot.on(events.NewMessage(pattern='^ .swag(?: |$)(.*)", outgoing=True))
 async def _(event):
 
     if event.fwd_from:
