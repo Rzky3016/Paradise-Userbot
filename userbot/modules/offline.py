@@ -60,7 +60,7 @@ async def set_afk(afk_e):
     afk_start = start_1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit(f"** Bos{ALIVE_NAME} Lagi OFF**\
+        await afk_e.edit(f"** Bos {ALIVE_NAME} Lagi OFF**\
         \n⪩ **Alasan:** `{string}`")
     else:
         await afk_e.edit(f"**Bos {ALIVE_NAME} Lagi OFF**")
