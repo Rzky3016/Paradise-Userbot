@@ -57,6 +57,14 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("**TOBAT YA NYED TOBAT IBADAH JANGAN MAKSIAT MULU TOD**")
 
+
+@register(outgoing=True, pattern='^.wibu(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("**BIAR NGAPA SIH NGATA²IN WIBU KONTOL?,CUMA PAKE PP ANIME LU KIRA GUA WIBU AJG?,NONTON ANIME JUGA KAGA GBLK.**")
+
+
 CMD_HELP.update({
     "nyindir":
     "•🗿CMD🗿: `.tua`\
@@ -69,5 +77,6 @@ CMD_HELP.update({
     \n•Penjelasan: Buat Orang Caper\
     \n\n•🗿CMD🗿: `.tobat`\
     \n•Penjelasan: Tobat Nyed Tobat."
-
+    \n\n•🗿CMD🗿: `.wibu`\
+    \n•Penjelasan: gas balik ngatain wibu."
 })
