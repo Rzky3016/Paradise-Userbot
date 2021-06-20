@@ -48,7 +48,7 @@ async def typewriter(typew):
     await typew.edit("**Dasar Wibu, Istri Kartun🪂**")
 
 
-@register(outgoing=True, pattern='^.wibbu(?: |$)(.*)')
+@register(outgoing=True, pattern='^.wibuu(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**WI WIII WIIII WIIII.....**")
@@ -108,8 +108,8 @@ async def typewriter(typew):
 
 CMD_HELP.update(
     {
-        "last": "**✘ Module :** `wibu`\
-        \n\n  •  **CMD :** `.wibu`\
+        "wibu": "**✘ Module :** `wibu`\
+        \n\n  •  **CMD :** `.wibuu`\
         \n  •  **Function : **Untuk melihat sesuatu yang menarik\
         \n  •  **Function : **Lari Cuk Ada Wibuuu Arghhhh**\
         \n  ** Harap chat developer king @SkyzoSaja Jika ingin mengidekan sesuatu yang menarik **\
