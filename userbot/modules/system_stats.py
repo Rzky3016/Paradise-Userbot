@@ -264,7 +264,7 @@ async def amireallyalive(alive):
     output = (
         f"══════════════════════\n"
         f"     ** 🗿Paradise-Userbot🗿 ** \n\n"
-        f"🗿 **Majikan**  \n   ↳ `{DEFAULTUSER}` \n"
+        f"🗿 **Bos Gua**  \n   ↳ `{DEFAULTUSER}` \n"
         f"👤 **Username** \n   ↳ `@{user.username}` \n"
         f"⚙️ **Telethon** \n   ↳ `Versi {version.__version__}` \n"
         f"🐍 **Python**   \n   ↳ `Versi {python_version()}` \n"
@@ -348,7 +348,7 @@ async def redis(alive):
         f"╭╼════════════════════╾╮ \n"
         f"│    ⇱ 𓆩𝐒𝐞𝐥𝐚𝐦𝐚𝐭 𝐃𝐚𝐭𝐚𝐧𝐠 𝐃𝐢 𝐀𝐥𝐢𝐯𝐞𓆪 ⇲ \n"
         f"┟╼════════════════════╾┤ \n"
-        f"╟◈ 🗿  `Tuan    :`{DEFAULTUSER} \n"
+        f"╟◈ 🗿  `Bos Gua    :`{DEFAULTUSER} \n"
         f"╟◈ 👤 `Username :`@{user.username} \n"
         f"╟◈ ⚙️  `Telethon :`v. {version.__version__} \n"
         f"╟◈ 🐍  `Python   :`v. {python_version()} \n"
