@@ -14,7 +14,7 @@ auth_url = r["auth_url"]
 
 @register(outgoing=True, pattern=r"^\.tg (m|t)$")
 async def telegraphs(graph):
-    await graph.edit("`Sedang Mengunggah foto...⚡️`")
+    await graph.edit("__Sedang Mengunggah foto...🗿__")
     if not graph.text[0].isalpha() and graph.text[0] not in (
             "/", "#", "@", "!"):
         if graph.fwd_from:
@@ -93,5 +93,5 @@ def resize_image(image):
     im.save(image, "PNG")
 
 
-CMD_HELP.update({"telegraph": ">⚡️CMD⚡️`.tg` <m|t>"
+CMD_HELP.update({"telegraph": ">🗿CMD🗿`.tg` <m|t>"
                  "\nUsage: Mengunggah t(Teks) Atau m(Media) Ke Telegraph."})
