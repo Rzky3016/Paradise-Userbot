@@ -24,12 +24,12 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("**Wifi Sama Bluetooth Aja Ga Bisa Jarak Jauh, Kok Lu Malah Nyaman Sama Yang Jauh?**")
     sleep(3)
-
-    async def summon(ult):
-        ult.delete()
-        a = await ult.client.send_file("https://telegra.ph/file/63fb1ed0b40f7dbddc001.png")
-        await asyncio.sleep(1)
-        await a.delete()
+    await fry.client.send_file(fry.chat_id, "https://telegra.ph/file/63fb1ed0b40f7dbddc001.png")
+    
+       
+        
+        
+       
 
 CMD_HELP.update({
     "ldr":
