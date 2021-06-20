@@ -64,19 +64,23 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("**APASIH NGATAIN WIBU²,BIAR NGAPA NGATAIN ORA WIBU KEK GITU ANJG?,CUMA PAKE PP ANIME DIKATAIN WIBU KONTOL,NONTON ANIME AJA KAGA GUA ASYU.**")
 
-CMD_HELP.update({
-    "nyindir":
-    "•🗿CMD🗿: `.tua`\
-    \n•Penjelasan: Gatau cek sendiri asu\
-    \n\n•🗿CMD🗿: `.stress`\
-    \n•Penjelasan: Gatau cek sendiri asu\
-    \n\n•🗿CMD🗿: `.gajelas`\
-    \n•Penjelasan: Nyindir orang Goblok.\
-    \n\n•🗿CMD🗿: `.caper`\
-    \n•Penjelasan: Buat Orang Caper\
-    \n\n•🗿CMD🗿: `.tobat`\
-    \n•Penjelasan: Tobat Nyed Tobat.
-    \n\n•🗿CMD🗿: `.anime`
-    \n•Penjelasan: Gas Katain Balik Wibu."
+CMD_HELP.update(
+    {
+        "nyindir": "**Modules** `nyindir`\
+        \n\n•🗿CMD🗿: `.tua`\
+        \n•Penjelasan: Gatau cek sendiri asu\
+        \n\n•🗿CMD🗿: `.stress`\
+        \n•Penjelasan: Gatau cek sendiri asu\
+        \n\n•🗿CMD🗿: `.gajelas`\
+        \n•Penjelasan: Nyindir orang Goblok\
+        \n\n•🗿CMD🗿: `.caper`\
+        \n•Penjelasan: Buat Orang Caper\
+        \n\n•🗿CMD🗿: `.tobat`\
+        \n•Penjelasan: Tobat Nyed Tobat\
+        \n\n•🗿CMD🗿: `.anime`\
+        \n•Penjelasan: Gas Katain Balik Wibu\
+    "
+    }
+)
 
-})
+
