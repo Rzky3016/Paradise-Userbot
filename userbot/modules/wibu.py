@@ -109,12 +109,12 @@ async def typewriter(typew):
 CMD_HELP.update(
     {
         "wibu": "**✘ Module :** `wibu`\
-        \n\n  •  **CMD :** `.wibuu`\
+        \n\n  •  **CMD :** `.wibu`\
         \n  •  **Function : **Untuk melihat sesuatu yang menarik\
         \n  •  **Function : **Lari Cuk Ada Wibuuu Arghhhh**\
         \n  ** Harap chat developer king @SkyzoSaja Jika ingin mengidekan sesuatu yang menarik **\
         \n\n  ** Perintah kosong **\
-        \n  ** Harap chat developer king @SkyzoSaja Jika ingin mengidekan sesuatu yang menarik **\
     "
     }
 )
+
