@@ -24,10 +24,10 @@ from userbot.events import register
 
 # ========================= CONSTANTS ============================
 AFKSTR = [
-    f"**Tuan ➡{ALIVE_NAME} Sedang AFK!**",
-    f"**Tuan ➡{ALIVE_NAME} Sedang AFK\n •Mohon Menunggu Hingga Dia Online Kembali**",
-    f"**Tuan ➡{ALIVE_NAME} Sedang AFK!\n •Mohon Jangan Spam Tunggu Dia Online ANJG!!**",
-    f"**Tuan ➡{ALIVE_NAME} Sedang AFK!**",
+    f"**➡{ALIVE_NAME} Sedang AFK!**",
+    f"**➡{ALIVE_NAME} Sedang AFK\n •Mohon Menunggu Hingga Dia Online Kembali**",
+    f"**➡{ALIVE_NAME} Sedang AFK!\n •Mohon Jangan Spam Tunggu Dia Online ANJG!!**",
+    f"**➡{ALIVE_NAME} Sedang AFK!**",
 ]
 
 
@@ -62,16 +62,16 @@ async def set_afk(afk_e):
     afk_start = start_1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit(f"**Tuan **\n╭✠╼━━━━━━❖━━━━━━━✠╮\n{ALIVE_NAME} Telah Afk...\
-        \n𝘼𝙡𝙖𝙨𝙖𝙣: `{string}`\n╰✠╼━━━━━━❖━━━━━━━✠╯")
+        await afk_e.edit(f"**Bos**\n𖣘╼━━━━━━𖣐━━━━━━━𖣘\n{ALIVE_NAME} Telah Afk...\
+        \n𝘼𝙡𝙖𝙨𝙖𝙣: `{string}`\n𖣘╼━━━━━━𖣐━━━━━━━𖣘")
     else:
-        await afk_e.edit(f"**Tuan **\n╭✠╼━━━━━━❖━━━━━━━✠╮\n{ALIVE_NAME} Telah Afk...\n╰✠╼━━━━━━❖━━━━━━━✠╯")
+        await afk_e.edit(f"**Bos **\n𖣘╼━━━━━━𖣐━━━━━━━𖣘\n{ALIVE_NAME} Telah Afk...\n𖣘╼━━━━━━𖣐━━━━━━━𖣘")
     if user.last_name:
-        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + "AFK"))
+        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + "ᴀғᴋ"))
     else:
         await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name="!"))
     if BOTLOG:
-        await afk_e.client.send_message(BOTLOG_CHATID, "#AFK\n**Paradise Telah AFK!**")
+        await afk_e.client.send_message(BOTLOG_CHATID, "#ᴀғᴋ\n**Paradise Telah AFK!**")
     ISAFK = True
     afk_time = datetime.now()  # pylint:disable=E0602
     raise StopPropagation
@@ -90,7 +90,7 @@ async def type_afk_is_not_true(notafk):
     global afk_end
     user = await bot.get_me()  # pylint:disable=E0602
     last = user.last_name
-    if last and last.endswith("AFK"):
+    if last and last.endswith("ᴀғᴋ"):
         last1 = last[:-12]
     else:
         last1 = ""
@@ -98,7 +98,7 @@ async def type_afk_is_not_true(notafk):
     afk_end = back_alive.replace(microsecond=0)
     if ISAFK:
         ISAFK = False
-        msg = await notafk.respond("**Tuan `Sudah Tidak Afk Lagi`...**")
+        msg = await notafk.respond("**{ALIVE_NAME} `Telah Bangkit Dari Kubur`...**")
         time.sleep(3)
         await msg.delete()
         await notafk.client(UpdateProfileRequest(first_name=user.first_name, last_name=last1))
