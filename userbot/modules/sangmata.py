@@ -25,7 +25,7 @@ async def lastname(steal):
     if message.sender.bot:
         await steal.edit("```Balas Ke Pesan Pengguna Yang Sebenarnya.```")
         return
-    await steal.edit("```Majikan Memerintahku Mengambil Informasi Riwayat Pergantian Nama Orang Ini```")
+    await steal.edit("```Bos Gua Memerintahku Mengambil Informasi Riwayat Pergantian Nama Orang Ini```")
     try:
         async with bot.conversation(chat) as conv:
             try:
@@ -34,7 +34,7 @@ async def lastname(steal):
                 response = await conv.get_response()
             except YouBlockedUserError:
                 await steal.reply(
-                    "```Tuan Mohon Unblock @sangmatainfo_bot Dan Coba Lagi```"
+                    "```Bos Mohon Unblock @sangmatainfo_bot Dan Coba Lagi```"
                 )
                 return
             if r.text.startswith("Name"):
@@ -47,19 +47,19 @@ async def lastname(steal):
             if response.text.startswith("No records") or r.text.startswith(
                 "No records"
             ):
-                await steal.edit("```Saya Tidak Menemukan Informasi Pergantian Nama, Tuan Orang Ini Belum Pernah Mengganti Namanya```")
+                await steal.edit("```Saya Tidak Menemukan Informasi Pergantian Nama, Bos Orang Ini Belum Pernah Mengganti Namanya```")
                 await steal.client.delete_messages(
                     conv.chat_id, [msg.id, r.id, response.id]
                 )
                 return
             else:
                 respond = await conv.get_response()
-                await steal.edit(f"```{response.message}```")
+                await steal.edit(f"**{response.message}**")
             await steal.client.delete_messages(
                 conv.chat_id, [msg.id, r.id, response.id, respond.id]
             )
     except TimeoutError:
-        return await steal.edit("`Saya Sedang Sakit Tuan, Maaf:(`")
+        return await steal.edit("`Saya Sedang Sakit Bos, Maaf:(`")
 
 
 CMD_HELP.update({
