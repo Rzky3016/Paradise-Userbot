@@ -57,6 +57,13 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("**TOBAT YA NYED TOBAT IBADAH JANGAN MAKSIAT MULU TOD**")
 
+
+@register(outgoing=True, pattern='^.anime(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("**APASIH NGATAIN WIBU²,BIAR NGAPA NGATAIN ORA WIBU KEK GITU ANJG?,CUMA PAKE PP ANIME DIKATAIN WIBU KONTOL,NONTON ANIME AJA KAGA GUA ASYU.**")
+
 CMD_HELP.update({
     "nyindir":
     "•🗿CMD🗿: `.tua`\
