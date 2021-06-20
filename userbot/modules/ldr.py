@@ -1,7 +1,6 @@
 # Ikyy Modules
 # Ciee LDR
 
-import asyncio
 from time import sleep
 from userbot.events import register
 from userbot import CMD_HELP
@@ -25,11 +24,7 @@ async def typewriter(typew):
     await typew.edit("**Wifi Sama Bluetooth Aja Ga Bisa Jarak Jauh, Kok Lu Malah Nyaman Sama Yang Jauh?**")
     sleep(3)
     await fry.client.send_file(fry.chat_id, "https://telegra.ph/file/63fb1ed0b40f7dbddc001.png")
-    
-       
-        
-        
-       
+
 
 CMD_HELP.update({
     "ldr":
