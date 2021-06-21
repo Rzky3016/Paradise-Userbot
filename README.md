@@ -29,7 +29,7 @@
 
 ### Repo Paradise Userbot
 Repo Yang Dibuat [Rizky](https://t.me/Nopegoodloking) Dari Berbagai Repo Userbot Github 
-String_Session [Tekan](https://replit.com/@Rzky3016/String-Sesson-Paradise)
+String_Session [Tekan](https://replit.com/@Rzky3016/String-Session-Paradise)
 
 ## Cara Deploy 👷
 
