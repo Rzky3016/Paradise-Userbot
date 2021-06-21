@@ -58,7 +58,7 @@ async def typewriter(typew):
     await typew.edit("**TOBAT YA NYED TOBAT IBADAH JANGAN MAKSIAT MULU TOD**")
 
 
-@register(outgoing=True, pattern='^.wibu(?: |$)(.*)')
+@register(outgoing=True, pattern='^.anime(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
@@ -77,6 +77,7 @@ CMD_HELP.update({
     \n•Penjelasan: Buat Orang Caper\
     \n\n•🗿CMD🗿: `.tobat`\
     \n•Penjelasan: Tobat Nyed Tobat.\
-    \n\n•🗿CMD🗿: `.wibu`\
+    \n\n•🗿CMD🗿: `.anime`\
     \n•Penjelasan: gas balik ngatain wibu."
+
 })
