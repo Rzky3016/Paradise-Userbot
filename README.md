@@ -64,8 +64,8 @@ String_Session [Tekan](https://replit.com/@Rzky3016/String-Sesson-Paradise)
 *   [Feri](https://github.com/ferikunn) - Linux-Userbot
 *   [Apis](https://github.com/apisuserbot) - King-Userbot
 *   [Alvin](https://github.com/Zora24/Lord-Userbot) - Lord Userbot
-*   [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
-*   [AvinashReddy3108](https://github.com/AvinashReddy3108) - PaperplaneExtended
+*   [Berlin](https://github.com/BerlinLT) - Law-Userbot
+*   [Pasha](https://github.com/PashaDIE) - Last-Userbot
 *   [Mkaraniya](https://github.com/mkaraniya) & [Dev73](https://github.com/Devp73) - OpenUserBot
 *   [Mr.Miss](https://github.com/keselekpermen69) - UserButt
 *   [adekmaulana](https://github.com/adekmaulana) - ProjectBish
