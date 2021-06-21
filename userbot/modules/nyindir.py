@@ -64,6 +64,18 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("**APASIH NGATAIN WIBU²,BIAR NGAPA NGATAIN ORA WIBU KEK GITU ANJG?,CUMA PAKE PP ANIME DIKATAIN WIBU KONTOL,NONTON ANIME AJA KAGA GUA ASYU.**")
 
+
+@register(outgoing=True, pattern='^.berlin(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("**Hai gaes nama gua Berlin.**")
+    sleep(4)
+    await typew.edit("**Gua asal Jogja,tapi asli Brebes,**")
+    Sleep(3)
+    await typew.edit("**umur gua baru 16,salam kenal yaa ajg**")
+
+
 CMD_HELP.update(
     {
         "nyindir": "**Modules** `nyindir`\
@@ -79,6 +91,3 @@ CMD_HELP.update(
         \n•Penjelasan: Tobat Nyed Tobat\
         \n\n•🗿CMD🗿: `.anime`\
         \n•Penjelasan: Gas Katain Balik Wibu\
-    "
-    }
-)
