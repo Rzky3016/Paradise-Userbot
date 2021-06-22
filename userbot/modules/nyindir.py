@@ -76,8 +76,8 @@ async def typewriter(typew):
     await typew.edit("**umur gua baru 16,salam kenal yaa ajg**")
 
 
-CMD_HELP.update({
-
+CMD_HELP.update(
+    {
     "nyindir": "**Modules** `nyindir`\
         \n\n•🗿CMD🗿: `.tua`\
         \n•Penjelasan: Gatau cek sendiri asu\
@@ -90,5 +90,7 @@ CMD_HELP.update({
         \n\n•🗿CMD🗿: `.tobat`\
         \n•Penjelasan: Tobat Nyed Tobat\
         \n\n•🗿CMD🗿: `.anime`\
-        \n•Penjelasan: Gas Katain Balik Wibu"
-})
+        \n•Penjelasan: Gas Katain Balik Wibu\
+    "
+    }
+)
