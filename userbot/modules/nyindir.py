@@ -72,7 +72,7 @@ async def typewriter(typew):
     await typew.edit("**Hai gaes nama gua Berlin.**")
     sleep(4)
     await typew.edit("**Gua asal Jogja,tapi asli Brebes,**")
-    Sleep(3)
+    sleep(3)
     await typew.edit("**umur gua baru 16,salam kenal yaa ajg**")
 
 
