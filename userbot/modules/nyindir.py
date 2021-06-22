@@ -92,5 +92,3 @@ CMD_HELP.update(
         \n\n•🗿CMD🗿: `.anime`\
         \n•Penjelasan: Gas Katain Balik Wibu"
     })
-        
-
