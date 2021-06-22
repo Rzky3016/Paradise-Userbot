@@ -78,7 +78,7 @@ async def typewriter(typew):
 
 CMD_HELP.update(
     {
-    "nyindir": "**Modules** `nyindir`\
+        "nyindir": "**Modules** `nyindir`\
         \n\n•🗿CMD🗿: `.tua`\
         \n•Penjelasan: Gatau cek sendiri asu\
         \n\n•🗿CMD🗿: `.stress`\
