@@ -90,4 +90,6 @@ CMD_HELP.update(
         \n\n•🗿CMD🗿: `.tobat`\
         \n•Penjelasan: Tobat Nyed Tobat\
         \n\n•🗿CMD🗿: `.anime`\
-        \n•Penjelasan: Gas Katain Balik Wibu\
+        \n•Penjelasan: Gas Katain Balik Wibu"
+    }
+)
