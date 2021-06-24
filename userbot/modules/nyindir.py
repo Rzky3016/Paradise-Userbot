@@ -89,7 +89,7 @@ CMD_HELP.update(
         \n•Penjelasan: Buat Orang Caper\
         \n\n•🗿CMD🗿: `.tobat`\
         \n•Penjelasan: Tobat Nyed Tobat\
-        \n\n•🗿CMD🗿: `.anime`\
+        \n\n•🗿CMD🗿: `.wibutlol`\
         \n•Penjelasan: Gas Katain Balik Wibu\
     "
     }
