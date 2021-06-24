@@ -69,6 +69,13 @@ async def typewriter(typew):
     await typew.edit("**umur gua baru 16,salam kenal yaa ajg**")
 
 
+@register(outgoing=True, pattern='^.wibutlol(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("**APASIH NGATAIN WIBU²,BIAR NGAPA NGATAIN ORA WIBU KEK GITU ANJG?,CUMA PAKE PP ANIME DIKATAIN WIBU KONTOL,NONTON ANIME AJA KAGA GUA ASYU..**")
+
+
 CMD_HELP.update(
     {
         "nyindir": "**Modules** `nyindir`\
