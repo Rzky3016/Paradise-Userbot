@@ -27,9 +27,9 @@
 <h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
 <p align="center">&nbsp;</p>
 
-### Repo Paradise Userbot
+### String Session Paradise Userbot
 Repo Yang Dibuat [Rizky](https://t.me/Nopegoodloking) Dari Berbagai Repo Userbot Github 
-String_Session [Run on Repl.it](https://repl.it/badge/github/SpEcHiDe/GenerateStringSession)](https://replit.com/@Rzky3016/String-Session-Paradise)
+String_Session [![Run on Repl.it](https://repl.it/badge/github/SpEcHiDe/GenerateStringSession)](https://replit.com/@Rzky3016/String-Session-Paradise)
 
 ## Cara Deploy 👷
 
