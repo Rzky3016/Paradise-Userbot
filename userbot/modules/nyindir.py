@@ -58,7 +58,7 @@ async def typewriter(typew):
     await typew.edit("**TOBAT YA NYED TOBAT IBADAH JANGAN MAKSIAT MULU TOD**")
 
 
-@register(outgoing=True, pattern='^.anime(?: |$)(.*)')
+@register(outgoing=True, pattern='^.wibutlol(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
