@@ -98,9 +98,9 @@ async def on_snip_list(event):
     for a_snip in all_snips:
         if message == "`Tidak ada kostum yang tersedia saat ini.`":
             message = "**Daftar Costum yang tersedia :**\n"
-            message += f"⎆ `.{a_snip.snip}`\n"
+            message += f"⪩ `.{a_snip.snip}`\n"
         else:
-            message += f"⎆ `.{a_snip.snip}`\n"
+            message += f"⪩ `.{a_snip.snip}`\n"
 
     await event.edit(message)
 
