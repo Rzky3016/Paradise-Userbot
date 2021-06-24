@@ -224,7 +224,7 @@
     },
     "UPSTREAM_REPO_BRANCH": {
       "description": "Jangan Di Ganti Bagian Ini Demi Kenyamanan Bot Anda",
-      "value": "Paradise-Userbot"
+      "value": "Paradise-Userbot",
       "required": false
     },
     "BOT_USERNAME": {
