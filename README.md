@@ -1,4 +1,4 @@
-# <p align="center"> ✖ PARADISE USERBOT ✘
+# <p align="center"> ✘ PARADISE USERBOT ✘
 ![Paradise-Userbot Logo](https://telegra.ph/file/8f6dc8c4536b52ca3271c.jpg)
 
 <p align="center">
