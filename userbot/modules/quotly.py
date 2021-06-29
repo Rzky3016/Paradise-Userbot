@@ -54,7 +54,7 @@ async def quotess(qotli):
     chat = "@QuotLyBot"
     if reply_message.sender.bot:
         return await qotli.edit("```Mohon Balas Ke Pesan Tololll```")
-    await qotli.edit("```Sedang Memproses Sticker, Sabar Kontollll...⚡```")
+    await qotli.edit("**Sedang Memproses Sticker, Sabar Nyed**")
     try:
         async with bot.conversation(chat) as conv:
             try:
@@ -107,8 +107,8 @@ async def quote_search(event):
 
 CMD_HELP.update({
     "quotly":
-    "⚡CMD⚡`.q`\
+    "🗿CMD🗿`.q`\
 \nUsage: Membuat pesan mu menjadi sticker.\
-\n\n⚡CMD⚡`.xquote`\
+\n\n🗿CMD🗿`.xquote`\
 \nUsage: membuat pesan mu menjadi sticker."
 })
