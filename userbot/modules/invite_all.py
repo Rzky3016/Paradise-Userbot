@@ -45,18 +45,18 @@ async def get_chatinfo(event):
     return chat_info
 
 
-@register(outgoing=True, pattern=r"^\.inviteall(?: |$)(.*)")
+@register(outgoing=True, pattern=r"^\.culikorang(?: |$)(.*)")
 async def get_users(event):
     sender = await event.get_sender()
     me = await event.client.get_me()
     if not sender.id == me.id:
-        king = await event.reply("`Sedang Memproses...`")
+        king = await event.reply("`Sedang Menyulik...`")
     else:
         king = await event.edit("`Memproses...`")
     kingubot = await get_chatinfo(event)
     chat = await event.get_chat()
     if event.is_private:
-        return await king.edit("`Maaf, Tidak dapat menambahkan pengguna di sini`")
+        return await king.edit("`Maaf, Tidak dapat nyulik pengguna lain di sini`")
     s = 0
     f = 0
     error = 'None'
@@ -65,20 +65,20 @@ async def get_users(event):
     async for user in event.client.iter_participants(kingubot.full_chat.id):
         try:
             if error.startswith("Too"):
-                return await king.edit(f"**Terminal Kesalahan...**\n(`Mungkin Mendapat Kesalahan Batas dari telethon Tolong Coba Lagi`)\n**Error** : \n`{error}`\n\n• Menambahkan Pengguna `{s}`\n• Gagal Menambahkan Pengguna `{f}`")
+                return await king.edit(f"**Terminal Kesalahan...**\n(`Mungkin Mendapat Kesalahan Batas dari telethon Tolong Coba Lagi`)\n**Error** : \n`{error}`\n\n• Menambahkan Pengguna `{s}`\n• Gagal Menyulik Pengguna `{f}`")
             await event.client(functions.channels.InviteToChannelRequest(channel=chat, users=[user.id]))
             s = s + 1
-            await king.edit(f"**Terminal Berjalan...**\n\n• Menambahkan Pengguna `{s}`\n• Gagal Menambahkan Pengguna `{f}`\n\n**Kesalahan Terakhir :** `{error}`")
+            await king.edit(f"**Terminal Berjalan...**\n\n• Menambahkan Pengguna `{s}`\n• Gagal Nyulik Pengguna `{f}`\n\n**Kesalahan Terakhir :** `{error}`")
         except Exception as e:
             error = str(e)
             f = f + 1
-    return await king.edit(f"**Terminal Selesai** \n\n• Sukses Menambahkan Pengguna `{s}`\n• Gagal Menambahkan Pengguna `{f}`")
+    return await king.edit(f"**Terminal Selesai** \n\n• Sukses Menyulik Pengguna `{s}`\n• Gagal Nyulik Pengguna `{f}`")
 
 
 CMD_HELP.update(
     {
-        "inviteall": "**✘ Plugin :** `Invite All`\
-        \n\n  •  **Perintah :** `.inviteall` username group `@`\
+        "nyulikorang": "**• Plugin :** `culikorang`\
+        \n\n  •  **Perintah :** `.culikorang` username group `@`\
         \n  •  **Function : **Menambahkan pengguna dari obrolan yang diberikan ke grup Anda\
     "
     }
