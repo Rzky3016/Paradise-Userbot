@@ -27,7 +27,7 @@ async def _(event):
 
 CMD_HELP.update(
     {
-        "info": "**✘ Plugin :** `info akun`\
+        "info": "**• Plugin :** `info akun`\
         \n\n  •  **Perintah :** `.info`\
         \n  •  **Function : **Untuk mengecek info akun Anda\
     "
