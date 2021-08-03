@@ -12,7 +12,7 @@ from telethon.tl.types import ChatAdminRights
 from userbot import CMD_HELP
 from userbot.events import register
 
-NO_ADMIN = "`King Gagal Dikarenakan Bukan Admin :)`"
+NO_ADMIN = "`Boss Gagal Mengoperasikannya Karna Boss Bukan Admin :)`"
 
 
 async def get_call(event):
@@ -78,7 +78,7 @@ async def _(e):
 
 CMD_HELP.update(
     {
-        "calls": "**✘ Plugin :** `Calls Group`\
+        "VCG": "**• Plugin :** `Calls Group Manager`\
         \n\n  •  **Perintah :** `.startvc`\
         \n  •  **Function : **Memulai Obrolan Suara Dalam Grup\
         \n\n  •  **Perintah :** `.stopvc`\
