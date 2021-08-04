@@ -126,9 +126,9 @@ async def _(fry):
 
 CMD_HELP.update(
     {
-        "kamuii": "**Plugin : **`kamuii`\
-        \n\n  •  **Syntax :** `.kamuii` or `.kamuii` [level(1-8)]\
-        \n  •  **Function : **Untuk mengubah foto/sticker menjadi penyok.\
+        "kamuii": "Plugin : `kamuii`\
+        \n\n  •  Syntax : `.kamuii` or `.kamuii` [level(1-8)]\
+        \n  •  Function : Untuk mengubah foto/sticker menjadi penyok.\
     "
     }
 )
