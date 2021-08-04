@@ -78,13 +78,13 @@ async def _(e):
 
 CMD_HELP.update(
     {
-        "VCG": "**• Plugin :** `Calls Group Manager`\
-        \n\n  •  **Perintah :** `.startvc`\
-        \n  •  **Function : **Memulai Obrolan Suara Dalam Grup\
-        \n\n  •  **Perintah :** `.stopvc`\
-        \n  •  **Function : **Memberhentikan Obrolan Suara Dalam Grup\
-        \n\n  •  **Perintah :** `.vcinvite`\
-        \n  •  **Function : **Menambahkan Semua Member Dalam Obrolan Suara Grup (Anda harus bergabung)\
+        "vcg": "Plugin Name : `Calls Group Manager`\
+        \n\n  •  Perintah : `.startvc`\
+        \n  •  Function : Memulai Obrolan Suara Dalam Grup\
+        \n\n  •  Perintah : `.stopvc`\
+        \n  •  Function : Memberhentikan Obrolan Suara Dalam Grup\
+        \n\n  •  Perintah : `.vcinvite`\
+        \n  •  Function : Menambahkan Semua Member Dalam Obrolan Suara Grup (Anda harus bergabung)\
     "
     }
 )
