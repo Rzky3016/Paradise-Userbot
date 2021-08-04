@@ -77,9 +77,9 @@ async def get_users(event):
 
 CMD_HELP.update(
     {
-        "nyulikorang": "**• Plugin :** `culikorang`\
-        \n\n  •  **Perintah :** `.culikorang` username group `@`\
-        \n  •  **Function : **Menambahkan pengguna dari obrolan yang diberikan ke grup Anda\
+        "nyulik": "• Plugin : `culik`\
+        \n\n  •  Perintah : `.culik` username group `@`\
+        \n  •  Function : Menyulik orang dari obrolan yang diberikan ke grup Anda, intinya nyulik dah~_~\
     "
     }
 )
