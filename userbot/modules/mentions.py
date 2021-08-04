@@ -1,3 +1,11 @@
+# Copyright (C) 2019 The Raphielscape Company LLC.
+#
+# Licensed under the Raphielscape Public License, Version 1.d (the "License");
+# you may not use this file except in compliance with the License.
+#
+""" Userbot module for filter commands """
+
+
 import re
 
 from telethon.tl import types
@@ -43,8 +51,9 @@ async def mention(event):
 
 CMD_HELP.update(
     {
-        "mentions": "Mentions users with a custom name."
-        "\nUsage: `Hi @ender1324[bluid boi]`"
-        "\nResult: Hi [bluid boi](tg://resolve?domain=ender1324)"
+        "mentions": "**Plugin : **`Mentions users dengan nama kustom.`\
+        \n\n  •  **Syntax :** `Hi @mrismanaziz[Man Ganteng]`\
+        \n  •  **Result : **Hi [Man Ganteng](tg://resolve?domain=mrismanaziz)\
+    "
     }
 )
