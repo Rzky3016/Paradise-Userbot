@@ -376,7 +376,7 @@ async def redis(alive):
           ),
        disable_web_page_preview=False
       )
-   @Client.on_message(
+   @ Client.on_message(
        filters.command("start")
        & filters.group
        & ~ filters.edited
@@ -384,7 +384,7 @@ async def redis(alive):
 
 
 
-   
+
         f"⪩ [Repo](https://github.com/Rzky3016/Paradise-Userbot)\n"
         f"⪩ [Group-Help](t.me/paradiseuserbot)\n"
         f"⪩ [Pemilik](t.me/Nopegoodloking) "
