@@ -229,7 +229,6 @@ async def amireallyalive(alive):
         f"\n**══════════════════════**\n"
         f"**⎚ ᴘᴀʀᴀᴅɪsᴇ ᴘʀᴏɢʀᴀᴍ ᴀᴄᴛɪᴠᴇᴅ ⎚** \n"
         f" MY BOSS : `{DEFAULTUSER}` \n"
-
         f" USERNAME : `@{user.username}` \n"
         f"╔═══════════════════════\n"
         f"╟[ ⎚ **ᴛᴇʟᴇᴛʜᴏɴ** : `Ver {version.__version__}` \n"
@@ -264,13 +263,13 @@ async def amireallyalive(alive):
     output = (
         f"══════════════════════\n"
         f"       ⎚ 𝙋𝘼𝙍𝘼𝘿𝙄𝙎𝙀 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 ⎚   \n\n"
-        f"⎚ **MY BOSS**  \n   ↳ `{DEFAULTUSER}` \n"
-        f"⎚ **ᴜsᴇʀɴᴀᴍᴇ** \n   ↳ `@{user.username}` \n"
-        f"⎚ **ᴛᴇʟᴇᴛʜᴏɴ** \n   ↳ `Versi {version.__version__}` \n"
-        f"⎚ **ᴘʏᴛʜᴏɴ**   \n   ↳ `Versi {python_version()}` \n"
-        f"⎚ **ʙᴏᴛ ᴠᴇʀsɪᴏɴ**\n   ↳ `{BOT_VER}` \n"
-        f"⎚ **ᴍᴏᴅᴜʟᴇs**    \n   ↳ `{len(modules)}` \n\n"
-        f"✮ **ᴘᴀʀᴀᴅɪsᴇ ʀᴇᴘᴏsɪᴛᴏʀʏ:** [𝙋𝘼𝙍𝘼𝘿𝙄𝙎𝙀](https://github.com/Rzky3016/Paradise-Userbot)\n🛠️ **Group Support: **[Tekan](t.me/paradiseuserbot)\n👨‍💻 **Mastah:** [Rizky](t.me/Nopegoodloking)\n"
+        f"⎚ ᴍʏ ʙᴏss  \n   ↳ `{DEFAULTUSER}` \n"
+        f"⎚ ᴜsᴇʀɴᴀᴍᴇ \n   ↳ `@{user.username}` \n"
+        f"⎚ ᴛᴇʟᴇᴛʜᴏɴ \n   ↳ `Versi {version.__version__}` \n"
+        f"⎚ ᴘʏᴛʜᴏɴ   \n   ↳ `Versi {python_version()}` \n"
+        f"⎚ ʙᴏᴛ ᴠᴇʀsɪᴏɴ \n   ↳ `{BOT_VER}` \n"
+        f"⎚ ᴍᴏᴅᴜʟᴇs    \n   ↳ `{len(modules)}` \n\n"
+        f"✮ ᴘᴀʀᴀᴅɪsᴇ ʀᴇᴘᴏsɪᴛᴏʀʏ : [𝙋𝘼𝙍𝘼𝘿𝙄𝙎𝙀](https://github.com/Rzky3016/Paradise-Userbot)\n🛠️ **Group Support: **[Tekan](t.me/paradiseuserbot)\n👨‍💻 **Mastah:** [Rizky](t.me/Nopegoodloking)\n"
         f"══════════════════════")
     if ALIVE_LOGO:
         try:
@@ -342,28 +341,21 @@ async def redis(alive):
     await alive.edit("🗿")
     await asyncio.sleep(3)
     output = (
-        f"**────────────────────────**\n"
-        f"**        ⎚  𝙋𝘼𝙍𝘼𝘿𝙄𝙎𝙀 𝙐𝙎𝙀𝙍𝘽𝙊𝙏  ⎚ ** \n"
-        f"**────────────────────────** \n"
-
-        f" **ᴡᴇʟᴄᴏᴍᴇ ʙᴏss ɪᴀᴍ ᴀʟᴡᴀʏs ʀᴇᴀᴅʏ ғᴏʀ ʏᴏᴜ** \n"
+        f"────────────────────────\n"
+        f"        ⎚  𝙋𝘼𝙍𝘼𝘿𝙄𝙎𝙀 𝙐𝙎𝙀𝙍𝘽𝙊𝙏  ⎚  \n"
         f"──────────────────────── \n"
-        f" ⎚  **ᴍʏ ʙᴏss**  : {DEFAULTUSER} \n"
-        f" ⎚ **ᴜsᴇʀɴᴀᴍᴇ**  : @{user.username} \n"
-        f" ⎚  **ᴛᴇʟᴇᴛʜᴏɴ** :v. {version.__version__} \n"
-        f" ⎚  **ᴘʏᴛʜᴏɴ**   : v. {python_version()} \n"
-        f" ⎚  **ʙʀᴀɴᴄʜ**   : {UPSTREAM_REPO_BRANCH} \n"
-        f" ⎚  **ʙᴏᴛ ᴠᴇʀsɪᴏɴ**  : v. {BOT_VER} \n"
-        f" ⎚ **ᴘʟᴜɢɪɴs**  : {len(modules)} Plugins \n"
+        f" ᴡᴇʟᴄᴏᴍᴇ ʙᴏss ɪᴀᴍ ᴀʟᴡᴀʏs ʀᴇᴀᴅʏ ғᴏʀ ʏᴏᴜ** \n"
+        f"──────────────────────── \n"
+        f" ⎚  ᴍʏ ʙᴏss  : {DEFAULTUSER} \n"
+        f" ⎚ ᴜsᴇʀɴᴀᴍᴇ  : @{user.username} \n"
+        f" ⎚  ᴛᴇʟᴇᴛʜᴏɴ : v. {version.__version__} \n"
+        f" ⎚  ᴘʏᴛʜᴏɴ   : v. {python_version()} \n"
+        f" ⎚  ʙʀᴀɴᴄʜ   : {UPSTREAM_REPO_BRANCH} \n"
+        f" ⎚  ʙᴏᴛ ᴠᴇʀsɪᴏɴ  : v. {BOT_VER} \n"
+        f" ⎚ ᴘʟᴜɢɪɴs  : {len(modules)} Plugins \n"
         f" ──────────────────────── \n"
-        f" **ᴛʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ᴜsɪɴɢ ᴘᴀʀᴀᴅɪsᴇ ᴜsᴇʀʙᴏᴛ** \n"
-
-        f" ──────────────────────── \n"
-
-
-
-
-
+        f" ᴛʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ᴜsɪɴɢ ᴘᴀʀᴀᴅɪsᴇ ᴜsᴇʀʙᴏᴛ \n"
+        f" ──────────────────────── \n\n"
         f"⪩ [ʀᴇᴘᴏsɪᴛᴏʀʏ](https://github.com/Rzky3016/Paradise-Userbot)\n"
         f"⪩ [ᴄʜᴀɴɴᴇʟ sᴜᴘᴘᴏʀᴛ](t.me/paradisesupportch)\n"
         f"⪩ [ɢʀᴏᴜᴘ ʜᴇʟᴘ](t.me/paradiseuserbot)\n"
@@ -408,14 +400,12 @@ async def amireallyalivereset(ureset):
     await ureset.edit("`" "Berhasil Mereset Pengguna Alive!" "`")
 
 
-CMD_HELP.update({
-    "sistem":
-    "🗿CMD🗿: `.sysd`"
-    "\n↳ : Menampilkan informasi sistem menggunakan neofetch."
-    "\n\n🗿CMD🗿:`.db`"
-    "\n↳ : Menampilkan Databse Info."
-    "\n\n🗿CMD🗿: `.spc`"
-    "\n↳ : Tampilkan spesifikasi sistem."
+CMD_HELP.update({"sistem": "🗿CMD🗿: `.sysd`"
+                 "\n↳ : Menampilkan informasi sistem menggunakan neofetch."
+                 "\n\n🗿CMD🗿:`.db`"
+                 "\n↳ : Menampilkan Databse Info."
+                 "\n\n🗿CMD🗿: `.spc`"
+                 "\n↳ : Tampilkan spesifikasi sistem."
 })
 CMD_HELP.update({"alive": "🗿CMD🗿: ` `.alive` atau `.on` dan `.team`"
                  "\n↳ : Untuk melihat apakah bot Anda berfungsi atau tidak dan team untuk mengetahui creator."
@@ -427,9 +417,9 @@ CMD_HELP.update({"alive": "🗿CMD🗿: ` `.alive` atau `.on` dan `.team`"
 CMD_HELP.update({"paradise": "🗿CMD🗿:` `.paradise`"
                  "\n⪩ : Alive Bot Program."})
 
-# ga work anjg
-# fuck
-# yeah dude
+# run the bot
+# succes
+# end
 
 
 CMD_HELP.update(
