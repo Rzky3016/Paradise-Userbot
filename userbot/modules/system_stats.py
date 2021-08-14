@@ -224,18 +224,18 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**🗿Paradise-Userbot🗿** \n"
+        f"**𝙋𝘼𝙍𝘼𝘿𝙄𝙎𝙀 𝙐𝙎𝙀𝙍𝘽𝙊𝙏** \n"
         f"\n__**{PARADISE_TEKS_KUSTOM}**__\n"
-        f"**══════════════════════**\n"
-        f"**𖣐PARADISE PROGRAM STARTED𖣐** \n"
-        f" ↳ : `{DEFAULTUSER}` \n"
-        f"**👤 Username** \n"
-        f" ↳ : `@{user.username}` \n"
+        f"\n**══════════════════════**\n"
+        f"**⎚ ᴘᴀʀᴀᴅɪsᴇ ᴘʀᴏɢʀᴀᴍ ᴀᴄᴛɪᴠᴇᴅ ⎚** \n"
+        f" MY BOSS : `{DEFAULTUSER}` \n"
+     
+        f" USERNAME : `@{user.username}` \n"
         f"╔═══════════════════════\n"
-        f"╟[•⚙️ `Telethon :`Ver {version.__version__} \n"
-        f"╟[•🐍 `Python   :`Ver {python_version()} \n"
-        f"╟[•👾 `Bot Ver  :`{BOT_VER} \n"
-        f"╟[•📂 `Modules  :`{len(modules)} \n"
+        f"╟[ ⎚ ᴛᴇʟᴇᴛʜᴏɴ : `Ver {version.__version__}` \n"
+        f"╟[ ⎚ ᴘʏᴛʜᴏɴ   : `Ver {python_version()}` \n"
+        f"╟[ ⎚ ʙᴏᴛ ᴠᴇʀ  : `{BOT_VER}` \n"
+        f"╟[ ⎚ ᴍᴏᴅᴜʟᴇs  : `{len(modules)}` \n"
         f"╚═══════════════════════")
     if ALIVE_LOGO:
         try:
@@ -257,20 +257,20 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-@register(outgoing=True, pattern=r"^\.(?:xalive|on)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:palive|on)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
         f"══════════════════════\n"
-        f"     ** 🗿Paradise-Userbot🗿 ** \n\n"
-        f"🗿 **Bos Gua**  \n   ↳ `{DEFAULTUSER}` \n"
-        f"👤 **Username** \n   ↳ `@{user.username}` \n"
-        f"⚙️ **Telethon** \n   ↳ `Versi {version.__version__}` \n"
-        f"🐍 **Python**   \n   ↳ `Versi {python_version()}` \n"
-        f"👾 **Versi Bot**\n   ↳ `{BOT_VER}` \n"
-        f"📂 **Modul**    \n   ↳ `{len(modules)}` \n\n"
-        f"✮ **Repo Paradise:** [Paradise-Userbot](https://github.com/Rzky3016/Paradise-Userbot)\n🛠️ **Group Support: **[Tekan](t.me/paradiseuserbot)\n👨‍💻 **Mastah:** [Rizky](t.me/Nopegoodloking)\n"
+        f"       ⎚ 𝙋𝘼𝙍𝘼𝘿𝙄𝙎𝙀 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 ⎚   \n\n"
+        f"⎚ **MY BOSS**  \n   ↳ `{DEFAULTUSER}` \n"
+        f"⎚ **ᴜsᴇʀɴᴀᴍᴇ** \n   ↳ `@{user.username}` \n"
+        f"⎚ **ᴛᴇʟᴇᴛʜᴏɴ** \n   ↳ `Versi {version.__version__}` \n"
+        f"⎚ **ᴘʏᴛʜᴏɴ**   \n   ↳ `Versi {python_version()}` \n"
+        f"⎚ **ʙᴏᴛ ᴠᴇʀsɪᴏɴ**\n   ↳ `{BOT_VER}` \n"
+        f"⎚ **ᴍᴏᴅᴜʟᴇs**    \n   ↳ `{len(modules)}` \n\n"
+        f"✮ **ᴘᴀʀᴀᴅɪsᴇ ʀᴇᴘᴏsɪᴛᴏʀʏ:** [𝙋𝘼𝙍𝘼𝘿𝙄𝙎𝙀 𝙐𝙎𝙀𝙍𝘽𝙊𝙏](https://github.com/Rzky3016/Paradise-Userbot)\n🛠️ **Group Support: **[Tekan](t.me/paradiseuserbot)\n👨‍💻 **Mastah:** [Rizky](t.me/Nopegoodloking)\n"
         f"══════════════════════")
     if ALIVE_LOGO:
         try:
@@ -342,12 +342,12 @@ async def redis(alive):
     await alive.edit("🗿")
     await asyncio.sleep(3)
     output = (
-        f"**ㅤㅤ  ╭─━━═━═━═━═━━─╮** \n"
-        f"**       ⊏┊🗿Paradise-Userbot🗿 ⊨🛠️ ** \n"
-        f"**ㅤㅤ  ╰─━━═━═━═━═━━─╯** \n"
-        f"╭╼════════════════════╾╮ \n"
-        f"│    ⇱ 𓆩𝐒𝐞𝐥𝐚𝐦𝐚𝐭 𝐃𝐚𝐭𝐚𝐧𝐠 𝐃𝐢 𝐀𝐥𝐢𝐯𝐞𓆪 ⇲ \n"
-        f"┟╼════════════════════╾┤ \n"
+        f"**ㅤㅤ   ────────────** \n"
+        f"**       𝙋𝘼𝙍𝘼𝘿𝙄𝙎𝙀 𝙐𝙎𝙀𝙍𝘽𝙊𝙏  ** \n"
+        f"**      ─────────────────** \n"
+      
+        f"ᴡᴇʟᴄᴏᴍᴇ ʙᴏss ɪᴀᴍ ᴀʟᴡᴀʏs ʀᴇᴀᴅʏ ғᴏʀ ʏᴏᴜ \n"
+        f"──────────────────────── \n"
         f"╟◈ 🗿  `Bos Gua    :`{DEFAULTUSER} \n"
         f"╟◈ 👤 `Username :`@{user.username} \n"
         f"╟◈ ⚙️  `Telethon :`v. {version.__version__} \n"
@@ -355,13 +355,30 @@ async def redis(alive):
         f"╟◈ 🛠️  `Branch   :`{UPSTREAM_REPO_BRANCH} \n"
         f"╟◈ 👾  `Bot Ver  :`v. {BOT_VER} \n"
         f"╟◈ 📂  `Plugins  :`{len(modules)} Plugins \n"
-        f"┞╼════════════════════╾┤ \n"
-        f"├◈ **Jangan lupa untuk mendukung kami** \n"
-        f"│    **userbot, cara menekan di bawah ini.** \n"
-        f"╰╼════════════════════╾╯ \n"
+        f" ──────────────────────── \n"
+        f" ᴛʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ᴜsɪɴɢ ᴘᴀʀᴀᴅɪsᴇ ᴜsᴇʀʙᴏᴛ \n"
+       
+        f" ──────────────────────── \n"
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "ᴘᴀʀᴀᴅɪsᴇ ʀᴇᴘᴏsɪᴛᴏʀʏ", url="https://github.com/Rzky3016/Paradise-Userbot"
+                  ],[
+                    InlineKeyboardButton(
+                        "CHANNEL", url="https://t.me/paradisesupportch"
+                    ),
+                    InlineKeyboardButton(
+                        "PEMILIK", url="https://t.me/Nopegoodloking"
+                    )
+                 ]
+              ]
+          ),
+       disable_web_page_preview=False
+      )
         f"⪩ [Repo](https://github.com/Rzky3016/Paradise-Userbot)\n"
         f"⪩ [Group-Help](t.me/paradiseuserbot)\n"
-        f"⪩ [Pemilik](t.me/Nopegoodloking) ")
+        f"⪩ [Pemilik](t.me/Nopegoodloking) "
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
