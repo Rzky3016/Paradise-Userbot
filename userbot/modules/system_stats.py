@@ -370,9 +370,9 @@ async def redis(alive):
         f"⪩ [ᴘᴇᴍɪʟɪᴋ](t.me/Nopegoodloking) ")
     if ALIVE_LOGO:
         try:
-            logo=ALIVE_LOGO
+            logo = ALIVE_LOGO
             await alive.delete()
-            msg=await bot.send_file(alive.chat_id, logo, caption=output)
+            msg = await bot.send_file(alive.chat_id, logo, caption=output)
             await asyncio.sleep(500)
             await msg.delete()
         except BaseException:
@@ -391,20 +391,20 @@ async def redis(alive):
 @ register(outgoing=True, pattern="^.aliveu")
 async def amireallyaliveuser(username):
     """ For .aliveu command, change the username in the .alive command. """
-    message=username.text
-    output=".aliveu [new username] tidak boleh kosong"
+    message = username.text
+    output = ".aliveu [new username] tidak boleh kosong"
     if not (message == ".aliveu" and message[7:8] != " "):
-        newuser=message[8:]
+        newuser = message[8:]
         global DEFAULTUSER
-        DEFAULTUSER=newuser
-        output="Successfully changed user to " + newuser + "!"
+        DEFAULTUSER = newuser
+        output = "Successfully changed user to " + newuser + "!"
     await username.edit("`" f"{output}" "`")
 
 
 @ register(outgoing=True, pattern=r"^\.resetsalive$")
 async def amireallyalivereset(ureset):
     global DEFAULTUSER
-    DEFAULTUSER=str(ALIVE_NAME) if ALIVE_NAME else uname().node
+    DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
     await ureset.edit("`" "Berhasil Mereset Pengguna Alive!" "`")
 
 
