@@ -232,10 +232,10 @@ async def amireallyalive(alive):
 
         f" USERNAME : `@{user.username}` \n"
         f"╔═══════════════════════\n"
-        f"╟[ ⎚ ᴛᴇʟᴇᴛʜᴏɴ : `Ver {version.__version__}` \n"
-        f"╟[ ⎚ ᴘʏᴛʜᴏɴ   : `Ver {python_version()}` \n"
-        f"╟[ ⎚ ʙᴏᴛ ᴠᴇʀ  : `{BOT_VER}` \n"
-        f"╟[ ⎚ ᴍᴏᴅᴜʟᴇs  : `{len(modules)}` \n"
+        f"╟[ ⎚ **ᴛᴇʟᴇᴛʜᴏɴ** : `Ver {version.__version__}` \n"
+        f"╟[ ⎚ **ᴘʏᴛʜᴏɴ**   : `Ver {python_version()}` \n"
+        f"╟[ ⎚ **ʙᴏᴛ ᴠᴇʀ**  : `{BOT_VER}` \n"
+        f"╟[ ⎚ **ᴍᴏᴅᴜʟᴇs**  : `{len(modules)}` \n"
         f"╚═══════════════════════")
     if ALIVE_LOGO:
         try:
@@ -342,21 +342,21 @@ async def redis(alive):
     await alive.edit("🗿")
     await asyncio.sleep(3)
     output = (
-        f"**ㅤㅤ   ────────────** \n"
-        f"**       𝙋𝘼𝙍𝘼𝘿𝙄𝙎𝙀 𝙐𝙎𝙀𝙍𝘽𝙊𝙏  ** \n"
-        f"**      ─────────────────** \n"
+        f"**────────────────────────**\n"
+        f"**      ⎚  𝙋𝘼𝙍𝘼𝘿𝙄𝙎𝙀 𝙐𝙎𝙀𝙍𝘽𝙊𝙏  ⎚ ** \n"
+        f"**────────────────────────** \n"
 
-        f"ᴡᴇʟᴄᴏᴍᴇ ʙᴏss ɪᴀᴍ ᴀʟᴡᴀʏs ʀᴇᴀᴅʏ ғᴏʀ ʏᴏᴜ \n"
+        f" **ᴡᴇʟᴄᴏᴍᴇ ʙᴏss ɪᴀᴍ ᴀʟᴡᴀʏs ʀᴇᴀᴅʏ ғᴏʀ ʏᴏᴜ** \n"
         f"──────────────────────── \n"
-        f"╟◈ 🗿  `Bos Gua    :`{DEFAULTUSER} \n"
-        f"╟◈ 👤 `Username :`@{user.username} \n"
-        f"╟◈ ⚙️  `Telethon :`v. {version.__version__} \n"
-        f"╟◈ 🐍  `Python   :`v. {python_version()} \n"
-        f"╟◈ 🛠️  `Branch   :`{UPSTREAM_REPO_BRANCH} \n"
-        f"╟◈ 👾  `Bot Ver  :`v. {BOT_VER} \n"
-        f"╟◈ 📂  `Plugins  :`{len(modules)} Plugins \n"
+        f" ⎚  **ᴍʏ ʙᴏss**  : {DEFAULTUSER} \n"
+        f" ⎚ **ᴜsᴇʀɴᴀᴍᴇ**  : @{user.username} \n"
+        f" ⎚  **ᴛᴇʟᴇᴛʜᴏɴ** :v. {version.__version__} \n"
+        f" ⎚  **ᴘʏᴛʜᴏɴ**   : v. {python_version()} \n"
+        f" ⎚  **ʙʀᴀɴᴄʜ**   : {UPSTREAM_REPO_BRANCH} \n"
+        f" ⎚  **ʙᴏᴛ ᴠᴇʀsɪᴏɴ**  : v. {BOT_VER} \n"
+        f" ⎚ **ᴘʟᴜɢɪɴs**  : {len(modules)} Plugins \n"
         f" ──────────────────────── \n"
-        f" ᴛʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ᴜsɪɴɢ ᴘᴀʀᴀᴅɪsᴇ ᴜsᴇʀʙᴏᴛ \n"
+        f" **ᴛʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ᴜsɪɴɢ ᴘᴀʀᴀᴅɪsᴇ ᴜsᴇʀʙᴏᴛ** \n"
 
         f" ──────────────────────── \n"
 
