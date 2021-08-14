@@ -270,7 +270,7 @@ async def amireallyalive(alive):
         f"⎚ **ᴘʏᴛʜᴏɴ**   \n   ↳ `Versi {python_version()}` \n"
         f"⎚ **ʙᴏᴛ ᴠᴇʀsɪᴏɴ**\n   ↳ `{BOT_VER}` \n"
         f"⎚ **ᴍᴏᴅᴜʟᴇs**    \n   ↳ `{len(modules)}` \n\n"
-        f"✮ **ᴘᴀʀᴀᴅɪsᴇ ʀᴇᴘᴏsɪᴛᴏʀʏ:** [𝙋𝘼𝙍𝘼𝘿𝙄𝙎𝙀 𝙐𝙎𝙀𝙍𝘽𝙊𝙏](https://github.com/Rzky3016/Paradise-Userbot)\n🛠️ **Group Support: **[Tekan](t.me/paradiseuserbot)\n👨‍💻 **Mastah:** [Rizky](t.me/Nopegoodloking)\n"
+        f"✮ **ᴘᴀʀᴀᴅɪsᴇ ʀᴇᴘᴏsɪᴛᴏʀʏ:** [𝙋𝘼𝙍𝘼𝘿𝙄𝙎𝙀](https://github.com/Rzky3016/Paradise-Userbot)\n🛠️ **Group Support: **[Tekan](t.me/paradiseuserbot)\n👨‍💻 **Mastah:** [Rizky](t.me/Nopegoodloking)\n"
         f"══════════════════════")
     if ALIVE_LOGO:
         try:
@@ -343,7 +343,7 @@ async def redis(alive):
     await asyncio.sleep(3)
     output = (
         f"**────────────────────────**\n"
-        f"**      ⎚  𝙋𝘼𝙍𝘼𝘿𝙄𝙎𝙀 𝙐𝙎𝙀𝙍𝘽𝙊𝙏  ⎚ ** \n"
+        f"**        ⎚  𝙋𝘼𝙍𝘼𝘿𝙄𝙎𝙀 𝙐𝙎𝙀𝙍𝘽𝙊𝙏  ⎚ ** \n"
         f"**────────────────────────** \n"
 
         f" **ᴡᴇʟᴄᴏᴍᴇ ʙᴏss ɪᴀᴍ ᴀʟᴡᴀʏs ʀᴇᴀᴅʏ ғᴏʀ ʏᴏᴜ** \n"
