@@ -229,7 +229,7 @@ async def amireallyalive(alive):
         f"\n**══════════════════════**\n"
         f"**⎚ ᴘᴀʀᴀᴅɪsᴇ ᴘʀᴏɢʀᴀᴍ ᴀᴄᴛɪᴠᴇᴅ ⎚** \n"
         f" MY BOSS : `{DEFAULTUSER}` \n"
-     
+
         f" USERNAME : `@{user.username}` \n"
         f"╔═══════════════════════\n"
         f"╟[ ⎚ ᴛᴇʟᴇᴛʜᴏɴ : `Ver {version.__version__}` \n"
@@ -345,7 +345,7 @@ async def redis(alive):
         f"**ㅤㅤ   ────────────** \n"
         f"**       𝙋𝘼𝙍𝘼𝘿𝙄𝙎𝙀 𝙐𝙎𝙀𝙍𝘽𝙊𝙏  ** \n"
         f"**      ─────────────────** \n"
-      
+
         f"ᴡᴇʟᴄᴏᴍᴇ ʙᴏss ɪᴀᴍ ᴀʟᴡᴀʏs ʀᴇᴀᴅʏ ғᴏʀ ʏᴏᴜ \n"
         f"──────────────────────── \n"
         f"╟◈ 🗿  `Bos Gua    :`{DEFAULTUSER} \n"
@@ -357,14 +357,14 @@ async def redis(alive):
         f"╟◈ 📂  `Plugins  :`{len(modules)} Plugins \n"
         f" ──────────────────────── \n"
         f" ᴛʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ᴜsɪɴɢ ᴘᴀʀᴀᴅɪsᴇ ᴜsᴇʀʙᴏᴛ \n"
-       
+
         f" ──────────────────────── \n"
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
                         "ᴘᴀʀᴀᴅɪsᴇ ʀᴇᴘᴏsɪᴛᴏʀʏ", url="https://github.com/Rzky3016/Paradise-Userbot"
-                  ],[
+                  ], [
                     InlineKeyboardButton(
                         "CHANNEL", url="https://t.me/paradisesupportch"
                     ),
@@ -381,9 +381,9 @@ async def redis(alive):
         f"⪩ [Pemilik](t.me/Nopegoodloking) "
     if ALIVE_LOGO:
         try:
-            logo = ALIVE_LOGO
+            logo=ALIVE_LOGO
             await alive.delete()
-            msg = await bot.send_file(alive.chat_id, logo, caption=output)
+            msg=await bot.send_file(alive.chat_id, logo, caption=output)
             await asyncio.sleep(500)
             await msg.delete()
         except BaseException:
@@ -399,23 +399,23 @@ async def redis(alive):
         await alive.delete()
 
 
-@register(outgoing=True, pattern="^.aliveu")
+@ register(outgoing=True, pattern="^.aliveu")
 async def amireallyaliveuser(username):
     """ For .aliveu command, change the username in the .alive command. """
-    message = username.text
-    output = ".aliveu [new username] tidak boleh kosong"
+    message=username.text
+    output=".aliveu [new username] tidak boleh kosong"
     if not (message == ".aliveu" and message[7:8] != " "):
-        newuser = message[8:]
+        newuser=message[8:]
         global DEFAULTUSER
-        DEFAULTUSER = newuser
-        output = "Successfully changed user to " + newuser + "!"
+        DEFAULTUSER=newuser
+        output="Successfully changed user to " + newuser + "!"
     await username.edit("`" f"{output}" "`")
 
 
-@register(outgoing=True, pattern=r"^\.resetsalive$")
+@ register(outgoing=True, pattern=r"^\.resetsalive$")
 async def amireallyalivereset(ureset):
     global DEFAULTUSER
-    DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
+    DEFAULTUSER=str(ALIVE_NAME) if ALIVE_NAME else uname().node
     await ureset.edit("`" "Berhasil Mereset Pengguna Alive!" "`")
 
 
