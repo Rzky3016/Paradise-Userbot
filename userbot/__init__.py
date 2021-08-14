@@ -319,7 +319,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "⎚ ᴘᴀʀᴀᴅɪsᴇ ᴜsᴇʀʙᴏᴛ ᴀᴄᴛɪᴠᴇᴅ")
+    await bot.send_message(BOTLOG_CHATID, " **⎚ ᴘᴀʀᴀᴅɪsᴇ ᴜsᴇʀʙᴏᴛ ᴀᴄᴛɪᴠᴇᴅ** ")
     return
 
 with bot:
@@ -424,10 +424,10 @@ with bot:
                     buttons=[
                         [
                             custom.Button.url(
-                                "🗿Repo🗿",
+                                " **ʀᴇᴘᴏsɪᴛᴏʀʏ** ",
                                 "https://github.com/Rzky3016/Paradise-Userbot"),
                             custom.Button.url(
-                                "Pemilik",
+                                " **ᴘᴇᴍɪʟɪᴋ** ",
                                 "t.me/Nopegoodloking")],
                     ],
                     link_preview=False,
