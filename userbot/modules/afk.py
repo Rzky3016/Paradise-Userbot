@@ -62,16 +62,16 @@ async def set_afk(afk_e):
     afk_start = start_1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit(f"**Bos**\n𖣘╼━━━━━━𖣐━━━━━━━𖣘\n {ALIVE_NAME} Telah Afk...\
-        \n𝘼𝙡𝙖𝙨𝙖𝙣: `{string}`\n𖣘╼━━━━━━𖣐━━━━━━━𖣘")
+        await afk_e.edit(f"**Bos**\n━━━━━━━━━━━━━━━━\n {ALIVE_NAME} Telah Afk...\
+        \n𝘼𝙡𝙖𝙨𝙖𝙣: `{string}`\n━━━━━━━━━━━━━━━━━")
     else:
-        await afk_e.edit(f"**Bos **\n𖣘╼━━━━━━𖣐━━━━━━━𖣘\n {ALIVE_NAME} Telah Afk...\n𖣘╼━━━━━━𖣐━━━━━━━𖣘")
+        await afk_e.edit(f"**Bos **\n━━━━━━━━━━━━━━━━━\n {ALIVE_NAME} Telah Afk...\n━━━━━━━━━━━━━━━━━")
     if user.last_name:
         await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + "ᴀғᴋ"))
     else:
         await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name="!"))
     if BOTLOG:
-        await afk_e.client.send_message(BOTLOG_CHATID, "#ᴀғᴋ\n**Paradise Telah AFK!**")
+        await afk_e.client.send_message(BOTLOG_CHATID, "#ᴀғᴋ\n**Boss Telah AFK!**")
     ISAFK = True
     afk_time = datetime.now()  # pylint:disable=E0602
     raise StopPropagation
@@ -166,8 +166,8 @@ async def mention_afk(mention):
                 afk_since = f"`{int(seconds)} Detik`"
             if mention.sender_id not in USERS:
                 if AFKREASON:
-                    await mention.reply(f"**Paradise AFK**\n╭✠╼━━━━━━❖━━━━━━━✠╮\n{ALIVE_NAME} Afk :)...\nLama AFK : {afk_since}.\
-                        \n𝘼𝙡𝙖𝙨𝙖𝙣: `{AFKREASON}`\n╰✠╼━━━━━━❖━━━━━━━✠╯")
+                    await mention.reply(f"#𝘼𝙁𝙆 𝙏𝙐𝙍𝙉 𝙊𝙉\n━━━━━━━━━━━━━━━━━━\n{ALIVE_NAME} Afk :)...\nʟᴀᴍᴀ ᴀғᴋ : {afk_since}.\
+                        \n𝘼𝙡𝙖𝙨𝙖𝙣: `{AFKREASON}`\n━━━━━━━━━━━━━━━━━━")
                 else:
                     await mention.reply(str(choice(AFKSTR)))
                 USERS.update({mention.sender_id: 1})
@@ -175,8 +175,8 @@ async def mention_afk(mention):
             elif mention.sender_id in USERS:
                 if USERS[mention.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
-                        await mention.reply(f"**Paradie AFK**\n╭✠╼━━━━━━❖━━━━━━━✠╮\n{ALIVE_NAME} Afk :)...\nLama AFK : {afk_since}.\
-                        \n𝘼𝙡𝙖𝙨𝙖𝙣: `{AFKREASON}`\n╰✠╼━━━━━━❖━━━━━━━✠╯")
+                        await mention.reply(f"#𝘼𝙁𝙆 𝙏𝙐𝙍𝙉 𝙊𝙉\n━━━━━━━━━━━━━━━━━━━\n{ALIVE_NAME} Afk :)...\nʟᴀᴍᴀ ᴀғᴋ : {afk_since}.\
+                        \n𝘼𝙡𝙖𝙨𝙖𝙣: `{AFKREASON}`\n━━━━━━━━━━━━━━━━━━━")
                     else:
                         await mention.reply(str(choice(AFKSTR)))
                     USERS[mention.sender_id] = USERS[mention.sender_id] + 1
@@ -243,8 +243,8 @@ async def afk_on_pm(sender):
                 afk_since = f"`{int(seconds)} Detik`"
             if sender.sender_id not in USERS:
                 if AFKREASON:
-                    await sender.reply(f"**Paradise AFK**\n╭✠╼━━━━━━❖━━━━━━━✠╮\nMohon Maaf `{ALIVE_NAME}` Lagi Afk...\nLama AFK : {afk_since}.\
-                        \n𝘼𝙡𝙖𝙨𝙖𝙣: `{AFKREASON}`\n╰✠╼━━━━━━❖━━━━━━━✠╯")
+                    await sender.reply(f"#𝘼𝙁𝙆 𝙏𝙐𝙍𝙉 𝙊𝙉\n━━━━━━━━━━━━━━━━━━━\nMohon Maaf `{ALIVE_NAME}` Lagi Afk...\nLama AFK : {afk_since}.\
+                        \n𝘼𝙡𝙖𝙨𝙖𝙣: `{AFKREASON}` \n━━━━━━━━━━━━━━━━━━━")
                 else:
                     await sender.reply(str(choice(AFKSTR)))
                 USERS.update({sender.sender_id: 1})
@@ -252,8 +252,8 @@ async def afk_on_pm(sender):
             elif apprv and sender.sender_id in USERS:
                 if USERS[sender.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
-                        await sender.reply(f"**Paradise AFK**\n╭✠╼━━━━━━❖━━━━━━━✠╮\nMohon Maaf `{ALIVE_NAME}` Lagi Afk... Sebentar Bangsat!!\nLama AFK : {afk_since}.\
-                        \n𝘼𝙡𝙖𝙨𝙖𝙣: `{AFKREASON}`\n╰✠╼━━━━━━❖━━━━━━━✠╯")
+                        await sender.reply(f"#𝘼𝙁𝙆 𝙏𝙐𝙍𝙉 𝙊𝙉\n━━━━━━━━━━━━━━━━━━━\nMohon Maaf `{ALIVE_NAME}` Lagi Afk... Sebentar Bangsat!!\nLama AFK : {afk_since}.\
+                        \n𝘼𝙡𝙖𝙨𝙖𝙣: `{AFKREASON}`\n━━━━━━━━━━━━━━━━━━━")
                     else:
                         await sender.reply(str(choice(AFKSTR)))
                     USERS[sender.sender_id] = USERS[sender.sender_id] + 1
