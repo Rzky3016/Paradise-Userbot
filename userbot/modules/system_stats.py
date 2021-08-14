@@ -298,14 +298,14 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     await alive.edit("..🗿Team-Paradise🗿..")
     output = (
-        f"════════🗿Team-Paradise🗿═════════\n"
-        f"**Nama Creator Kami**\n"
+        f"════════ ⎚ 𝙋𝘼𝙍𝘼𝘿𝙄𝙎𝙀 𝙏𝙀𝘼𝙈 ⎚ ═════════\n"
+        f"** NAME OF CREATOR PARADISE**\n"
         f"╟◈🛠️ Developer : [Rizky](t.me/Nopegoodloking) \n"
         f"╟◈🛠️ Developer : [Rizky](t.me/Nopegoodloking) \n"
         f"╟◈👤 Contributor : [Rizky](t.me/Nopegoodloking) \n"
-        f"╰╼═══════════════════╾╯\n"
-        f"**Terimakasih Telah Menggunakan Project Userbot Kami** 🙏 \n"
-        f"═════════🗿PARADISE🗿═════════════")
+        f"═══════════════════════════════════\n"
+        f"__THANK YOU FOR USING PARADISE USERBOT__ \n"
+        f"═════════ ⎚ 𝙋𝘼𝙍𝘼𝘿𝙄𝙎𝙀 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 ⎚ ═════════")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -359,35 +359,15 @@ async def redis(alive):
         f" ᴛʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ᴜsɪɴɢ ᴘᴀʀᴀᴅɪsᴇ ᴜsᴇʀʙᴏᴛ \n"
 
         f" ──────────────────────── \n"
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "ᴘᴀʀᴀᴅɪsᴇ ʀᴇᴘᴏsɪᴛᴏʀʏ", url="https://github.com/Rzky3016/Paradise-Userbot"
-                  ], [
-                    InlineKeyboardButton(
-                        "CHANNEL", url="https://t.me/paradisesupportch"
-                    ),
-                    InlineKeyboardButton(
-                        "PEMILIK", url="https://t.me/Nopegoodloking"
-                    )
-                 ]
-              ]
-          ),
-       disable_web_page_preview=False
-      )
-   @ Client.on_message(
-       filters.command("start")
-       & filters.group
-       & ~ filters.edited
-   )
 
 
 
 
-        f"⪩ [Repo](https://github.com/Rzky3016/Paradise-Userbot)\n"
-        f"⪩ [Group-Help](t.me/paradiseuserbot)\n"
-        f"⪩ [Pemilik](t.me/Nopegoodloking) "
+
+        f"⪩ [ʀᴇᴘᴏsɪᴛᴏʀʏ](https://github.com/Rzky3016/Paradise-Userbot)\n"
+        f"⪩ [ᴄʜᴀɴɴᴇʟ sᴜᴘᴘᴏʀᴛ](t.me/paradisesupportch)\n"
+        f"⪩ [ɢʀᴏᴜᴘ ʜᴇʟᴘ](t.me/paradiseuserbot)\n"
+        f"⪩ [ᴘᴇᴍɪʟɪᴋ](t.me/Nopegoodloking) ")
     if ALIVE_LOGO:
         try:
             logo=ALIVE_LOGO
