@@ -406,7 +406,7 @@ CMD_HELP.update({"sistem": "🗿CMD🗿: `.sysd`"
                  "\n↳ : Menampilkan Databse Info."
                  "\n\n🗿CMD🗿: `.spc`"
                  "\n↳ : Tampilkan spesifikasi sistem."
-})
+                 })
 CMD_HELP.update({"alive": "🗿CMD🗿: ` `.alive` atau `.on` dan `.team`"
                  "\n↳ : Untuk melihat apakah bot Anda berfungsi atau tidak dan team untuk mengetahui creator."
                  "\n\n🗿CMD🗿:`.aliveu` <text>"
