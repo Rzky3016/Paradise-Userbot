@@ -1,12 +1,11 @@
-#PARADISE PROJECT 
-#COPYRIGHT 2021
-#Ikyy
-#Don't Remove Credit
+# PARADISE PROJECT
+# COPYRIGHT 2021
+# Ikyy
+# Don't Remove Credit
 
 from random import choice
 from userbot import CMD_HELP
 from userbot.events import register
-
 
 
 # ================= CONSTANT =================
@@ -22,8 +21,7 @@ INTROBOT_STRINGS = [
     " Izinkan Saya Memperkenalkan Diri",
     " Aku Adalah Paradise",
     " Aku Disini Untuk Membantumu Mempermudah Pekerjaanmu",
-    " Aku Mempunyai Berbagai Macam Modul Yang Menarik",
-    " `Paradise Beralih Ke Bahasa Indonesia..`
+    " Aku Mempunyai Berbagai Macam Modul Yang Menarik", " `Paradise Beralih Ke Bahasa Indonesia..`
     " Bersenang-Senang Lah Denganku..."
     " Jika Kamu Kesulitan Silahkan Ketik .helpme"
     " Dan Aku Akan Membantumu",
@@ -33,10 +31,11 @@ INTROBOT_STRINGS = [
     " __Paradise Out Of Conversation__",
 ]
 
-@register(outgoing=True,pattern="^.introbot$")
+
+@register(outgoing=True, pattern="^.introbot$")
 async def introbot(introbot):
     await introbot.edit(choice(INTROBOT_STRINGS))
-    
+
 CMD_HELP.update(
     {
         "introbot": "**✘ Plugin :** introbot\
