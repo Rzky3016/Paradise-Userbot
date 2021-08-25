@@ -5,15 +5,18 @@
 
 from random import choice
 from userbot import CMD_HELP
-from userbot.events import register
+from userbot.events import register 
+import asyncio
 
 
 # ================= CONSTANT =================
 
-INTROBOT_STRINGS = [
+@register(outgoing=True, pattern="^.introbot(?: |$)(.*)")
+async def _(event):
+await event.edit(
     " Hei, Welcome...",
     " Let Me Introduce Myself"
-    " Iam A Paradise",
+    " __Iam A Paradise__",
     " Iam Here To Help You Make Your Work Easier",
     " I Have Some Interesting Modules",
     " `Translating To Indonesian...",
@@ -28,13 +31,12 @@ INTROBOT_STRINGS = [
     " Lihatlah Projects Paradise Yang Lainnya Mungkin Itu Akan Membuat Kau Bahagia",
     " Segitu Saja Percakapan Kita Kali Ini",
     " Sekian Terimakasih..."
-    " __Paradise Out Of Conversation__",
-]
+    " __Paradise Out Of Conversation__")
 
 
-@register(outgoing=True, pattern="^.introbot$")
-async def introbot(introbot):
-    await introbot.edit(choice(INTROBOT_STRINGS))
+
+
+    
 
 CMD_HELP.update(
     {
