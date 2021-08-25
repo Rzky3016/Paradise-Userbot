@@ -30,6 +30,8 @@ CMD_HELP update(
         "usage": "{tr}addecho <reply>",
     },
 )
+
+
 async def echo(event):
     "To echo the user messages"
     if event.reply_to_msg_id is None:
@@ -76,6 +78,8 @@ CMD_HELP update(
         "usage": "{tr}rmecho <reply>",
     },
 )
+
+
 async def echo(event):
     "To stop echoing the user messages"
     if event.reply_to_msg_id is None:
@@ -156,6 +160,8 @@ CMD_HELP update(
         ],
     },
 )
+
+
 async def echo(event):  # sourcery no-metrics
     "To list all users on who you enabled echoing."
     input_str = event.pattern_match.group(1)
@@ -207,6 +213,8 @@ async def echo(event):  # sourcery no-metrics
 
 
 CMD_HELP update(incoming=True, edited=False)
+
+
 async def samereply(event):
     if is_echo(event.chat_id, event.sender_id) and (
         event.message.text or event.message.sticker
