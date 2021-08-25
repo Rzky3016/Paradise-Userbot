@@ -5,8 +5,8 @@
 
 from random import choice
 from userbot import CMD_HELP
+from userbot.events import register
 
-from userbot.events inport register
 
 
 # ================= CONSTANT =================
