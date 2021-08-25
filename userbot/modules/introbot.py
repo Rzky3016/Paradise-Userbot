@@ -5,6 +5,8 @@
 
 from userbot import CMD_HELP
 from userbot.events import register
+import asyncio
+from telethon import events
 
 
 # ================= CONSTANT =================
