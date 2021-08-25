@@ -3,10 +3,8 @@
 # Ikyy
 # Don't Remove Credit
 
-from random import choice
 from userbot import CMD_HELP
 from userbot.events import register
-import asyncio
 
 
 # ================= CONSTANT =================
