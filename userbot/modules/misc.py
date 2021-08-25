@@ -120,14 +120,16 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "╭─━━━━━━━━━━━━━─╮\n"
-        "                  Repo\n"
-        "     [🗿 Paradise-Userbot 🗿](https://github.com/Rzky3016/Paradise-Userbot)\n"
-        "╭─━━━━━━━━━━━━━─╯\n"
-        "│💻**Dev :** [Ikyy](t.me/Nopegoodloking)\n"
-        "╰━━━━━━━━━━━━━━━╯\n"
-        "  Tutorial    : [Tutorial](https://t.me/paradisesupportch/4)"
-        "  Deploy      : [Tekan Disini](https://heroku.com/deploy?template=https://github.com/Rzky3016/Paradise-Userbot)"
+        "**ᴘᴀʀᴀᴅɪsᴇ ᴜʙᴏᴛ ʀᴇᴘᴏsɪᴛᴏʀʏ**\n"
+        "━━━━━━━━━━━━━━━━━━━━━\n"
+        "**⎚ ʀᴇᴘᴏ :**\n"
+        "[ᴘᴀʀᴀᴅɪsᴇ ᴜsᴇʀʙᴏᴛ](https://github.com/Rzky3016/Paradise-Userbot)\n"
+        
+        "**⎚ ᴅᴇᴠᴇʟᴏᴘᴇʀ :**\n"
+        "[Ikyy](t.me/Nopegoodloking)\n"
+        "━━━━━━━━━━━━━━━━━━━━━\n"
+        "**⎚ ᴛᴜᴛᴏʀɪᴀʟ**    : [ᴛᴜᴛᴏʀɪᴀʟ](https://t.me/paradisesupportch/4)"
+        "**⎚ ᴅᴇᴘʟᴏʏ**      : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://heroku.com/deploy?template=https://github.com/Rzky3016/Paradise-Userbot)"
     )
 
 
