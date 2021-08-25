@@ -5,7 +5,7 @@
 
 from random import choice
 from userbot import CMD_HELP
-from userbot.events import register 
+from userbot.events import register
 import asyncio
 
 
@@ -33,10 +33,6 @@ await event.edit(
     " Sekian Terimakasih..."
     " __Paradise Out Of Conversation__")
 
-
-
-
-    
 
 CMD_HELP.update(
     {
