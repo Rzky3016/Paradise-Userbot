@@ -128,7 +128,7 @@ async def repo_is_here(wannasee):
         "**⎚ ᴅᴇᴠᴇʟᴏᴘᴇʀ :**\n"
         "[Ikyy](t.me/Nopegoodloking)\n"
         "━━━━━━━━━━━━━━━━━━━━━\n"
-        "**⎚ ᴛᴜᴛᴏʀɪᴀʟ**    : [ᴛᴜᴛᴏʀɪᴀʟ](https://t.me/paradisesupportch/4)"
+        "**⎚ ᴛᴜᴛᴏʀɪᴀʟ**    : [ᴛᴜᴛᴏʀɪᴀʟ](https://t.me/paradisesupportch/4)\n"
         "**⎚ ᴅᴇᴘʟᴏʏ**      : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://heroku.com/deploy?template=https://github.com/Rzky3016/Paradise-Userbot)"
     )
 
