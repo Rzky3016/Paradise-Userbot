@@ -3,7 +3,8 @@ created by @sandy1709
 Idea by @BlazingRobonix
 """
 
-from dragons import drgub
+from userbot import CMD_HELP
+from userbot.event import register
 
 from ..core.managers import edit_delete, edit_or_reply
 from ..sql_helper.echo_sql import (
@@ -20,7 +21,7 @@ from . import get_user_from_event
 plugin_category = "fun"
 
 
-@drgub.drg_cmd(
+CMD_HELP update(
     pattern="addecho$",
     command=("addecho", plugin_category),
     info={
@@ -35,7 +36,7 @@ async def echo(event):
         return await edit_or_reply(
             event, "`Reply to a User's message to echo his messages`"
         )
-    drgevent = await edit_or_reply(event, "`Adding Echo to user...`")
+    userbot.event = await edit_or_reply(event, "`Adding Echo to user...`")
     user, rank = await get_user_from_event(event, drgevent, nogroup=True)
     if not user:
         return
@@ -66,7 +67,7 @@ async def echo(event):
         await edit_or_reply(drgevent, "Hi")
 
 
-@drgub.drg_cmd(
+CMD_HELP update(
     pattern="rmecho$",
     command=("rmecho", plugin_category),
     info={
@@ -141,7 +142,7 @@ async def echo(event):
             )
 
 
-@drgub.drg_cmd(
+CMD_HELP update(
     pattern="listecho( -a)?$",
     command=("listecho", plugin_category),
     info={
@@ -205,7 +206,7 @@ async def echo(event):  # sourcery no-metrics
     await edit_or_reply(event, output_str)
 
 
-@drgub.drg_cmd(incoming=True, edited=False)
+CMD_HELP update(incoming=True, edited=False)
 async def samereply(event):
     if is_echo(event.chat_id, event.sender_id) and (
         event.message.text or event.message.sticker
