@@ -4,7 +4,9 @@
 # Don't Remove Credit
 
 from userbot import CMD_HELP
-from userbot.events import register
+from userbot.events import register 
+from telethon import events
+import asyncio
 
 
 # ================= CONSTANT =================
