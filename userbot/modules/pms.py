@@ -26,7 +26,7 @@ from userbot.events import register
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 DEF_UNAPPROVED_MSG = (
-    "**Hai, Perkenalkan Saya Babunya {DEFAULTUSER} 🙋🏻**\n"
+    f"**Hai, Perkenalkan Saya Babunya {DEFAULTUSER} 🙋🏻**\n"
 
     "  ┏━┳┳┳━┳┳┓\n"
     "  ┃━┫┃┃┏┫JANGAN\n"
