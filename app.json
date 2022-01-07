@@ -1,7 +1,7 @@
 {
-  "name": "Paradise-Userbot",
-  "description": "[Paradise-Userbot] USERBOT TELEGRAM.",
-  "logo": "https://telegra.ph/file/8f6dc8c4536b52ca3271c.jpg",
+  "name": "Connor-Userbot",
+  "description": "[Connor-Userbot] USERBOT TELEGRAM.",
+  "logo": "https://telegra.ph/file/3fd3b5f4d2cf75f738fdd.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,8 +9,8 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Rzky3016/Paradise-Userbot",
-  "telegram": "https://t.me/Nopegoodloking",
+  "repository": "https://github.com/AyiinXd/Paradise-Userbot",
+  "telegram": "https://t.me/contoldisini",
   "success_url": "https://t.me/Nopegoodloking",
   "stack": "container",
   "env": {
