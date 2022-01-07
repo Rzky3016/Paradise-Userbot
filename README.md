@@ -1,5 +1,5 @@
-# <p align="center"> ✘ PARADISE USERBOT ✘
-![Paradise-Userbot Logo](https://telegra.ph/file/8f6dc8c4536b52ca3271c.jpg)
+# <p align="center"> ✘ CONNOR USERBOT ✘
+![Paradise-Userbot Logo](https://telegra.ph/file/3fd3b5f4d2cf75f738fdd.jpg)
 
 <p align="center">
   <a href="https://cooltext.com"><img src="https://images.cooltext.com/5536679.gif" width="802" height="125" alt="Paradise-Userbot" /></a>
@@ -9,13 +9,13 @@
     <img src="https://img.shields.io/github/forks/Rzky3016/Paradise-Userbot?label=Fork&style=social">
     
 <p align="center">
-    <a href="https://github.com/Rzky3016/Paradise-Userbot">
+    <a href="https://github.com/AyiinXd/Paradise-Userbot">
       <img src="https://img.shields.io/github/stars/Rzky3016/Paradise-Userbot?style=social">
     </a></p>
 
 
 <p align="left">
-  <a href="https://github.com/Rzky3016/Paradise-Userbot/blob/Paradise-Userbot/LICENSE"><img src="https://img.shields.io/github/license/Rzky3016/Paradise-Userbot?&style=social&logo=github">
+  <a href="https://github.com/AyiinXd/Paradise-Userbot/blob/Paradise-Userbot/LICENSE"><img src="https://img.shields.io/github/license/Rzky3016/Paradise-Userbot?&style=social&logo=github">
   </a></p>      
   
 ![Repo Size](https://img.shields.io/github/repo-size/Rzky3016/Paradise-Userbot?&style=plastic&logo=github)
