@@ -390,7 +390,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("🗿Paradise-Userbot🗿,Buat Userbot Mu Sendiri [Tekan Disini](https://github.com/Rzky3016/Paradise-Userbot.git)")
+                await event.reply("🗿Connor-Userbot🗿,Buat Userbot Mu Sendiri [Connor-Userbot](https://github.com/AyiinXd/Paradise-Userbot.git)")
             else:
                 await event.reply(f"`Hai Tuan {ALIVE_NAME}\n\nApa Kabarmu? Aku Siap Membantu ^_^`")
 
@@ -404,7 +404,7 @@ with bot:
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
                     text="{}\n\n**☰ Jumlah Modul Yang Tersedia:** `{}`\n               \n**⎚ My Module List:** \n".format(
-                        "**⌥ Paradise-Userbot**",
+                        "**⌥ Connor-Userbot**",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -419,16 +419,16 @@ with bot:
             else:
                 result = builder.article(
 
-                    "**⎚ Paradise-Userbot ⎚**",
-                    text="""**Anda Bisa Membuat Paradise Userbot Anda Sendiri Dengan Cara:** [Tekan Disini](t.me/Nopegoodloking)""",
+                    "**⎚ Connor-Userbot ⎚**",
+                    text="""**Anda Bisa Membuat Paradise Userbot Anda Sendiri Dengan Cara:** [Connor-Userbot](t.me/contoldisini)""",
                     buttons=[
                         [
                             custom.Button.url(
                                 " **ʀᴇᴘᴏsɪᴛᴏʀʏ** ",
-                                "https://github.com/Rzky3016/Paradise-Userbot"),
+                                "https://github.com/AyiinXd/Paradise-Userbot"),
                             custom.Button.url(
                                 " **ᴘᴇᴍɪʟɪᴋ** ",
-                                "t.me/Nopegoodloking")],
+                                "t.me/contoldisini")],
                     ],
                     link_preview=False,
                 )
